@@ -1,0 +1,479 @@
+{
+  "app": {
+    "title": "Tőzsdei elemző"
+  },
+  "nav": {
+    "home": "Főoldal",
+    "wealth": "Vagyonkövető",
+    "entries": "Tételek",
+    "dividends": "Osztalékok",
+    "rates": "Árfolyamok",
+    "received": "Kapott",
+    "monthly": "Havi bontás",
+    "expenses": "Kiadások",
+    "expenseItems": "Tételek",
+    "expenseCategories": "Kategóriák",
+    "administration": "Adminisztráció",
+    "users": "Felhasználók",
+    "instruments": "Instrumentumok",
+    "inflation": "Infláció"
+  },
+  "auth": {
+    "signIn": "Bejelentkezés",
+    "signOut": "Kijelentkezés",
+    "loginSubtitle": "Jelentkezz be a vagyon- és osztalékadataid megtekintéséhez.",
+    "username": "Felhasználónév",
+    "password": "Jelszó",
+    "invalidCredentials": "A felhasználónév és a jelszó nem egyezik.",
+    "signInFailed": "A bejelentkezés jelenleg nem érhető el. Próbáld újra kicsit később.",
+    "sessionExpired": "A munkamenet lejárt. Jelentkezz be újra."
+  },
+  "settings": {
+    "language": "Nyelv",
+    "toggleTheme": "Sötét mód váltása"
+  },
+  "common": {
+    "apply": "Szűrés",
+    "cancel": "Mégse",
+    "close": "Bezárás",
+    "delete": "Törlés",
+    "edit": "Szerkesztés",
+    "loading": "Betöltés...",
+    "refresh": "Frissítés",
+    "reset": "Alaphelyzet",
+    "save": "Mentés"
+  },
+  "table": {
+    "pageReport": "{first}–{last} / {totalRecords}",
+    "rowCount": "{{count}} sor",
+    "groupSummary": "{{groups}} kategória, {{items}} tétel",
+    "childCount": "{{count}} tétel tartozik közvetlenül alá"
+  },
+  "errors": {
+    "network": "A szerver nem érhető el",
+    "requestFailed": "A kérés nem sikerült ({{status}})",
+    "unknown": "Valami hiba történt."
+  },
+  "import": {
+    "button": "CSV import / export",
+    "chooseFile": "Fájl kiválasztása",
+    "noFile": "Nincs kiválasztott fájl",
+    "upload": "Feltöltés",
+    "downloadSample": "Mintafájl letöltése",
+    "downloadData": "Saját adatok letöltése",
+    "downloadDataHint": "Minden sorod, ugyanebben a formátumban – mentsd el biztonsági másolatnak, szerkeszd táblázatkezelőben és töltsd fel újra, vagy vidd át egy másik fiókba.",
+    "notCsv": "Ez nem CSV fájl. Olyan fájlt válassz, aminek a neve .csv-re végződik.",
+    "result": "{{processed}}/{{total}} sor feldolgozva.",
+    "duplicates": "{{count}} sor már szerepelt, ezeket kihagytuk.",
+    "failed": "{{count}} sort nem sikerült beolvasni, ezeket kihagytuk.",
+    "rates": {
+      "title": "Árfolyamok importálása / exportálása",
+      "hint": "Töltsd ki a mintafájlt, és egyszerre töltsd fel az egész árfolyamlistát. Elválasztónak a vessző és a pontosvessző is jó. Ha egy párra és dátumra már van árfolyamod, azt a sor felülírja."
+    },
+    "dividends": {
+      "title": "Osztalékok importálása / exportálása",
+      "hint": "Töltsd ki a mintafájlt, és egyszerre rögzítsd az egész kifizetéslistát. Elválasztónak a vessző és a pontosvessző is jó. A céget a tőzsdei rövidítésével add meg; a már rögzített sorokat kihagyjuk, így az átfedő fájl feltöltése is biztonságos."
+    },
+    "expenseItems": {
+      "title": "Kiadások importálása / exportálása",
+      "hint": "Töltsd ki a mintafájlt, és egyszerre rögzítsd az összes rendszeres kiadást. A name, amount, unit és period kötelező; az interval alapértelmezése 1, a két dátum üresen hagyható, a categories pedig egy cellában „|” jellel elválasztott lista. Az ott megnevezett kategóriát létrehozzuk, ha még nincs ilyened. Azokat a sorokat, amelyek neve már szerepel, kihagyjuk."
+    },
+    "expenseCategories": {
+      "title": "Kategóriák importálása / exportálása",
+      "hint": "Soronként egy név, „category” fejléc alatt. A már meglévő – vagy globálisként létező – neveket kihagyjuk, így az átfedő lista feltöltése is biztonságos."
+    },
+    "instruments": {
+      "title": "Instrumentumok importálása / exportálása",
+      "hint": "Töltsd ki a mintát és töltsd fel, hogy egyszerre sok instrumentumot vegyél fel vagy frissíts. A sorok a tőzsdei jel (ticker) alapján párosulnak: a már meglévő jel a sor adataival frissül, az új létrejön. A symbol, name, currency és assetType oszlop kötelező; az exchange, sector és active elhagyható, az üres active pedig megtartja az instrumentum jelenlegi állapotát. Elválasztóként a vessző és a pontosvessző is működik.",
+      "downloadData": "Összes instrumentum letöltése",
+      "downloadDataHint": "A teljes instrumentumlista ugyanebben a formátumban - szerkeszd táblázatkezelőben, majd töltsd fel újra a módosítások alkalmazásához. A változatlan sorokat már tároltként jelzi."
+    },
+    "inflation": {
+      "title": "Infláció importálása / exportálása",
+      "hint": "Töltsd ki a mintát és töltsd fel, hogy egyszerre sok adatot rögzíts. A unit, year és rate oszlop kötelező; a rate százalékban értendő, és végződhet %-ra. A már tárolt deviza és év sora felülírja a meglévő adatot. Elválasztóként a vessző és a pontosvessző is működik.",
+      "downloadData": "Összes adat letöltése",
+      "downloadDataHint": "Az összes tárolt adat ugyanebben a formátumban - szerkeszd táblázatkezelőben, majd töltsd fel újra a módosítások alkalmazásához. A változatlan sorokat már tároltként jelzi."
+    }
+  },
+  "home": {
+    "title": "Tőzsdei elemző",
+    "subtitle": "Piaci adatok és személyes vagyonnyilvántartás egy helyen.",
+    "wealthBlurb": "Rögzítsd, mid van, milyen egységben és mikor – az értékelés a saját árfolyamaidból készül.",
+    "openWealth": "Vagyonkövető megnyitása",
+    "signedOutTitle": "Nem vagy bejelentkezve",
+    "signedOutBlurb": "A vagyonadatok csak a saját fiókodhoz tartoznak. Jelentkezz be a megtekintésükhöz."
+  },
+  "wealth": {
+    "noRate": "Ezen a napon nincs árfolyam a két egység között.",
+    "fields": {
+      "name": "Megnevezés",
+      "unit": "Egység",
+      "quantity": "Mennyiség",
+      "entryDate": "Dátum",
+      "value": "Érték",
+      "parent": "Szülő tétel"
+    },
+    "filters": {
+      "from": "Ettől",
+      "to": "Eddig",
+      "unit": "Egység",
+      "search": "Keresés névre",
+      "valueIn": "Értékelés ebben"
+    },
+    "form": {
+      "noParent": "Nincs szülő (fő szint)",
+      "quantityHint": "Hagyd üresen, ha ez csak összegző sor az alatta lévő tételekhez."
+    },
+    "entries": {
+      "title": "Vagyontételek",
+      "new": "Új tétel",
+      "newTitle": "Új tétel",
+      "editTitle": "Tétel szerkesztése",
+      "addChild": "Altétel hozzáadása",
+      "clone": "Tétel másolása",
+      "cloneTitle": "Tétel másolása",
+      "cloneAccept": "Másolat létrehozása",
+      "cloneHint": "Minden másolt sor a fenti dátumot kapja. Hagyd üresen a mennyiséget, ha összegző sor legyen, az egységet pedig, ha a fölötte lévőét örökölje.",
+      "cloned": "Másolat létrehozva ({{count}} sor)",
+      "empty": "Még nincs rögzített tétel.",
+      "saved": "Tétel mentve",
+      "deleted": "Tétel törölve",
+      "deleteTitle": "Tétel törlése",
+      "deleteMessage": "Törlöd a(z) „{{name}}” tételt?",
+      "cascadeTitle": "A tételnek vannak altételei",
+      "cascadeMessage": "A(z) „{{name}}” alá további tételek tartoznak. Törlöd a teljes ágat?",
+      "cascadeAccept": "Teljes ág törlése"
+    },
+    "partialValue": "A sor alatt van olyan tétel, amelyhez nincs árfolyam, így az összeg alsó becslés.",
+    "mixedUnits": "A sor több egységet kever, ezért a mennyiségek nem adhatók össze. Az érték így is összegződik."
+  },
+  "rates": {
+    "title": "Árfolyamok",
+    "hint": "A saját átváltási arányaid és a mindenki által közösen használt globális árfolyamok. A tételek a saját dátumukon vagy az előtt érvényes legfrissebb árfolyamon értékelődnek - és ha egy devizapárra te magad is rögzítettél árfolyamot, mindig a tiéd érvényes a globális helyett.",
+    "fetch": "Aktuális lekérése",
+    "fetchHint": "A beállított devizapárokat a jegybanki forrásból olvassa be, és mindenki számára globális árfolyamként tárolja a közzététel dátumával — hétvégén ez az előző munkanap.",
+    "fetched": "{{count}} árfolyam mentve erre a napra: {{date}} ({{provider}})",
+    "fetchedNone": "Az adatforrás nem adott vissza árfolyamot.",
+    "new": "Új árfolyam",
+    "newTitle": "Árfolyam rögzítése",
+    "empty": "Még nincs rögzített árfolyam.",
+    "saved": "Árfolyam mentve",
+    "deleted": "Árfolyam törölve",
+    "deleteTitle": "Árfolyam törlése",
+    "deleteMessage": "Törlöd a(z) {{source}} → {{destination}} árfolyamot {{date}} napra?",
+    "fields": {
+      "sourceUnit": "Erről",
+      "destinationUnit": "Erre",
+      "rate": "Árfolyam",
+      "rateDate": "Dátum",
+      "kind": "Fajta",
+      "global": "Globális árfolyam"
+    },
+    "scope": "Megjelenítés",
+    "scopeAll": "Mind",
+    "personal": "Saját",
+    "global": "Globális",
+    "globalHint": "A globális árfolyamot minden olyan felhasználó használja, aki az adott devizapárra nem rögzített sajátot. A saját árfolyam mindig elsőbbséget élvez.",
+    "kindFixedHint": "Egy árfolyam nem tehető át a saját és a globális között. A másik fajtát új árfolyamként rögzítsd.",
+    "importGlobal": "Tárolás globális árfolyamként",
+    "override": "Felülírás saját árfolyammal"
+  },
+  "dividends": {
+    "title": "Kapott osztalékok",
+    "hint": "Amit ténylegesen kifizettek, és mikor. Minden sor a saját árfolyamaidból, a kifizetés napján érvényes árfolyammal van értékelve.",
+    "new": "Új osztalék",
+    "newTitle": "Osztalék rögzítése",
+    "editTitle": "Osztalék szerkesztése",
+    "empty": "Még nincs rögzített osztalék.",
+    "saved": "Osztalék mentve",
+    "deleted": "Osztalék törölve",
+    "deleteTitle": "Osztalék törlése",
+    "deleteMessage": "Törlöd a(z) {{symbol}} {{date}} napi osztalékát?",
+    "total": "{{count}} osztalék felel meg a szűrésnek",
+    "partialTotal": "Néhány találathoz nincs árfolyam, így az összeg alsó becslés.",
+    "fields": {
+      "instrument": "Instrumentum",
+      "amount": "Összeg",
+      "unit": "Deviza",
+      "paymentDate": "Kifizetve"
+    },
+    "filters": {
+      "anyInstrument": "Bármelyik instrumentum"
+    },
+    "form": {
+      "pickInstrument": "Válassz instrumentumot",
+      "noInstruments": "Még nincs felvéve instrumentum – ezeket adminisztrátor tudja rögzíteni.",
+      "unitHint": "Ami ténylegesen jóváírásra került, ami nem feltétlenül az instrumentum devizája."
+    },
+    "monthly": {
+      "title": "Osztalékok havonta",
+      "hint": "Az időszak minden kifizetése naptári hónapokra bontva. Vidd az egérmutatót egy összeg fölé a másik devizáért és a mögötte lévő kifizetésekért.",
+      "empty": "Ebben az időszakban nem volt kifizetés.",
+      "anyCurrency": "Minden deviza",
+      "show": "Megjelenítés",
+      "showOriginal": "Eredeti",
+      "showConverted": "Átváltva",
+      "layout": "Elrendezés",
+      "byCompany": "Cégenként",
+      "compact": "Tömör",
+      "rowTotal": "Összesen",
+      "monthTotal": "Havi összeg",
+      "summary": "{{payments}} kifizetés {{months}} hónapban.",
+      "andMore": "és további {{count}}",
+      "chart": "Diagram",
+      "chartTitle": "Osztalékbevétel havonta",
+      "chartSeries": "Kapott",
+      "chartNote": "A hónapok {{unit}} devizában összesítve, a kifizetés napján érvényes árfolyammal – másképp a devizák nem adhatók össze.",
+      "chartNoteFiltered": "{{unit}} devizára szűrve, így az oszlopok a ténylegesen kapott összegek, árfolyam nélkül.",
+      "inflationAdjusted": "Inflációval korrigált",
+      "inflationNote": "Minden összeg a kifizetés évétől a legutolsó elérhető évig ({{years}}) halmozott inflációval van megszorozva. Az összegek annak a devizának az inflációjával, amelyben beérkeztek; az átváltott értékek előbb a kifizetés napi árfolyamán váltódnak át, majd a(z) {{valueUnit}} inflációjával korrigálódnak.",
+      "inflationMissing": "{{units}} esetén nincs inflációs adat, ezért {{count}} érték korrekció nélkül látszik.",
+      "inflationTooltip": "Inflációval korrigálva",
+      "chartNoteInflation": "Inflációval korrigálva eddig: {{years}}."
+    },
+    "inflationNote": "Az összegek a saját devizájuk halmozott inflációjával vannak megszorozva a kifizetés évétől a legutolsó elérhető évig; az értékek előbb a kifizetés napi árfolyamán váltódnak át, majd a(z) {{valueUnit}} inflációjával korrigálódnak. A rendezés és az összesítés a korrigált értékeket használja. Vidd az egeret egy értékre az eredetiért.",
+    "notInflationAdjusted": "A kifizetés évére valamelyik devizához nincs inflációs adat, ezért egy érték korrekció nélkül látszik.",
+    "notInflationAdjustedTotal": "{{count}} kifizetés inflációs adat hiányában nem korrigálható teljesen.",
+    "asEntered": "Korrekció nélkül: {{amount}} {{unit}}"
+  },
+  "expenses": {
+    "fields": {
+      "name": "Megnevezés",
+      "amount": "Összeg",
+      "unit": "Deviza",
+      "recurrence": "Gyakoriság",
+      "every": "Gyakoriság",
+      "period": "Időtartam",
+      "activePeriod": "Időszak",
+      "startDate": "Kezdete",
+      "expiryDate": "Vége",
+      "categories": "Kategóriák"
+    },
+    "filters": {
+      "search": "Keresés névre",
+      "anyUnit": "Minden deviza",
+      "anyCategory": "Minden kategória",
+      "activeOnly": "Csak amit most fizetek"
+    },
+    "recurrence": {
+      "daily": "Naponta",
+      "weekly": "Hetente",
+      "biweekly": "Kéthetente",
+      "monthly": "Havonta",
+      "quarterly": "Negyedévente",
+      "halfYearly": "Félévente",
+      "yearly": "Évente",
+      "custom": "Egyéni…",
+      "everyN": "{{interval}} {{period}}"
+    },
+    "periodUnit": {
+      "DAILY": "naponta",
+      "WEEKLY": "hetente",
+      "MONTHLY": "havonta",
+      "YEARLY": "évente"
+    },
+    "per": {
+      "DAILY": "nap",
+      "WEEKLY": "hét",
+      "MONTHLY": "hónap",
+      "YEARLY": "év"
+    },
+    "range": {
+      "between": "{{from}} – {{to}}",
+      "from": "{{from}}-tól",
+      "until": "{{to}}-ig",
+      "open": "Nincs vége"
+    },
+    "totals": {
+      "showPer": "Összesítés erre",
+      "perLabel": "Összesen / {{period}}",
+      "perColumn": "Összeg / {{period}}",
+      "showIn": "Összesítés ebben",
+      "asEntered": "Ahogy rögzítve",
+      "rateHint": "Az egyes párokhoz mentett legfrissebb árfolyammal átváltva.",
+      "partial": "Néhány sorhoz nincs árfolyam, így az összeg alsó becslés.",
+      "note": "{{counted}} / {{total}} sor számolva – csak az, amit most fizetsz."
+    },
+    "noRate": "Nincs mentett árfolyam a két egység között.",
+    "view": {
+      "label": "Nézet",
+      "list": "Lista",
+      "grouped": "Kategóriák szerint",
+      "groupedNote": "A kategóriák címkék, így a két címkét viselő kiadás mindkettő alatt megjelenik – és mindkettőben beleszámít. A táblázat fölötti összeg minden kiadást egyszer számol.",
+      "groupCount": "({{count}})",
+      "uncategorised": "Kategória nélkül"
+    },
+    "form": {
+      "recurrenceHint": "Válaszd az Egyéni… lehetőséget, ha a lista nem fedi le – például 7 hetente.",
+      "startHint": "Nem kötelező. Hagyd üresen, ha egyszerűen ennyit fizetsz.",
+      "expiryHint": "Nem kötelező. A hitel véget ér, az előfizetés többnyire nem.",
+      "pickCategories": "Nincs kategória",
+      "noCategories": "Még nincs kategória – a Kategóriák oldalon tudsz felvenni.",
+      "datesWrongWay": "A vége korábban van, mint a kezdete."
+    },
+    "items": {
+      "title": "Rendszeres kiadások",
+      "hint": "Ami visszatér, mennyi és milyen gyakran. Az összesítés itt készül, devizánként, az összegből és a gyakoriságból – devizák között nem váltunk át.",
+      "new": "Új kiadás",
+      "newTitle": "Új kiadás",
+      "editTitle": "Kiadás szerkesztése",
+      "empty": "Még nincs rögzített kiadás.",
+      "saved": "Kiadás mentve",
+      "deleted": "Kiadás törölve",
+      "deleteTitle": "Kiadás törlése",
+      "deleteMessage": "Törlöd a(z) „{{name}}” kiadást?",
+      "inactive": "most nem aktív",
+      "untagged": "Nincs kategória"
+    },
+    "chart": {
+      "button": "Diagram",
+      "title": "Kiadások megoszlása",
+      "other": "Egyéb",
+      "otherNote": "{count} kisebb kiadás",
+      "shareOfTotal": "a teljes összeg {percent}%-a",
+      "note": "{{counted}} kiadás, egy {{period}} alatt, {{unit}} devizában. Az 1% alatti szeletek az Egyéb alatt összegződnek.",
+      "unpriced": "{{count}} kimaradt – nincs árfolyam.",
+      "empty": "Nincs mit ábrázolni: itt minden kiadás nulla.",
+      "pickCurrency": "Válassz fent egy devizát. A kördiagramhoz egy egész kell, a különböző devizák pedig nem adhatók össze."
+    },
+    "categories": {
+      "title": "Kiadáskategóriák",
+      "hint": "Címkék a kiadásaidhoz. A globálisakat mindenki használja, és csak adminisztrátor módosíthatja.",
+      "new": "Új kategória",
+      "newTitle": "Új kategória",
+      "editTitle": "Kategória átnevezése",
+      "search": "Keresés névre",
+      "scope": "Megjelenítés",
+      "scopeAll": "Mind",
+      "personal": "Saját",
+      "global": "Globális",
+      "globalHint": "A globális kategóriát a telepítés minden felhasználója használhatja.",
+      "kindFixedHint": "A saját és a globális nem cserélhető fel: az egyik mindenkinek odaadná a címkédet, a másik elvenne tőlük egy közöset.",
+      "importGlobal": "Mentés globális kategóriaként",
+      "empty": "Nincs a keresésnek megfelelő kategória.",
+      "saved": "Kategória mentve",
+      "deleted": "Kategória törölve",
+      "deleteTitle": "Kategória törlése",
+      "deleteMessage": "Törlöd a(z) „{{name}}” kategóriát?",
+      "conflict": "Ez a kategória már létezik",
+      "inUseTitle": "A kategória használatban van",
+      "untagAccept": "Törlés és leválasztás",
+      "fields": {
+        "name": "Megnevezés",
+        "kind": "Típus",
+        "global": "Globális kategória"
+      }
+    }
+  },
+  "admin": {
+    "users": {
+      "title": "Felhasználók",
+      "hint": "A Stock Market Analyzerbe belépni tudó fiókok. A létrehozás, a jelszó visszaállítása és a jogosultságok itt intézhetők — külön azonosítási konzolt nem kell megnyitni.",
+      "new": "Új felhasználó",
+      "newTitle": "Felhasználó létrehozása",
+      "search": "Keresés név, felhasználónév vagy e-mail szerint",
+      "empty": "Nincs a keresésnek megfelelő felhasználó.",
+      "you": "(te)",
+      "noRoles": "Nincs jogosultság",
+      "created": "{{username}} felhasználó létrehozva",
+      "conflict": "Ez a felhasználónév vagy e-mail cím már foglalt",
+      "enabled": "Aktív",
+      "disabled": "Letiltva",
+      "enable": "Engedélyezés",
+      "disable": "Letiltás",
+      "disableTitle": "Felhasználó letiltása",
+      "disableMessage": "Letiltod a(z) „{{username}}” fiókot? Nem fog tudni belépni, de minden hozzá rögzített adat megmarad.",
+      "enabledToast": "{{username}} újra be tud lépni",
+      "disabledToast": "{{username}} letiltva",
+      "resetPassword": "Jelszó visszaállítása",
+      "resetTitle": "{{username}} jelszavának visszaállítása",
+      "resetHint": "A régi jelszóra nincs szükség. Az újat neked kell átadnod — e-mail nem megy ki.",
+      "passwordReset": "{{username}} jelszava lecserélve",
+      "roles": "Jogosultságok",
+      "rolesTitle": "{{username}} jogosultságai",
+      "rolesSaved": "{{username}} jogosultságai frissítve",
+      "notYourself": "A saját fiókodon ezt nem teheted meg",
+      "notYourAdmin": "Az ADMIN szerepet nem veheted el magadtól. Kérj meg egy másik adminisztrátort.",
+      "passwordHint": "Legalább {{min}} karakter. A realm saját jelszóházirendje ettől még érvényes.",
+      "temporaryHint": "Az ideiglenes jelszót a következő belépéskor kötelező lecserélni, így az itt beírt jelszó az első használat után érvényét veszti.",
+      "fields": {
+        "username": "Felhasználónév",
+        "name": "Név",
+        "email": "E-mail",
+        "firstName": "Keresztnév",
+        "lastName": "Vezetéknév",
+        "password": "Jelszó",
+        "temporaryPassword": "Ideiglenes jelszó",
+        "roles": "Jogosultságok",
+        "status": "Állapot",
+        "createdAt": "Létrehozva"
+      }
+    },
+    "instruments": {
+      "title": "Instrumentumok",
+      "hint": "A kereskedhető instrumentumok törzslistája - az alkalmazás minden választómezője ebből kínál. Az inaktív instrumentum eltűnik a választókból, de az előzményei megmaradnak.",
+      "new": "Új instrumentum",
+      "newTitle": "Új instrumentum",
+      "editTitle": "{{symbol}} szerkesztése",
+      "search": "Keresés jel vagy név szerint",
+      "anyType": "Bármilyen típus",
+      "anyStatus": "Mind",
+      "empty": "Nincs a szűrőknek megfelelő instrumentum.",
+      "active": "Aktív",
+      "inactive": "Inaktív",
+      "activate": "Aktiválás",
+      "deactivate": "Inaktiválás",
+      "activated": "{{symbol}} aktiválva",
+      "deactivated": "{{symbol}} inaktiválva",
+      "saved": "{{symbol}} mentve",
+      "deleted": "{{symbol}} törölve",
+      "conflict": "Ez a jel már foglalt",
+      "renameHint": "A jel átnevezése után az osztalékok és az árfolyam-előzmények az instrumentumhoz kötve maradnak.",
+      "activeHint": "A választómezők - például az osztalékoknál - csak az aktív instrumentumokat kínálják.",
+      "deleteTitle": "Instrumentum törlése",
+      "deleteMessage": "Törlöd a(z) {{symbol}} instrumentumot az árfolyam-előzményeivel együtt? Ez nem vonható vissza.",
+      "inUse": "Az instrumentum használatban van",
+      "inUseMessage": "A(z) {{symbol}} instrumentumhoz osztalékot rögzítettek, ezért nem törölhető. Inaktiválod helyette? Eltűnik a választókból, a rögzített előzmények megmaradnak.",
+      "fields": {
+        "symbol": "Jel",
+        "name": "Név",
+        "exchange": "Tőzsde",
+        "currency": "Deviza",
+        "assetType": "Típus",
+        "sector": "Szektor",
+        "status": "Állapot",
+        "active": "Aktív"
+      }
+    },
+    "inflation": {
+      "title": "Infláció",
+      "hint": "Éves infláció devizánként, százalékban: a 4,6 jelentése 4,6%, a negatív érték defláció. Az adatok éves átlagos HICP-ráták; a Lekérés gomb az Eurostatból tölti be őket (HUF: Magyarország, EUR: euróövezet, USD: Egyesült Államok, ezt az Eurostat kb. egy évvel később közli). Az adatok minden felhasználó számára közösek.",
+      "new": "Új adat",
+      "newTitle": "Új inflációs adat",
+      "editTitle": "{{unit}} {{year}} szerkesztése",
+      "anyUnit": "Minden deviza",
+      "fromYear": "Évtől",
+      "toYear": "Évig",
+      "empty": "Nincs a szűrőknek megfelelő inflációs adat.",
+      "saved": "{{unit}} {{year}} mentve",
+      "deleted": "{{unit}} {{year}} törölve",
+      "conflict": "Ehhez a devizához és évhez már van adat",
+      "newHint": "Ha a devizához már van adat erre az évre, az felülíródik.",
+      "editHint": "A deviza és az év is javítható, ha nem foglalja őket egy másik sor.",
+      "deleteTitle": "Inflációs adat törlése",
+      "deleteMessage": "Törlöd a(z) {{unit}} {{year}}. évi inflációs adatát? Ez nem vonható vissza.",
+      "fields": {
+        "unit": "Deviza",
+        "year": "Év",
+        "rate": "Infláció (%)"
+      },
+      "fetch": "Lekérés az Eurostatból",
+      "fetchHint": "Beolvassa a HUF, EUR és USD adatait az Eurostatból, és devizánként csak a legutolsó tárolt év utáni éveket menti el - ha egy devizához még nincs adat, az összes közzétett évet. A tárolt adatokat sosem írja felül.",
+      "fetched": "{{count}} új adat mentve ({{source}})",
+      "fetchedNone": "Minden naprakész ({{source}})",
+      "fetchedUnit": "{{unit}}: {{years}} hozzáadva",
+      "fetchedUnitUpToDate": "{{unit}}: nincs {{year}} utáni adat",
+      "fetchedUnitNoData": "{{unit}}: a forrás nem közöl adatot"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0001-create-instrument
+      author: stock-market-analyzer
+      comment: Reference table for tradable instruments.
+      changes:
+        - createTable:
+            tableName: instrument
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: pk_instrument
+                    nullable: false
+              - column:
+                  name: symbol
+                  type: VARCHAR(32)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: exchange
+                  type: VARCHAR(64)
+              - column:
+                  name: currency
+                  type: VARCHAR(3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: asset_type
+                  type: VARCHAR(32)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: sector
+                  type: VARCHAR(128)
+              - column:
+                  name: active
+                  type: BOOLEAN
+                  defaultValueBoolean: true
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        - addUniqueConstraint:
+            tableName: instrument
+            columnNames: symbol
+            constraintName: uq_instrument_symbol
+        - createIndex:
+            tableName: instrument
+            indexName: ix_instrument_asset_type
+            columns:
+              - column:
+                  name: asset_type
+        - createIndex:
+            tableName: instrument
+            indexName: ix_instrument_exchange
+            columns:
+              - column:
+                  name: exchange
+      rollback:
+        - dropTable:
+            tableName: instrument

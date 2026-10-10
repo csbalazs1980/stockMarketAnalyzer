@@ -1,0 +1,479 @@
+{
+  "app": {
+    "title": "Stock Market Analyzer"
+  },
+  "nav": {
+    "home": "Home",
+    "wealth": "Wealth tracker",
+    "entries": "Entries",
+    "dividends": "Dividends",
+    "rates": "Exchange rates",
+    "received": "Received",
+    "monthly": "By month",
+    "expenses": "Expenses",
+    "expenseItems": "Items",
+    "expenseCategories": "Categories",
+    "administration": "Administration",
+    "users": "Users",
+    "instruments": "Instruments",
+    "inflation": "Inflation"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "loginSubtitle": "Sign in to see your wealth and dividend data.",
+    "username": "Username",
+    "password": "Password",
+    "invalidCredentials": "That username and password did not match.",
+    "signInFailed": "Sign-in is unavailable right now. Please try again in a moment.",
+    "sessionExpired": "Your session has expired. Please sign in again."
+  },
+  "settings": {
+    "language": "Language",
+    "toggleTheme": "Toggle dark mode"
+  },
+  "common": {
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "reset": "Reset",
+    "save": "Save"
+  },
+  "table": {
+    "pageReport": "{first}–{last} of {totalRecords}",
+    "rowCount": "{{count}} rows",
+    "groupSummary": "{{groups}} categories, {{items}} items",
+    "childCount": "{{count}} entries directly under this one"
+  },
+  "errors": {
+    "network": "Cannot reach the server",
+    "requestFailed": "Request failed ({{status}})",
+    "unknown": "Something went wrong."
+  },
+  "import": {
+    "button": "Import / export CSV",
+    "chooseFile": "Choose file",
+    "noFile": "No file chosen",
+    "upload": "Upload",
+    "downloadSample": "Download sample",
+    "downloadData": "Download my data",
+    "downloadDataHint": "Every row you own, in the same format - keep it as a backup, edit it in a spreadsheet and upload it again, or take it to another account.",
+    "notCsv": "That is not a CSV file. Choose a file whose name ends in .csv.",
+    "result": "{{processed}}/{{total}} rows processed.",
+    "duplicates": "{{count}} rows were already stored and were skipped.",
+    "failed": "{{count}} rows could not be read and were skipped.",
+    "rates": {
+      "title": "Import / export exchange rates",
+      "hint": "Fill the sample in and upload it to store a whole file of quotes at once. Commas and semicolons both work as separators. A row for a pair and date you already quoted replaces that quote."
+    },
+    "dividends": {
+      "title": "Import / export dividends",
+      "hint": "Fill the sample in and upload it to record a whole file of payments at once. Commas and semicolons both work as separators. Name the company by its ticker symbol; rows you have already recorded are skipped, so an overlapping file is safe to upload."
+    },
+    "expenseItems": {
+      "title": "Import / export expenses",
+      "hint": "Fill the sample in and upload it to record a whole file of recurring costs at once. name, amount, unit and period are required; interval defaults to 1, both dates may be blank, and categories is a '|'-separated list in one cell. A category named there is created for you if you do not have it yet. Rows whose name you already have are skipped."
+    },
+    "expenseCategories": {
+      "title": "Import / export categories",
+      "hint": "One name per line, under a 'category' header. Names you already have - or that exist as global categories - are skipped, so an overlapping list is safe to upload."
+    },
+    "instruments": {
+      "title": "Import / export instruments",
+      "hint": "Fill the sample in and upload it to add or update a whole list of instruments at once. Rows are matched on ticker symbol: a symbol you already have is updated from its row, a new one is created. symbol, name, currency and assetType are required; exchange, sector and active may be left out, and a blank active keeps the instrument's current status. Commas and semicolons both work as separators.",
+      "downloadData": "Download all instruments",
+      "downloadDataHint": "The whole instrument list in the same format - edit it in a spreadsheet and upload it again to apply the changes. Unchanged rows are reported as already stored."
+    },
+    "inflation": {
+      "title": "Import / export inflation",
+      "hint": "Fill the sample in and upload it to store a whole file of figures at once. unit, year and rate are required; rate is in percent and may end in %. A row for a currency and year that is already stored replaces that figure. Commas and semicolons both work as separators.",
+      "downloadData": "Download all figures",
+      "downloadDataHint": "Every stored figure in the same format - edit it in a spreadsheet and upload it again to apply the changes. Unchanged rows are reported as already stored."
+    }
+  },
+  "home": {
+    "title": "Stock Market Analyzer",
+    "subtitle": "Market data and a personal net-worth ledger in one place.",
+    "wealthBlurb": "Record what you hold, in which unit, on which date - and see it valued from your own exchange rates.",
+    "openWealth": "Open wealth tracker",
+    "signedOutTitle": "You are signed out",
+    "signedOutBlurb": "Wealth data is private to your account. Sign in to see and edit it."
+  },
+  "wealth": {
+    "noRate": "No exchange rate connects these units on this date.",
+    "fields": {
+      "name": "Name",
+      "unit": "Unit",
+      "quantity": "Quantity",
+      "entryDate": "Date",
+      "value": "Value",
+      "parent": "Rolls up into"
+    },
+    "filters": {
+      "from": "From",
+      "to": "To",
+      "unit": "Unit",
+      "search": "Search name",
+      "valueIn": "Value in"
+    },
+    "form": {
+      "noParent": "No parent (top level)",
+      "quantityHint": "Leave empty for an aggregate row that only sums the entries under it."
+    },
+    "entries": {
+      "title": "Wealth entries",
+      "new": "New entry",
+      "newTitle": "New entry",
+      "editTitle": "Edit entry",
+      "addChild": "Add a child entry",
+      "clone": "Clone entry",
+      "cloneTitle": "Clone entry",
+      "cloneAccept": "Create copy",
+      "cloneHint": "Every copied row takes the date above. Leave a quantity empty to make that row an aggregate, and a unit empty to inherit the one above it.",
+      "cloned": "Copy created ({{count}} rows)",
+      "empty": "Nothing recorded yet.",
+      "saved": "Entry saved",
+      "deleted": "Entry deleted",
+      "deleteTitle": "Delete entry",
+      "deleteMessage": "Delete \"{{name}}\"?",
+      "cascadeTitle": "Entry has children",
+      "cascadeMessage": "\"{{name}}\" has entries rolling up into it. Delete the whole subtree?",
+      "cascadeAccept": "Delete subtree"
+    },
+    "partialValue": "Something under this row has no exchange rate, so the total is a lower bound.",
+    "mixedUnits": "This row mixes units, so quantities cannot be added. The value still rolls up."
+  },
+  "rates": {
+    "title": "Exchange rates",
+    "hint": "Your own conversion factors plus the global ones shared by everybody. Entries are valued from the newest rate on or before their own date - and where you have quoted a pair yourself, your rate always wins over the global one.",
+    "fetch": "Fetch latest",
+    "fetchHint": "Reads the configured pairs from the central bank feed and stores each one as a global rate for everybody, under the date it was published — on a weekend, the previous working day.",
+    "fetched": "{{count}} rates stored for {{date}} ({{provider}})",
+    "fetchedNone": "The feed returned no rates.",
+    "new": "New rate",
+    "newTitle": "Store a rate",
+    "empty": "No rates stored yet.",
+    "saved": "Rate stored",
+    "deleted": "Rate deleted",
+    "deleteTitle": "Delete rate",
+    "deleteMessage": "Delete the {{source}} to {{destination}} rate quoted on {{date}}?",
+    "fields": {
+      "sourceUnit": "From",
+      "destinationUnit": "To",
+      "rate": "Rate",
+      "rateDate": "Quoted on",
+      "kind": "Kind",
+      "global": "Global rate"
+    },
+    "scope": "Show",
+    "scopeAll": "All",
+    "personal": "Personal",
+    "global": "Global",
+    "globalHint": "A global rate is used for every user who has not quoted that pair themselves. A personal rate always wins.",
+    "kindFixedHint": "A rate cannot be moved between personal and global. Store the other kind as a new rate instead.",
+    "importGlobal": "Store these as global rates",
+    "override": "Override with my own rate"
+  },
+  "dividends": {
+    "title": "Received dividends",
+    "hint": "What you were actually paid, and when. Each row is valued from your own exchange rates using the rate in force on its payment date.",
+    "new": "New dividend",
+    "newTitle": "Record a dividend",
+    "editTitle": "Edit dividend",
+    "empty": "No dividends recorded yet.",
+    "saved": "Dividend saved",
+    "deleted": "Dividend deleted",
+    "deleteTitle": "Delete dividend",
+    "deleteMessage": "Delete the {{symbol}} dividend paid on {{date}}?",
+    "total": "{{count}} dividends match this filter",
+    "partialTotal": "Some matching rows have no exchange rate, so the total is a lower bound.",
+    "fields": {
+      "instrument": "Instrument",
+      "amount": "Amount",
+      "unit": "Currency",
+      "paymentDate": "Paid on"
+    },
+    "filters": {
+      "anyInstrument": "Any instrument"
+    },
+    "form": {
+      "pickInstrument": "Pick an instrument",
+      "noInstruments": "No instruments are set up yet - an administrator has to add them first.",
+      "unitHint": "What actually landed in the account, which need not be what the instrument trades in."
+    },
+    "monthly": {
+      "title": "Dividends by month",
+      "hint": "Every payment in the range, laid out by calendar month. Hover a figure for the other currency and the payments behind it.",
+      "empty": "Nothing was paid in this range.",
+      "anyCurrency": "All currencies",
+      "show": "Show",
+      "showOriginal": "As received",
+      "showConverted": "Converted",
+      "layout": "Layout",
+      "byCompany": "By company",
+      "compact": "Compact",
+      "rowTotal": "Total",
+      "monthTotal": "Month total",
+      "summary": "{{payments}} payments across {{months}} months.",
+      "andMore": "and {{count}} more",
+      "chart": "Chart",
+      "chartTitle": "Dividend income by month",
+      "chartSeries": "Received",
+      "chartNote": "Months are totalled in {{unit}}, using the rate in force on each payment date - the only way currencies can be added up.",
+      "chartNoteFiltered": "Filtered to {{unit}}, so the bars are the amounts as received and no exchange rate is involved.",
+      "inflationAdjusted": "Inflation adjusted",
+      "inflationNote": "Each figure is multiplied by the cumulative inflation from its payment year through the latest year with data ({{years}}). Amounts use the inflation of the currency they were received in; converted values are converted at the payment date's rate first, then adjusted with {{valueUnit}} inflation.",
+      "inflationMissing": "No inflation data covers {{units}}, so {{count}} figures are shown unadjusted.",
+      "inflationTooltip": "Inflation adjusted",
+      "chartNoteInflation": "Inflation adjusted through {{years}}."
+    },
+    "inflationNote": "Amounts are multiplied by the cumulative inflation of their own currency from the payment year through the latest year with data; values are converted at the payment date's rate first, then adjusted with {{valueUnit}} inflation. Sorting and the total use the adjusted figures. Hover a figure for the original.",
+    "notInflationAdjusted": "No inflation data covers this payment's year for one of its currencies, so a figure is shown unadjusted.",
+    "notInflationAdjustedTotal": "{{count}} payments could not be fully adjusted for want of inflation data.",
+    "asEntered": "Unadjusted: {{amount}} {{unit}}"
+  },
+  "expenses": {
+    "fields": {
+      "name": "Name",
+      "amount": "Amount",
+      "unit": "Currency",
+      "recurrence": "Repeats",
+      "every": "Every",
+      "period": "Period",
+      "activePeriod": "Active",
+      "startDate": "Starts",
+      "expiryDate": "Expires",
+      "categories": "Categories"
+    },
+    "filters": {
+      "search": "Search name",
+      "anyUnit": "Any currency",
+      "anyCategory": "Any category",
+      "activeOnly": "Only what I pay now"
+    },
+    "recurrence": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "biweekly": "Every two weeks",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "halfYearly": "Twice a year",
+      "yearly": "Yearly",
+      "custom": "Custom...",
+      "everyN": "Every {{interval}} {{period}}"
+    },
+    "periodUnit": {
+      "DAILY": "days",
+      "WEEKLY": "weeks",
+      "MONTHLY": "months",
+      "YEARLY": "years"
+    },
+    "per": {
+      "DAILY": "day",
+      "WEEKLY": "week",
+      "MONTHLY": "month",
+      "YEARLY": "year"
+    },
+    "range": {
+      "between": "{{from}} - {{to}}",
+      "from": "From {{from}}",
+      "until": "Until {{to}}",
+      "open": "No end date"
+    },
+    "totals": {
+      "showPer": "Show totals per",
+      "perLabel": "Total per {{period}}",
+      "perColumn": "Per {{period}}",
+      "showIn": "Show totals in",
+      "asEntered": "As entered",
+      "rateHint": "Converted with the most recent rate stored for each pair.",
+      "partial": "Some rows have no exchange rate, so the total is a lower bound.",
+      "note": "{{counted}} of {{total}} rows counted - only what is being charged now."
+    },
+    "noRate": "No stored exchange rate connects these units.",
+    "view": {
+      "label": "View",
+      "list": "Raw list",
+      "grouped": "By category",
+      "groupedNote": "Categories are tags, so an expense carrying two of them is listed - and counted - under both. The total above the table counts every expense once.",
+      "groupCount": "({{count}})",
+      "uncategorised": "Uncategorised"
+    },
+    "form": {
+      "recurrenceHint": "Pick Custom... for anything this list does not cover, such as every 7 weeks.",
+      "startHint": "Optional. Leave it empty if this is simply what you pay.",
+      "expiryHint": "Optional. A loan ends; a subscription usually does not.",
+      "pickCategories": "No categories",
+      "noCategories": "No categories yet - add some on the Categories screen.",
+      "datesWrongWay": "The expiry date is before the start date."
+    },
+    "items": {
+      "title": "Regular expenses",
+      "hint": "What comes back, how much it is and how often. The totals are worked out here, per currency, from the amount and the recurrence - nothing is converted between currencies.",
+      "new": "New expense",
+      "newTitle": "New expense",
+      "editTitle": "Edit expense",
+      "empty": "Nothing recorded yet.",
+      "saved": "Expense saved",
+      "deleted": "Expense deleted",
+      "deleteTitle": "Delete expense",
+      "deleteMessage": "Delete \"{{name}}\"?",
+      "inactive": "not charged now",
+      "untagged": "No category"
+    },
+    "chart": {
+      "button": "Chart",
+      "title": "Expenses by share",
+      "other": "Other",
+      "otherNote": "{count} smaller expenses",
+      "shareOfTotal": "{percent}% of the total",
+      "note": "{{counted}} expenses, per {{period}}, in {{unit}}. Slices under 1% are summed into Other.",
+      "unpriced": "{{count}} left out - no exchange rate.",
+      "empty": "Nothing to chart: every expense here is worth zero.",
+      "pickCurrency": "Pick a currency above. A pie needs one whole, and amounts in different currencies cannot share one."
+    },
+    "categories": {
+      "title": "Expense categories",
+      "hint": "Tags for your expenses. The global ones are shared by everybody and only an administrator can change them.",
+      "new": "New category",
+      "newTitle": "New category",
+      "editTitle": "Rename category",
+      "search": "Search name",
+      "scope": "Show",
+      "scopeAll": "All",
+      "personal": "Personal",
+      "global": "Global",
+      "globalHint": "A global category is offered to every user of this installation.",
+      "kindFixedHint": "Personal and global cannot be swapped: one would hand your label to everybody, the other would take a shared one away from them.",
+      "importGlobal": "Store these as global categories",
+      "empty": "No categories match this search.",
+      "saved": "Category saved",
+      "deleted": "Category deleted",
+      "deleteTitle": "Delete category",
+      "deleteMessage": "Delete \"{{name}}\"?",
+      "conflict": "That category already exists",
+      "inUseTitle": "Category is in use",
+      "untagAccept": "Delete and untag",
+      "fields": {
+        "name": "Name",
+        "kind": "Kind",
+        "global": "Global category"
+      }
+    }
+  },
+  "admin": {
+    "users": {
+      "title": "Users",
+      "hint": "The accounts that can sign in to Stock Market Analyzer. Created, reset and granted privileges here — there is no separate identity console to visit.",
+      "new": "New user",
+      "newTitle": "Create a user",
+      "search": "Search name, username or email",
+      "empty": "No users match this search.",
+      "you": "(you)",
+      "noRoles": "No privileges",
+      "created": "User {{username}} created",
+      "conflict": "That username or email address is already taken",
+      "enabled": "Active",
+      "disabled": "Disabled",
+      "enable": "Enable",
+      "disable": "Disable",
+      "disableTitle": "Disable user",
+      "disableMessage": "Disable \"{{username}}\"? They will not be able to sign in, and everything recorded under the account is kept.",
+      "enabledToast": "{{username}} can sign in again",
+      "disabledToast": "{{username}} is disabled",
+      "resetPassword": "Reset password",
+      "resetTitle": "Reset the password of {{username}}",
+      "resetHint": "The old password is not needed. Pass the new one on yourself — nothing is emailed.",
+      "passwordReset": "Password replaced for {{username}}",
+      "roles": "Privileges",
+      "rolesTitle": "Privileges of {{username}}",
+      "rolesSaved": "Privileges of {{username}} updated",
+      "notYourself": "You cannot do this to your own account",
+      "notYourAdmin": "You cannot take the ADMIN role away from yourself. Ask another administrator to do it.",
+      "passwordHint": "At least {{min}} characters. The realm's own password policy still applies.",
+      "temporaryHint": "A temporary password must be changed at the next sign-in, so the one you type here stops working as soon as it has been used once.",
+      "fields": {
+        "username": "Username",
+        "name": "Name",
+        "email": "Email",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "password": "Password",
+        "temporaryPassword": "Temporary password",
+        "roles": "Privileges",
+        "status": "Status",
+        "createdAt": "Created"
+      }
+    },
+    "instruments": {
+      "title": "Instruments",
+      "hint": "The reference list of tradable instruments that every picker in the application offers. An inactive instrument disappears from the pickers but keeps its history.",
+      "new": "New instrument",
+      "newTitle": "New instrument",
+      "editTitle": "Edit {{symbol}}",
+      "search": "Search by symbol or name",
+      "anyType": "Any type",
+      "anyStatus": "All",
+      "empty": "No instruments match the filters.",
+      "active": "Active",
+      "inactive": "Inactive",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "activated": "{{symbol}} activated",
+      "deactivated": "{{symbol}} deactivated",
+      "saved": "{{symbol}} saved",
+      "deleted": "{{symbol}} deleted",
+      "conflict": "That symbol is already taken",
+      "renameHint": "Renaming the ticker keeps the instrument's dividends and price history attached.",
+      "activeHint": "Only active instruments are offered in pickers, such as the one on the dividends page.",
+      "deleteTitle": "Delete instrument",
+      "deleteMessage": "Delete {{symbol}} together with its price history? This cannot be undone.",
+      "inUse": "Instrument is in use",
+      "inUseMessage": "Dividends have been recorded against {{symbol}}, so it cannot be deleted. Deactivate it instead? It disappears from the pickers and the recorded history stays.",
+      "fields": {
+        "symbol": "Symbol",
+        "name": "Name",
+        "exchange": "Exchange",
+        "currency": "Currency",
+        "assetType": "Type",
+        "sector": "Sector",
+        "status": "Status",
+        "active": "Active"
+      }
+    },
+    "inflation": {
+      "title": "Inflation",
+      "hint": "Annual inflation per currency, in percent: 4.6 means 4.6%, and a negative figure is deflation. The figures are annual average HICP rates; Fetch reads them from Eurostat (HUF: Hungary, EUR: the euro area, USD: the United States, which Eurostat publishes about a year later). They are shared by every user.",
+      "new": "New figure",
+      "newTitle": "New inflation figure",
+      "editTitle": "Edit {{unit}} {{year}}",
+      "anyUnit": "All currencies",
+      "fromYear": "From year",
+      "toYear": "To year",
+      "empty": "No inflation figures match the filters.",
+      "saved": "{{unit}} {{year}} saved",
+      "deleted": "{{unit}} {{year}} deleted",
+      "conflict": "That currency and year already have a figure",
+      "newHint": "If the currency already has a figure for that year, it is replaced.",
+      "editHint": "The currency and the year can be corrected too, as long as no other row holds them.",
+      "deleteTitle": "Delete inflation figure",
+      "deleteMessage": "Delete the {{unit}} inflation figure for {{year}}? This cannot be undone.",
+      "fields": {
+        "unit": "Currency",
+        "year": "Year",
+        "rate": "Inflation (%)"
+      },
+      "fetch": "Fetch from Eurostat",
+      "fetchHint": "Reads HUF, EUR and USD from Eurostat and stores only the years after the latest one already stored for each currency - every published year for a currency that has none. Stored figures are never overwritten.",
+      "fetched": "{{count}} new figures stored ({{source}})",
+      "fetchedNone": "Already up to date ({{source}})",
+      "fetchedUnit": "{{unit}}: {{years}} added",
+      "fetchedUnitUpToDate": "{{unit}}: nothing newer than {{year}}",
+      "fetchedUnitNoData": "{{unit}}: the source publishes no data"
+    }
+  }
+}

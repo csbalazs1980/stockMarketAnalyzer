@@ -1,0 +1,479 @@
+{
+  "app": {
+    "title": "Stock Market Analyzer"
+  },
+  "nav": {
+    "home": "ホーム",
+    "wealth": "資産管理",
+    "entries": "記録",
+    "dividends": "配当",
+    "rates": "為替レート",
+    "received": "受取済み",
+    "monthly": "月別",
+    "expenses": "支出",
+    "expenseItems": "項目",
+    "expenseCategories": "カテゴリ",
+    "administration": "管理",
+    "users": "ユーザー",
+    "instruments": "銘柄",
+    "inflation": "インフレ率"
+  },
+  "auth": {
+    "signIn": "サインイン",
+    "signOut": "サインアウト",
+    "loginSubtitle": "資産と配当のデータを見るにはサインインしてください。",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "invalidCredentials": "ユーザー名とパスワードが一致しません。",
+    "signInFailed": "現在サインインできません。しばらくしてからもう一度お試しください。",
+    "sessionExpired": "セッションの有効期限が切れました。もう一度サインインしてください。"
+  },
+  "settings": {
+    "language": "言語",
+    "toggleTheme": "ダークモードの切り替え"
+  },
+  "common": {
+    "apply": "適用",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "delete": "削除",
+    "edit": "編集",
+    "loading": "読み込み中...",
+    "refresh": "更新",
+    "reset": "リセット",
+    "save": "保存"
+  },
+  "table": {
+    "pageReport": "{totalRecords} 件中 {first}–{last} 件",
+    "rowCount": "{{count}} 行",
+    "groupSummary": "{{groups}} カテゴリ、{{items}} 項目",
+    "childCount": "直下の記録: {{count}} 件"
+  },
+  "errors": {
+    "network": "サーバーに接続できません",
+    "requestFailed": "リクエストが失敗しました（{{status}}）",
+    "unknown": "問題が発生しました。"
+  },
+  "import": {
+    "button": "CSV インポート / エクスポート",
+    "chooseFile": "ファイルを選択",
+    "noFile": "ファイルが選択されていません",
+    "upload": "アップロード",
+    "downloadSample": "サンプルをダウンロード",
+    "downloadData": "自分のデータをダウンロード",
+    "downloadDataHint": "あなたのすべての行を同じ形式で出力します。バックアップとして保存したり、表計算ソフトで編集して再アップロードしたり、別のアカウントに移したりできます。",
+    "notCsv": "CSV ファイルではありません。名前が .csv で終わるファイルを選択してください。",
+    "result": "{{processed}}/{{total}} 行を処理しました。",
+    "duplicates": "{{count}} 行は保存済みのためスキップしました。",
+    "failed": "{{count}} 行は読み取れなかったためスキップしました。",
+    "rates": {
+      "title": "為替レートのインポート / エクスポート",
+      "hint": "サンプルに記入してアップロードすると、ファイル内のレートをまとめて保存できます。区切り文字にはカンマとセミコロンのどちらも使えます。登録済みの通貨ペアと日付の行は、そのレートを置き換えます。"
+    },
+    "dividends": {
+      "title": "配当のインポート / エクスポート",
+      "hint": "サンプルに記入してアップロードすると、ファイル内の支払いをまとめて記録できます。区切り文字にはカンマとセミコロンのどちらも使えます。企業はティッカーシンボルで指定してください。記録済みの行はスキップされるため、内容が重複するファイルも安全にアップロードできます。"
+    },
+    "expenseItems": {
+      "title": "支出のインポート / エクスポート",
+      "hint": "サンプルに記入してアップロードすると、定期的な支出をまとめて記録できます。name、amount、unit、period は必須です。interval の既定値は 1 で、日付は両方とも空欄でかまいません。categories は 1 つのセルに '|' 区切りで記入します。そこに書かれたカテゴリがまだなければ自動的に作成されます。既にある名前の行はスキップされます。"
+    },
+    "expenseCategories": {
+      "title": "カテゴリのインポート / エクスポート",
+      "hint": "'category' という見出しの下に 1 行に 1 つずつ名前を記入します。既にある名前やグローバルカテゴリとして存在する名前はスキップされるため、重複のあるリストも安全にアップロードできます。"
+    },
+    "instruments": {
+      "title": "銘柄のインポート / エクスポート",
+      "hint": "サンプルに記入してアップロードすると、銘柄の一覧をまとめて追加・更新できます。行はティッカーシンボルで照合され、既存のシンボルはその行の内容で更新され、新しいシンボルは作成されます。symbol、name、currency、assetType は必須です。exchange、sector、active は省略でき、active が空欄の場合は現在の状態が維持されます。区切り文字にはカンマとセミコロンのどちらも使えます。",
+      "downloadData": "すべての銘柄をダウンロード",
+      "downloadDataHint": "銘柄一覧全体を同じ形式で出力します。表計算ソフトで編集して再アップロードすると変更が反映されます。変更のない行は保存済みとして報告されます。"
+    },
+    "inflation": {
+      "title": "インフレ率のインポート / エクスポート",
+      "hint": "サンプルに記入してアップロードすると、データをまとめて保存できます。unit、year、rate は必須です。rate はパーセントで、末尾に % を付けても構いません。既に保存されている通貨と年の行は、そのデータを置き換えます。区切り文字にはカンマとセミコロンのどちらも使えます。",
+      "downloadData": "すべてのデータをダウンロード",
+      "downloadDataHint": "保存されているすべてのデータを同じ形式で出力します。表計算ソフトで編集して再アップロードすると変更が反映されます。変更のない行は保存済みとして報告されます。"
+    }
+  },
+  "home": {
+    "title": "Stock Market Analyzer",
+    "subtitle": "市場データと個人の純資産台帳をひとつに。",
+    "wealthBlurb": "何を、どの単位で、いつ保有しているかを記録し、自分で登録した為替レートで評価額を確認できます。",
+    "openWealth": "資産管理を開く",
+    "signedOutTitle": "サインアウトしています",
+    "signedOutBlurb": "資産データはあなたのアカウント専用です。表示・編集するにはサインインしてください。"
+  },
+  "wealth": {
+    "noRate": "この日付でこれらの単位を結ぶ為替レートがありません。",
+    "fields": {
+      "name": "名前",
+      "unit": "単位",
+      "quantity": "数量",
+      "entryDate": "日付",
+      "value": "評価額",
+      "parent": "親項目"
+    },
+    "filters": {
+      "from": "開始",
+      "to": "終了",
+      "unit": "単位",
+      "search": "名前で検索",
+      "valueIn": "評価通貨"
+    },
+    "form": {
+      "noParent": "親なし（最上位）",
+      "quantityHint": "下位の記録を合計するだけの集計行にする場合は空欄にしてください。"
+    },
+    "entries": {
+      "title": "資産の記録",
+      "new": "新規記録",
+      "newTitle": "新規記録",
+      "editTitle": "記録の編集",
+      "addChild": "子記録を追加",
+      "clone": "記録を複製",
+      "cloneTitle": "記録の複製",
+      "cloneAccept": "コピーを作成",
+      "cloneHint": "コピーされる各行には上の日付が設定されます。数量を空欄にするとその行は集計行になり、単位を空欄にすると上の行の単位を引き継ぎます。",
+      "cloned": "コピーを作成しました（{{count}} 行）",
+      "empty": "まだ記録がありません。",
+      "saved": "記録を保存しました",
+      "deleted": "記録を削除しました",
+      "deleteTitle": "記録の削除",
+      "deleteMessage": "「{{name}}」を削除しますか？",
+      "cascadeTitle": "子記録があります",
+      "cascadeMessage": "「{{name}}」には下位の記録があります。下位の記録もすべて削除しますか？",
+      "cascadeAccept": "すべて削除"
+    },
+    "partialValue": "この行の下に為替レートのない項目があるため、合計は下限値です。",
+    "mixedUnits": "この行は単位が混在しているため数量を合計できません。評価額は引き続き合計されます。"
+  },
+  "rates": {
+    "title": "為替レート",
+    "hint": "自分で登録した換算レートと、全員で共有するグローバルレートです。各記録は、その日付以前で最新のレートで評価されます。自分で登録した通貨ペアのレートは、常にグローバルレートより優先されます。",
+    "fetch": "最新を取得",
+    "fetchHint": "設定された通貨ペアを中央銀行のフィードから読み込み、全員共通のグローバルレートとして公表日付で保存します。週末の場合は直前の営業日になります。",
+    "fetched": "{{date}} のレートを {{count}} 件保存しました（{{provider}}）",
+    "fetchedNone": "フィードからレートが返されませんでした。",
+    "new": "新規レート",
+    "newTitle": "レートを保存",
+    "empty": "保存されたレートはまだありません。",
+    "saved": "レートを保存しました",
+    "deleted": "レートを削除しました",
+    "deleteTitle": "レートの削除",
+    "deleteMessage": "{{date}} の {{source}} → {{destination}} のレートを削除しますか？",
+    "fields": {
+      "sourceUnit": "換算元",
+      "destinationUnit": "換算先",
+      "rate": "レート",
+      "rateDate": "適用日",
+      "kind": "種類",
+      "global": "グローバルレート"
+    },
+    "scope": "表示",
+    "scopeAll": "すべて",
+    "personal": "個人",
+    "global": "グローバル",
+    "globalHint": "グローバルレートは、その通貨ペアの個人レートを登録していないすべてのユーザーに使われます。個人レートが常に優先されます。",
+    "kindFixedHint": "レートを個人とグローバルの間で移すことはできません。もう一方の種類は新しいレートとして保存してください。",
+    "importGlobal": "グローバルレートとして保存",
+    "override": "自分のレートで上書き"
+  },
+  "dividends": {
+    "title": "受取配当",
+    "hint": "実際に支払われた金額と日付です。各行は、支払日に有効な自分の為替レートで評価されます。",
+    "new": "新規配当",
+    "newTitle": "配当を記録",
+    "editTitle": "配当の編集",
+    "empty": "記録された配当はまだありません。",
+    "saved": "配当を保存しました",
+    "deleted": "配当を削除しました",
+    "deleteTitle": "配当の削除",
+    "deleteMessage": "{{date}} に支払われた {{symbol}} の配当を削除しますか？",
+    "total": "この条件に一致する配当: {{count}} 件",
+    "partialTotal": "一部の行に為替レートがないため、合計は下限値です。",
+    "fields": {
+      "instrument": "銘柄",
+      "amount": "金額",
+      "unit": "通貨",
+      "paymentDate": "支払日"
+    },
+    "filters": {
+      "anyInstrument": "すべての銘柄"
+    },
+    "form": {
+      "pickInstrument": "銘柄を選択",
+      "noInstruments": "銘柄がまだ登録されていません。先に管理者が追加する必要があります。",
+      "unitHint": "実際に口座に入金された通貨です。銘柄の取引通貨と同じとは限りません。"
+    },
+    "monthly": {
+      "title": "月別配当",
+      "hint": "期間内のすべての支払いを暦月ごとに表示します。金額にカーソルを合わせると、もう一方の通貨と内訳の支払いが表示されます。",
+      "empty": "この期間に支払いはありません。",
+      "anyCurrency": "すべての通貨",
+      "show": "表示",
+      "showOriginal": "受取時の通貨",
+      "showConverted": "換算後",
+      "layout": "レイアウト",
+      "byCompany": "企業別",
+      "compact": "コンパクト",
+      "rowTotal": "合計",
+      "monthTotal": "月合計",
+      "summary": "{{months}} か月で {{payments}} 件の支払い。",
+      "andMore": "ほか {{count}} 件",
+      "chart": "グラフ",
+      "chartTitle": "月別配当収入",
+      "chartSeries": "受取額",
+      "chartNote": "各月は支払日ごとに有効なレートで {{unit}} に換算して合計しています。異なる通貨を合計するにはこの方法しかありません。",
+      "chartNoteFiltered": "{{unit}} で絞り込んでいるため、棒グラフは受取時の金額で、為替レートは使用していません。",
+      "inflationAdjusted": "インフレ調整",
+      "inflationNote": "各金額に、支払年からデータのある最新年まで（{{years}}）の累積インフレ率を掛けています。金額は受け取った通貨のインフレ率で、換算額は支払日のレートで換算した後に {{valueUnit}} のインフレ率で調整しています。",
+      "inflationMissing": "{{units}} のインフレ率データがないため、{{count}} 件の値は調整されていません。",
+      "inflationTooltip": "インフレ調整済み",
+      "chartNoteInflation": "インフレ調整（{{years}} まで）。"
+    },
+    "inflationNote": "金額には、支払年からデータのある最新年までのその通貨の累積インフレ率を掛けています。換算額は支払日のレートで換算した後に {{valueUnit}} のインフレ率で調整しています。並べ替えと合計は調整後の値を使います。値にカーソルを合わせると元の値が表示されます。",
+    "notInflationAdjusted": "この支払年について一方の通貨のインフレ率データがないため、一部の値は調整されていません。",
+    "notInflationAdjustedTotal": "インフレ率データがないため、{{count}} 件の支払いを完全には調整できませんでした。",
+    "asEntered": "調整前: {{amount}} {{unit}}"
+  },
+  "expenses": {
+    "fields": {
+      "name": "名前",
+      "amount": "金額",
+      "unit": "通貨",
+      "recurrence": "繰り返し",
+      "every": "間隔",
+      "period": "期間単位",
+      "activePeriod": "有効期間",
+      "startDate": "開始日",
+      "expiryDate": "終了日",
+      "categories": "カテゴリ"
+    },
+    "filters": {
+      "search": "名前で検索",
+      "anyUnit": "すべての通貨",
+      "anyCategory": "すべてのカテゴリ",
+      "activeOnly": "現在支払い中のもののみ"
+    },
+    "recurrence": {
+      "daily": "毎日",
+      "weekly": "毎週",
+      "biweekly": "2週間ごと",
+      "monthly": "毎月",
+      "quarterly": "四半期ごと",
+      "halfYearly": "年2回",
+      "yearly": "毎年",
+      "custom": "カスタム...",
+      "everyN": "{{interval}}{{period}}ごと"
+    },
+    "periodUnit": {
+      "DAILY": "日",
+      "WEEKLY": "週間",
+      "MONTHLY": "か月",
+      "YEARLY": "年"
+    },
+    "per": {
+      "DAILY": "1日",
+      "WEEKLY": "1週",
+      "MONTHLY": "1か月",
+      "YEARLY": "1年"
+    },
+    "range": {
+      "between": "{{from}} - {{to}}",
+      "from": "{{from}} から",
+      "until": "{{to}} まで",
+      "open": "終了日なし"
+    },
+    "totals": {
+      "showPer": "合計の期間",
+      "perLabel": "{{period}}あたりの合計",
+      "perColumn": "{{period}}あたり",
+      "showIn": "合計の表示通貨",
+      "asEntered": "入力どおり",
+      "rateHint": "各通貨ペアで最新の保存済みレートを使って換算しています。",
+      "partial": "一部の行に為替レートがないため、合計は下限値です。",
+      "note": "{{total}} 行中 {{counted}} 行を集計（現在請求されているもののみ）。"
+    },
+    "noRate": "これらの単位を結ぶ保存済みの為替レートがありません。",
+    "view": {
+      "label": "表示",
+      "list": "一覧",
+      "grouped": "カテゴリ別",
+      "groupedNote": "カテゴリはタグなので、2 つのタグが付いた支出は両方に表示・集計されます。表の上の合計では各支出を 1 回だけ数えます。",
+      "groupCount": "（{{count}}）",
+      "uncategorised": "未分類"
+    },
+    "form": {
+      "recurrenceHint": "一覧にない間隔（例: 7週間ごと）は「カスタム...」を選んでください。",
+      "startHint": "任意。単に現在支払っているものであれば空欄のままにしてください。",
+      "expiryHint": "任意。ローンには終わりがありますが、サブスクリプションには通常ありません。",
+      "pickCategories": "カテゴリなし",
+      "noCategories": "カテゴリがまだありません。「カテゴリ」画面で追加してください。",
+      "datesWrongWay": "終了日が開始日より前です。"
+    },
+    "items": {
+      "title": "定期的な支出",
+      "hint": "繰り返し発生する支出、その金額と頻度です。合計は金額と繰り返しから通貨ごとに計算され、通貨間の換算は行いません。",
+      "new": "新規支出",
+      "newTitle": "新規支出",
+      "editTitle": "支出の編集",
+      "empty": "まだ記録がありません。",
+      "saved": "支出を保存しました",
+      "deleted": "支出を削除しました",
+      "deleteTitle": "支出の削除",
+      "deleteMessage": "「{{name}}」を削除しますか？",
+      "inactive": "現在は請求なし",
+      "untagged": "カテゴリなし"
+    },
+    "chart": {
+      "button": "グラフ",
+      "title": "支出の内訳",
+      "other": "その他",
+      "otherNote": "小さな支出 {count} 件",
+      "shareOfTotal": "合計の {percent}%",
+      "note": "支出 {{counted}} 件、{{period}}あたり、{{unit}} 建て。1% 未満の項目は「その他」にまとめています。",
+      "unpriced": "{{count}} 件は為替レートがないため除外しました。",
+      "empty": "グラフにする項目がありません。ここの支出はすべてゼロです。",
+      "pickCurrency": "上で通貨を選択してください。円グラフには 1 つの全体が必要で、異なる通貨の金額はまとめられません。"
+    },
+    "categories": {
+      "title": "支出カテゴリ",
+      "hint": "支出に付けるタグです。グローバルカテゴリは全員で共有され、管理者のみが変更できます。",
+      "new": "新規カテゴリ",
+      "newTitle": "新規カテゴリ",
+      "editTitle": "カテゴリ名の変更",
+      "search": "名前で検索",
+      "scope": "表示",
+      "scopeAll": "すべて",
+      "personal": "個人",
+      "global": "グローバル",
+      "globalHint": "グローバルカテゴリは、この環境のすべてのユーザーに表示されます。",
+      "kindFixedHint": "個人とグローバルは切り替えられません。一方はあなたのラベルを全員に渡し、もう一方は共有のラベルを全員から取り上げることになるためです。",
+      "importGlobal": "グローバルカテゴリとして保存",
+      "empty": "検索に一致するカテゴリはありません。",
+      "saved": "カテゴリを保存しました",
+      "deleted": "カテゴリを削除しました",
+      "deleteTitle": "カテゴリの削除",
+      "deleteMessage": "「{{name}}」を削除しますか？",
+      "conflict": "そのカテゴリは既に存在します",
+      "inUseTitle": "カテゴリは使用中です",
+      "untagAccept": "削除してタグを外す",
+      "fields": {
+        "name": "名前",
+        "kind": "種類",
+        "global": "グローバルカテゴリ"
+      }
+    }
+  },
+  "admin": {
+    "users": {
+      "title": "ユーザー",
+      "hint": "Stock Market Analyzer にサインインできるアカウントです。作成、パスワードのリセット、権限の付与はここで行います。別の ID 管理コンソールを開く必要はありません。",
+      "new": "新規ユーザー",
+      "newTitle": "ユーザーの作成",
+      "search": "名前、ユーザー名、メールで検索",
+      "empty": "検索に一致するユーザーはいません。",
+      "you": "（あなた）",
+      "noRoles": "権限なし",
+      "created": "ユーザー {{username}} を作成しました",
+      "conflict": "そのユーザー名またはメールアドレスは既に使われています",
+      "enabled": "有効",
+      "disabled": "無効",
+      "enable": "有効化",
+      "disable": "無効化",
+      "disableTitle": "ユーザーの無効化",
+      "disableMessage": "「{{username}}」を無効にしますか？サインインできなくなりますが、アカウントに記録されたデータはすべて保持されます。",
+      "enabledToast": "{{username}} は再びサインインできます",
+      "disabledToast": "{{username}} を無効にしました",
+      "resetPassword": "パスワードをリセット",
+      "resetTitle": "{{username}} のパスワードをリセット",
+      "resetHint": "古いパスワードは不要です。新しいパスワードはご自身で伝えてください。メールは送信されません。",
+      "passwordReset": "{{username}} のパスワードを変更しました",
+      "roles": "権限",
+      "rolesTitle": "{{username}} の権限",
+      "rolesSaved": "{{username}} の権限を更新しました",
+      "notYourself": "自分のアカウントにはこの操作を行えません",
+      "notYourAdmin": "自分から ADMIN ロールを外すことはできません。別の管理者に依頼してください。",
+      "passwordHint": "{{min}} 文字以上。認証システムのパスワードポリシーも適用されます。",
+      "temporaryHint": "一時パスワードは次回サインイン時に変更が必要なため、ここで入力したパスワードは一度使うと無効になります。",
+      "fields": {
+        "username": "ユーザー名",
+        "name": "名前",
+        "email": "メール",
+        "firstName": "名",
+        "lastName": "姓",
+        "password": "パスワード",
+        "temporaryPassword": "一時パスワード",
+        "roles": "権限",
+        "status": "状態",
+        "createdAt": "作成日"
+      }
+    },
+    "instruments": {
+      "title": "銘柄",
+      "hint": "アプリ内のすべての選択リストに表示される、取引可能な銘柄の基準リストです。無効にした銘柄は選択リストから消えますが、履歴は残ります。",
+      "new": "新規銘柄",
+      "newTitle": "新規銘柄",
+      "editTitle": "{{symbol}} の編集",
+      "search": "シンボルまたは名前で検索",
+      "anyType": "すべての種類",
+      "anyStatus": "すべて",
+      "empty": "条件に一致する銘柄はありません。",
+      "active": "有効",
+      "inactive": "無効",
+      "activate": "有効にする",
+      "deactivate": "無効にする",
+      "activated": "{{symbol}} を有効にしました",
+      "deactivated": "{{symbol}} を無効にしました",
+      "saved": "{{symbol}} を保存しました",
+      "deleted": "{{symbol}} を削除しました",
+      "conflict": "そのシンボルは既に使われています",
+      "renameHint": "シンボルを変更しても、配当と価格履歴は銘柄に紐づいたままです。",
+      "activeHint": "配当ページなどの選択リストには、有効な銘柄だけが表示されます。",
+      "deleteTitle": "銘柄の削除",
+      "deleteMessage": "{{symbol}} を価格履歴とともに削除しますか？この操作は元に戻せません。",
+      "inUse": "銘柄は使用中です",
+      "inUseMessage": "{{symbol}} には配当が記録されているため削除できません。代わりに無効にしますか？選択リストから消えますが、記録された履歴は残ります。",
+      "fields": {
+        "symbol": "シンボル",
+        "name": "名前",
+        "exchange": "取引所",
+        "currency": "通貨",
+        "assetType": "種類",
+        "sector": "セクター",
+        "status": "状態",
+        "active": "有効"
+      }
+    },
+    "inflation": {
+      "title": "インフレ率",
+      "hint": "通貨ごとの年間インフレ率（パーセント）です。4.6 は 4.6% を表し、負の値はデフレです。値は HICP の年平均上昇率で、取得ボタンで Eurostat から読み込みます（HUF: ハンガリー、EUR: ユーロ圏、USD: 米国。米国は約 1 年遅れて公表されます）。このデータはすべてのユーザーで共有されます。",
+      "new": "新規データ",
+      "newTitle": "新しいインフレ率",
+      "editTitle": "{{unit}} {{year}} の編集",
+      "anyUnit": "すべての通貨",
+      "fromYear": "開始年",
+      "toYear": "終了年",
+      "empty": "条件に一致するインフレ率はありません。",
+      "saved": "{{unit}} {{year}} を保存しました",
+      "deleted": "{{unit}} {{year}} を削除しました",
+      "conflict": "その通貨と年のデータは既に存在します",
+      "newHint": "その通貨と年のデータが既にある場合は置き換えられます。",
+      "editHint": "他の行が使っていなければ、通貨と年も修正できます。",
+      "deleteTitle": "インフレ率の削除",
+      "deleteMessage": "{{unit}} の {{year}} 年のインフレ率を削除しますか？この操作は元に戻せません。",
+      "fields": {
+        "unit": "通貨",
+        "year": "年",
+        "rate": "インフレ率 (%)"
+      },
+      "fetch": "Eurostat から取得",
+      "fetchHint": "Eurostat から HUF、EUR、USD を読み込み、通貨ごとに保存済みの最新年より後の年だけを保存します。データのない通貨は公表済みのすべての年を保存します。保存済みの値は上書きされません。",
+      "fetched": "新しいデータを {{count}} 件保存しました（{{source}}）",
+      "fetchedNone": "すべて最新です（{{source}}）",
+      "fetchedUnit": "{{unit}}: {{years}} を追加",
+      "fetchedUnitUpToDate": "{{unit}}: {{year}} より新しいデータはありません",
+      "fetchedUnitNoData": "{{unit}}: データは公表されていません"
+    }
+  }
+}

@@ -1,0 +1,1932 @@
+symbol,name,exchange,currency,asset_type,sector,active
+TSM,Taiwan Semiconductor Manufacturing Company Limited,NYSE,USD,STOCK,,TRUE
+BRK.A,Berkshire Hathaway Inc.,NYSE,USD,STOCK,,TRUE
+BRK.B,Berkshire Hathaway Inc.,NYSE,USD,STOCK,,TRUE
+LLY,Eli Lilly and Company,NYSE,USD,STOCK,,TRUE
+JPM,JPMorgan Chase & Co.,NYSE,USD,STOCK,,TRUE
+V,Visa Inc.,NYSE,USD,STOCK,,TRUE
+JNJ,Johnson & Johnson,NYSE,USD,STOCK,,TRUE
+XOM,ExxonMobil Holdings Corporation,NYSE,USD,STOCK,,TRUE
+MA,Mastercard Incorporated,NYSE,USD,STOCK,,TRUE
+ABBV,AbbVie Inc.,NYSE,USD,STOCK,,TRUE
+ORCL,Oracle Corporation,NYSE,USD,STOCK,,TRUE
+BAC,Bank of America Corporation,NYSE,USD,STOCK,,TRUE
+CVX,Chevron Corporation,NYSE,USD,STOCK,,TRUE
+KO,The Coca-Cola Company,NYSE,USD,STOCK,,TRUE
+MRK,"Merck & Co., Inc.",NYSE,USD,STOCK,,TRUE
+CAT,Caterpillar Inc.,NYSE,USD,STOCK,,TRUE
+UNH,UnitedHealth Group Incorporated,NYSE,USD,STOCK,,TRUE
+HSBC,HSBC Holdings plc,NYSE,USD,STOCK,,TRUE
+GE,GE Aerospace,NYSE,USD,STOCK,,TRUE
+PG,The Procter & Gamble Company,NYSE,USD,STOCK,,TRUE
+MS,Morgan Stanley,NYSE,USD,STOCK,,TRUE
+DELL,Dell Technologies Inc.,NYSE,USD,STOCK,,TRUE
+HD,"The Home Depot, Inc.",NYSE,USD,STOCK,,TRUE
+GS,"The Goldman Sachs Group, Inc.",NYSE,USD,STOCK,,TRUE
+NVS,Novartis AG,NYSE,USD,STOCK,,TRUE
+PM,Philip Morris International Inc.,NYSE,USD,STOCK,,TRUE
+RY,Royal Bank of Canada,NYSE,USD,STOCK,,TRUE
+RTX,RTX Corporation,NYSE,USD,STOCK,,TRUE
+BABA,Alibaba Group Holding Limited,NYSE,USD,STOCK,,TRUE
+WFC,Wells Fargo & Company,NYSE,USD,STOCK,,TRUE
+MUFG,"Mitsubishi UFJ Financial Group, Inc.",NYSE,USD,STOCK,,TRUE
+SHEL,Shell plc,NYSE,USD,STOCK,,TRUE
+GEV,GE Vernova Inc.,NYSE,USD,STOCK,,TRUE
+AZN,AstraZeneca PLC,NYSE,USD,STOCK,,TRUE
+SAP,SAP SE,NYSE,USD,STOCK,,TRUE
+ANET,"Arista Networks, Inc.",NYSE,USD,STOCK,,TRUE
+BHP,BHP Group Limited,NYSE,USD,STOCK,,TRUE
+TM,Toyota Motor Corporation,NYSE,USD,STOCK,,TRUE
+C,Citigroup Inc.,NYSE,USD,STOCK,,TRUE
+TMO,Thermo Fisher Scientific Inc.,NYSE,USD,STOCK,,TRUE
+AXP,American Express Company,NYSE,USD,STOCK,,TRUE
+IBM,International Business Machines Corporation,NYSE,USD,STOCK,,TRUE
+CRM,"Salesforce, Inc.",NYSE,USD,STOCK,,TRUE
+SAN,"Banco Santander, S.A.",NYSE,USD,STOCK,,TRUE
+VZ,Verizon Communications Inc.,NYSE,USD,STOCK,,TRUE
+NVO,Novo Nordisk A/S,NYSE,USD,STOCK,,TRUE
+TTE,TotalEnergies SE,NYSE,USD,STOCK,,TRUE
+APH,Amphenol Corporation,NYSE,USD,STOCK,,TRUE
+TD,The Toronto-Dominion Bank,NYSE,USD,STOCK,,TRUE
+SCHW,The Charles Schwab Corporation,NYSE,USD,STOCK,,TRUE
+ABT,Abbott Laboratories,NYSE,USD,STOCK,,TRUE
+DIS,The Walt Disney Company,NYSE,USD,STOCK,,TRUE
+DE,Deere & Company,NYSE,USD,STOCK,,TRUE
+MCD,McDonald's Corporation,NYSE,USD,STOCK,,TRUE
+BLK,"BlackRock, Inc.",NYSE,USD,STOCK,,TRUE
+T,AT&T Inc.,NYSE,USD,STOCK,,TRUE
+RIO,Rio Tinto Group,NYSE,USD,STOCK,,TRUE
+NEE,"NextEra Energy, Inc.",NYSE,USD,STOCK,,TRUE
+UNP,Union Pacific Corporation,NYSE,USD,STOCK,,TRUE
+WELL,Welltower Inc.,NYSE,USD,STOCK,,TRUE
+BX,Blackstone Inc.,NYSE,USD,STOCK,,TRUE
+SCCO,Southern Copper Corporation,NYSE,USD,STOCK,,TRUE
+UBS,UBS Group AG,NYSE,USD,STOCK,,TRUE
+SMFG,"Sumitomo Mitsui Financial Group, Inc.",NYSE,USD,STOCK,,TRUE
+BA,The Boeing Company,NYSE,USD,STOCK,,TRUE
+PFE,Pfizer Inc.,NYSE,USD,STOCK,,TRUE
+COP,ConocoPhillips,NYSE,USD,STOCK,,TRUE
+BBVA,"Banco Bilbao Vizcaya Argentaria, S.A.",NYSE,USD,STOCK,,TRUE
+BUD,Anheuser-Busch InBev SA/NV,NYSE,USD,STOCK,,TRUE
+UBER,"Uber Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+ETN,Eaton Corporation plc,NYSE,USD,STOCK,,TRUE
+NOW,"ServiceNow, Inc.",NYSE,USD,STOCK,,TRUE
+DHR,Danaher Corporation,NYSE,USD,STOCK,,TRUE
+TJX,"The TJX Companies, Inc.",NYSE,USD,STOCK,,TRUE
+SONY,Sony Group Corporation,NYSE,USD,STOCK,,TRUE
+UL,Unilever PLC,NYSE,USD,STOCK,,TRUE
+BMY,Bristol-Myers Squibb Company,NYSE,USD,STOCK,,TRUE
+NEM,Newmont Corporation,NYSE,USD,STOCK,,TRUE
+MFG,"Mizuho Financial Group, Inc.",NYSE,USD,STOCK,,TRUE
+COF,Capital One Financial Corporation,NYSE,USD,STOCK,,TRUE
+CB,Chubb Limited,NYSE,USD,STOCK,,TRUE
+PLD,"Prologis, Inc.",NYSE,USD,STOCK,,TRUE
+SPGI,S&P Global Inc.,NYSE,USD,STOCK,,TRUE
+PGR,The Progressive Corporation,NYSE,USD,STOCK,,TRUE
+PBR,Petróleo Brasileiro S.A. - Petrobras,NYSE,USD,STOCK,,TRUE
+PBR.A,Petróleo Brasileiro S.A. - Petrobras,NYSE,USD,STOCK,,TRUE
+SNOW,Snowflake Inc.,NYSE,USD,STOCK,,TRUE
+GLW,Corning Incorporated,NYSE,USD,STOCK,,TRUE
+CVS,CVS Health Corporation,NYSE,USD,STOCK,,TRUE
+LMT,Lockheed Martin Corporation,NYSE,USD,STOCK,,TRUE
+BTI,British American Tobacco p.l.c.,NYSE,USD,STOCK,,TRUE
+PH,Parker-Hannifin Corporation,NYSE,USD,STOCK,,TRUE
+BMO,Bank of Montreal,NYSE,USD,STOCK,,TRUE
+ACN,Accenture plc,NYSE,USD,STOCK,,TRUE
+MDT,Medtronic plc,NYSE,USD,STOCK,,TRUE
+SYK,Stryker Corporation,NYSE,USD,STOCK,,TRUE
+MO,"Altria Group, Inc.",NYSE,USD,STOCK,,TRUE
+SPOT,Spotify Technology S.A.,NYSE,USD,STOCK,,TRUE
+HDB,HDFC Bank Limited,NYSE,USD,STOCK,,TRUE
+BNS,The Bank of Nova Scotia,NYSE,USD,STOCK,,TRUE
+LOW,"Lowe's Companies, Inc.",NYSE,USD,STOCK,,TRUE
+BP,BP p.l.c.,NYSE,USD,STOCK,,TRUE
+BNY,The Bank of New York Mellon Corporation,NYSE,USD,STOCK,,TRUE
+ENB,Enbridge Inc.,NYSE,USD,STOCK,,TRUE
+MPC,Marathon Petroleum Corporation,NYSE,USD,STOCK,,TRUE
+IBN,ICICI Bank Limited,NYSE,USD,STOCK,,TRUE
+MCK,McKesson Corporation,NYSE,USD,STOCK,,TRUE
+CNQ,Canadian Natural Resources Limited,NYSE,USD,STOCK,,TRUE
+VLO,Valero Energy Corporation,NYSE,USD,STOCK,,TRUE
+CM,Canadian Imperial Bank of Commerce,NYSE,USD,STOCK,,TRUE
+AEM,Agnico Eagle Mines Limited,NYSE,USD,STOCK,,TRUE
+FCX,Freeport-McMoRan Inc.,NYSE,USD,STOCK,,TRUE
+VRT,Vertiv Holdings Co,NYSE,USD,STOCK,,TRUE
+EQNR,Equinor ASA,NYSE,USD,STOCK,,TRUE
+ING,ING Groep N.V.,NYSE,USD,STOCK,,TRUE
+HWM,Howmet Aerospace Inc.,NYSE,USD,STOCK,,TRUE
+SO,The Southern Company,NYSE,USD,STOCK,,TRUE
+PSX,Phillips 66,NYSE,USD,STOCK,,TRUE
+NET,"Cloudflare, Inc.",NYSE,USD,STOCK,,TRUE
+SOMN,The Southern Company,NYSE,USD,STOCK,,TRUE
+GSK,GSK plc,NYSE,USD,STOCK,,TRUE
+USB,U.S. Bancorp,NYSE,USD,STOCK,,TRUE
+KKR,KKR & Co. Inc.,NYSE,USD,STOCK,,TRUE
+GD,General Dynamics Corporation,NYSE,USD,STOCK,,TRUE
+TT,Trane Technologies plc,NYSE,USD,STOCK,,TRUE
+PNC,"The PNC Financial Services Group, Inc.",NYSE,USD,STOCK,,TRUE
+DUK,Duke Energy Corporation,NYSE,USD,STOCK,,TRUE
+PWR,"Quanta Services, Inc.",NYSE,USD,STOCK,,TRUE
+ITUB,Itaú Unibanco Holding S.A.,NYSE,USD,STOCK,,TRUE
+ICE,"Intercontinental Exchange, Inc.",NYSE,USD,STOCK,,TRUE
+WMB,"The Williams Companies, Inc.",NYSE,USD,STOCK,,TRUE
+ELV,"Elevance Health, Inc.",NYSE,USD,STOCK,,TRUE
+MRSH,"Marsh & McLennan Companies, Inc.",NYSE,USD,STOCK,,TRUE
+BCS,Barclays PLC,NYSE,USD,STOCK,,TRUE
+HCA,"HCA Healthcare, Inc.",NYSE,USD,STOCK,,TRUE
+BN,Brookfield Corporation,NYSE,USD,STOCK,,TRUE
+WM,"Waste Management, Inc.",NYSE,USD,STOCK,,TRUE
+UPS,"United Parcel Service, Inc.",NYSE,USD,STOCK,,TRUE
+MCO,Moody's Corporation,NYSE,USD,STOCK,,TRUE
+MMM,3M Company,NYSE,USD,STOCK,,TRUE
+LYG,Lloyds Banking Group plc,NYSE,USD,STOCK,,TRUE
+JCI,Johnson Controls International plc,NYSE,USD,STOCK,,TRUE
+SLB,SLB N.V.,NYSE,USD,STOCK,,TRUE
+EPD,Enterprise Products Partners L.P.,NYSE,USD,STOCK,,TRUE
+EMR,Emerson Electric Co.,NYSE,USD,STOCK,,TRUE
+AMT,American Tower Corporation,NYSE,USD,STOCK,,TRUE
+CVNA,Carvana Co.,NYSE,USD,STOCK,,TRUE
+ASX,"ASE Technology Holding Co., Ltd.",NYSE,USD,STOCK,,TRUE
+E,Eni S.p.A.,NYSE,USD,STOCK,,TRUE
+SHW,The Sherwin-Williams Company,NYSE,USD,STOCK,,TRUE
+SPG,"Simon Property Group, Inc.",NYSE,USD,STOCK,,TRUE
+RACE,Ferrari N.V.,NYSE,USD,STOCK,,TRUE
+SU,Suncor Energy Inc.,NYSE,USD,STOCK,,TRUE
+BAM,Brookfield Asset Management Ltd.,NYSE,USD,STOCK,,TRUE
+APO,"Apollo Global Management, Inc.",NYSE,USD,STOCK,,TRUE
+CP,Canadian Pacific Kansas City Limited,NYSE,USD,STOCK,,TRUE
+MSI,"Motorola Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+ECL,Ecolab Inc.,NYSE,USD,STOCK,,TRUE
+TRV,"The Travelers Companies, Inc.",NYSE,USD,STOCK,,TRUE
+ITW,Illinois Tool Works Inc.,NYSE,USD,STOCK,,TRUE
+EOG,"EOG Resources, Inc.",NYSE,USD,STOCK,,TRUE
+NGG,National Grid plc,NYSE,USD,STOCK,,TRUE
+FDX,FedEx Corporation,NYSE,USD,STOCK,,TRUE
+GM,General Motors Company,NYSE,USD,STOCK,,TRUE
+DB,Deutsche Bank Aktiengesellschaft,NYSE,USD,STOCK,,TRUE
+NU,Nu Holdings Ltd.,NYSE,USD,STOCK,,TRUE
+CMI,Cummins Inc.,NYSE,USD,STOCK,,TRUE
+CI,The Cigna Group,NYSE,USD,STOCK,,TRUE
+NOC,Northrop Grumman Corporation,NYSE,USD,STOCK,,TRUE
+TGT,Target Corporation,NYSE,USD,STOCK,,TRUE
+NSC,Norfolk Southern Corporation,NYSE,USD,STOCK,,TRUE
+ET,Energy Transfer LP,NYSE,USD,STOCK,,TRUE
+NWG,NatWest Group plc,NYSE,USD,STOCK,,TRUE
+CNI,Canadian National Railway Company,NYSE,USD,STOCK,,TRUE
+B,Barrick Mining Corporation,NYSE,USD,STOCK,,TRUE
+CL,Colgate-Palmolive Company,NYSE,USD,STOCK,,TRUE
+MFC,Manulife Financial Corporation,NYSE,USD,STOCK,,TRUE
+KMI,"Kinder Morgan, Inc.",NYSE,USD,STOCK,,TRUE
+HLT,Hilton Worldwide Holdings Inc.,NYSE,USD,STOCK,,TRUE
+RCL,Royal Caribbean Cruises Ltd.,NYSE,USD,STOCK,,TRUE
+DLR,"Digital Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+SE,Sea Limited,NYSE,USD,STOCK,,TRUE
+BE,Bloom Energy Corporation,NYSE,USD,STOCK,,TRUE
+AON,Aon plc,NYSE,USD,STOCK,,TRUE
+RSG,"Republic Services, Inc.",NYSE,USD,STOCK,,TRUE
+AMX,"América Móvil, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+AJG,Arthur J. Gallagher & Co.,NYSE,USD,STOCK,,TRUE
+WPM,Wheaton Precious Metals Corp.,NYSE,USD,STOCK,,TRUE
+BSX,Boston Scientific Corporation,NYSE,USD,STOCK,,TRUE
+APD,"Air Products and Chemicals, Inc.",NYSE,USD,STOCK,,TRUE
+VALE,Vale S.A.,NYSE,USD,STOCK,,TRUE
+ALL,The Allstate Corporation,NYSE,USD,STOCK,,TRUE
+HPE,Hewlett Packard Enterprise Company,NYSE,USD,STOCK,,TRUE
+TRP,TC Energy Corporation,NYSE,USD,STOCK,,TRUE
+COR,"Cencora, Inc.",NYSE,USD,STOCK,,TRUE
+TDG,TransDigm Group Incorporated,NYSE,USD,STOCK,,TRUE
+RELX,RELX PLC,NYSE,USD,STOCK,,TRUE
+TRGP,Targa Resources Corp.,NYSE,USD,STOCK,,TRUE
+TFC,Truist Financial Corporation,NYSE,USD,STOCK,,TRUE
+MET,"MetLife, Inc.",NYSE,USD,STOCK,,TRUE
+URI,"United Rentals, Inc.",NYSE,USD,STOCK,,TRUE
+GWW,"W.W. Grainger, Inc.",NYSE,USD,STOCK,,TRUE
+CRH,CRH plc,NYSE,USD,STOCK,,TRUE
+OKE,"ONEOK, Inc.",NYSE,USD,STOCK,,TRUE
+LNG,"Cheniere Energy, Inc.",NYSE,USD,STOCK,,TRUE
+OXY,Occidental Petroleum Corporation,NYSE,USD,STOCK,,TRUE
+TAK,Takeda Pharmaceutical Company Limited,NYSE,USD,STOCK,,TRUE
+MPLX,MPLX LP,NYSE,USD,STOCK,,TRUE
+CVE,Cenovus Energy Inc.,NYSE,USD,STOCK,,TRUE
+TEL,TE Connectivity plc,NYSE,USD,STOCK,,TRUE
+NUE,Nucor Corporation,NYSE,USD,STOCK,,TRUE
+AFL,Aflac Incorporated,NYSE,USD,STOCK,,TRUE
+CTVA,"Corteva, Inc.",NYSE,USD,STOCK,,TRUE
+PSA,Public Storage,NYSE,USD,STOCK,,TRUE
+D,"Dominion Energy, Inc.",NYSE,USD,STOCK,,TRUE
+O,Realty Income Corporation,NYSE,USD,STOCK,,TRUE
+CAH,"Cardinal Health, Inc.",NYSE,USD,STOCK,,TRUE
+NKE,"NIKE, Inc.",NYSE,USD,STOCK,,TRUE
+F,Ford Motor Company,NYSE,USD,STOCK,,TRUE
+AU,AngloGold Ashanti plc,NYSE,USD,STOCK,,TRUE
+MT,ArcelorMittal S.A.,NYSE,USD,STOCK,,TRUE
+DVN,Devon Energy Corporation,NYSE,USD,STOCK,,TRUE
+FIX,"Comfort Systems USA, Inc.",NYSE,USD,STOCK,,TRUE
+SRE,Sempra,NYSE,USD,STOCK,,TRUE
+KEYS,"Keysight Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+NOK,Nokia Oyj,NYSE,USD,STOCK,,TRUE
+AME,"AMETEK, Inc.",NYSE,USD,STOCK,,TRUE
+GRMN,Garmin Ltd.,NYSE,USD,STOCK,,TRUE
+STT,State Street Corporation,NYSE,USD,STOCK,,TRUE
+EW,Edwards Lifesciences Corporation,NYSE,USD,STOCK,,TRUE
+COHR,Coherent Corp.,NYSE,USD,STOCK,,TRUE
+ETR,Entergy Corporation,NYSE,USD,STOCK,,TRUE
+DAL,"Delta Air Lines, Inc.",NYSE,USD,STOCK,,TRUE
+BDX,"Becton, Dickinson and Company",NYSE,USD,STOCK,,TRUE
+FNV,Franco-Nevada Corporation,NYSE,USD,STOCK,,TRUE
+DEO,Diageo plc,NYSE,USD,STOCK,,TRUE
+VMRK,Vivmark Residential,NYSE,USD,STOCK,,TRUE
+XYZ,"Block, Inc.",NYSE,USD,STOCK,,TRUE
+FITB,Fifth Third Bancorp,NYSE,USD,STOCK,,TRUE
+AMP,"Ameriprise Financial, Inc.",NYSE,USD,STOCK,,TRUE
+UMC,United Microelectronics Corporation,NYSE,USD,STOCK,,TRUE
+HUM,Humana Inc.,NYSE,USD,STOCK,,TRUE
+AZO,"AutoZone, Inc.",NYSE,USD,STOCK,,TRUE
+CARR,Carrier Global Corporation,NYSE,USD,STOCK,,TRUE
+LHX,"L3Harris Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+INFY,Infosys Limited,NYSE,USD,STOCK,,TRUE
+VST,Vistra Corp.,NYSE,USD,STOCK,,TRUE
+CMG,"Chipotle Mexican Grill, Inc.",NYSE,USD,STOCK,,TRUE
+ROK,"Rockwell Automation, Inc.",NYSE,USD,STOCK,,TRUE
+VTR,"Ventas, Inc.",NYSE,USD,STOCK,,TRUE
+WAB,Westinghouse Air Brake Technologies Corporation,NYSE,USD,STOCK,,TRUE
+ABEV,Ambev S.A.,NYSE,USD,STOCK,,TRUE
+ARES,Ares Management Corporation,NYSE,USD,STOCK,,TRUE
+KB,KB Financial Group Inc.,NYSE,USD,STOCK,,TRUE
+VEEV,Veeva Systems Inc.,NYSE,USD,STOCK,,TRUE
+STM,STMicroelectronics N.V.,NYSE,USD,STOCK,,TRUE
+HEI,HEICO Corporation,NYSE,USD,STOCK,,TRUE
+CIEN,Ciena Corporation,NYSE,USD,STOCK,,TRUE
+SLF,Sun Life Financial Inc.,NYSE,USD,STOCK,,TRUE
+IQV,IQVIA Holdings Inc.,NYSE,USD,STOCK,,TRUE
+WDS,Woodside Energy Group Ltd,NYSE,USD,STOCK,,TRUE
+IX,ORIX Corporation,NYSE,USD,STOCK,,TRUE
+HLN,Haleon plc,NYSE,USD,STOCK,,TRUE
+FERG,Ferguson Enterprises Inc.,NYSE,USD,STOCK,,TRUE
+CBRE,"CBRE Group, Inc.",NYSE,USD,STOCK,,TRUE
+TEVA,Teva Pharmaceutical Industries Limited,NYSE,USD,STOCK,,TRUE
+PRU,"Prudential Financial, Inc.",NYSE,USD,STOCK,,TRUE
+HMC,"Honda Motor Co., Ltd.",NYSE,USD,STOCK,,TRUE
+A,"Agilent Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+CCJ,Cameco Corporation,NYSE,USD,STOCK,,TRUE
+WCN,"Waste Connections, Inc.",NYSE,USD,STOCK,,TRUE
+MSCI,MSCI Inc.,NYSE,USD,STOCK,,TRUE
+YUM,"Yum! Brands, Inc.",NYSE,USD,STOCK,,TRUE
+LYV,"Live Nation Entertainment, Inc.",NYSE,USD,STOCK,,TRUE
+WAT,Waters Corporation,NYSE,USD,STOCK,,TRUE
+GFI,Gold Fields Limited,NYSE,USD,STOCK,,TRUE
+ADM,Archer-Daniels-Midland Company,NYSE,USD,STOCK,,TRUE
+AIG,"American International Group, Inc.",NYSE,USD,STOCK,,TRUE
+DHI,"D.R. Horton, Inc.",NYSE,USD,STOCK,,TRUE
+RKT,"Rocket Companies, Inc.",NYSE,USD,STOCK,,TRUE
+ED,"Consolidated Edison, Inc.",NYSE,USD,STOCK,,TRUE
+SHG,"Shinhan Financial Group Co., Ltd.",NYSE,USD,STOCK,,TRUE
+SYY,Sysco Corporation,NYSE,USD,STOCK,,TRUE
+NTR,Nutrien Ltd.,NYSE,USD,STOCK,,TRUE
+VIK,Viking Holdings Ltd,NYSE,USD,STOCK,,TRUE
+HEI.A,HEICO Corporation,NYSE,USD,STOCK,,TRUE
+HIG,"The Hartford Insurance Group, Inc.",NYSE,USD,STOCK,,TRUE
+FMX,"Fomento Económico Mexicano, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+TWLO,Twilio Inc.,NYSE,USD,STOCK,,TRUE
+PEG,Public Service Enterprise Group Incorporated,NYSE,USD,STOCK,,TRUE
+UI,Ubiquiti Inc.,NYSE,USD,STOCK,,TRUE
+KVUE,Kenvue Inc.,NYSE,USD,STOCK,,TRUE
+QSR,Restaurant Brands International Inc.,NYSE,USD,STOCK,,TRUE
+MLM,"Martin Marietta Materials, Inc.",NYSE,USD,STOCK,,TRUE
+EL,The Estée Lauder Companies Inc.,NYSE,USD,STOCK,,TRUE
+EC,Ecopetrol S.A.,NYSE,USD,STOCK,,TRUE
+VG,"Venture Global, Inc.",NYSE,USD,STOCK,,TRUE
+KR,The Kroger Co.,NYSE,USD,STOCK,,TRUE
+KGC,Kinross Gold Corporation,NYSE,USD,STOCK,,TRUE
+TKO,"TKO Group Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ALC,Alcon Inc.,NYSE,USD,STOCK,,TRUE
+HSY,The Hershey Company,NYSE,USD,STOCK,,TRUE
+EQT,EQT Corporation,NYSE,USD,STOCK,,TRUE
+WEC,"WEC Energy Group, Inc.",NYSE,USD,STOCK,,TRUE
+RJF,"Raymond James Financial, Inc.",NYSE,USD,STOCK,,TRUE
+MTB,M&T Bank Corporation,NYSE,USD,STOCK,,TRUE
+BBD,Banco Bradesco S.A.,NYSE,USD,STOCK,,TRUE
+BBDO,Banco Bradesco S.A.,NYSE,USD,STOCK,,TRUE
+CQP,"Cheniere Energy Partners, L.P.",NYSE,USD,STOCK,,TRUE
+IRM,Iron Mountain Incorporated,NYSE,USD,STOCK,,TRUE
+VMC,Vulcan Materials Company,NYSE,USD,STOCK,,TRUE
+CHT,"Chunghwa Telecom Co., Ltd.",NYSE,USD,STOCK,,TRUE
+PUK,Prudential plc,NYSE,USD,STOCK,,TRUE
+CNC,Centene Corporation,NYSE,USD,STOCK,,TRUE
+RMD,ResMed Inc.,NYSE,USD,STOCK,,TRUE
+CCI,Crown Castle Inc.,NYSE,USD,STOCK,,TRUE
+TECK,Teck Resources Limited,NYSE,USD,STOCK,,TRUE
+EME,"EMCOR Group, Inc.",NYSE,USD,STOCK,,TRUE
+P,"Everpure, Inc.",NYSE,USD,STOCK,,TRUE
+CCL,Carnival Corporation Ltd.,NYSE,USD,STOCK,,TRUE
+CLS,Celestica Inc.,NYSE,USD,STOCK,,TRUE
+JBL,Jabil Inc.,NYSE,USD,STOCK,,TRUE
+ZTS,Zoetis Inc.,NYSE,USD,STOCK,,TRUE
+FTI,TechnipFMC plc,NYSE,USD,STOCK,,TRUE
+HAL,Halliburton Company,NYSE,USD,STOCK,,TRUE
+EXR,Extra Space Storage Inc.,NYSE,USD,STOCK,,TRUE
+PCG,PG&E Corporation,NYSE,USD,STOCK,,TRUE
+BAP,Credicorp Ltd.,NYSE,USD,STOCK,,TRUE
+RDDT,"Reddit, Inc.",NYSE,USD,STOCK,,TRUE
+NMR,"Nomura Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+RBLX,Roblox Corporation,NYSE,USD,STOCK,,TRUE
+CFG,"Citizens Financial Group, Inc.",NYSE,USD,STOCK,,TRUE
+AEE,Ameren Corporation,NYSE,USD,STOCK,,TRUE
+HPQ,HP Inc.,NYSE,USD,STOCK,,TRUE
+IR,Ingersoll Rand Inc.,NYSE,USD,STOCK,,TRUE
+DG,Dollar General Corporation,NYSE,USD,STOCK,,TRUE
+LVS,Las Vegas Sands Corp.,NYSE,USD,STOCK,,TRUE
+ATO,Atmos Energy Corporation,NYSE,USD,STOCK,,TRUE
+DTE,DTE Energy Company,NYSE,USD,STOCK,,TRUE
+VICI,VICI Properties Inc.,NYSE,USD,STOCK,,TRUE
+PBA,Pembina Pipeline Corporation,NYSE,USD,STOCK,,TRUE
+TS,Tenaris S.A.,NYSE,USD,STOCK,,TRUE
+TDY,Teledyne Technologies Incorporated,NYSE,USD,STOCK,,TRUE
+FTS,Fortis Inc.,NYSE,USD,STOCK,,TRUE
+AWK,"American Water Works Company, Inc.",NYSE,USD,STOCK,,TRUE
+CPNG,"Coupang, Inc.",NYSE,USD,STOCK,,TRUE
+ATI,ATI Inc.,NYSE,USD,STOCK,,TRUE
+CPAY,"Corpay, Inc.",NYSE,USD,STOCK,,TRUE
+FE,FirstEnergy Corp.,NYSE,USD,STOCK,,TRUE
+OTIS,Otis Worldwide Corporation,NYSE,USD,STOCK,,TRUE
+MTD,Mettler-Toledo International Inc.,NYSE,USD,STOCK,,TRUE
+WRB,W. R. Berkley Corporation,NYSE,USD,STOCK,,TRUE
+LH,Labcorp Holdings Inc.,NYSE,USD,STOCK,,TRUE
+ES,Eversource Energy,NYSE,USD,STOCK,,TRUE
+SUNB,"Sunbelt Rentals Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PPL,PPL Corporation,NYSE,USD,STOCK,,TRUE
+CNP,"CenterPoint Energy, Inc.",NYSE,USD,STOCK,,TRUE
+DGX,Quest Diagnostics Incorporated,NYSE,USD,STOCK,,TRUE
+WSM,"Williams-Sonoma, Inc.",NYSE,USD,STOCK,,TRUE
+CRCL,"Circle Internet Group, Inc.",NYSE,USD,STOCK,,TRUE
+SYF,Synchrony Financial,NYSE,USD,STOCK,,TRUE
+PHG,Koninklijke Philips N.V.,NYSE,USD,STOCK,,TRUE
+RF,Regions Financial Corporation,NYSE,USD,STOCK,,TRUE
+DOV,Dover Corporation,NYSE,USD,STOCK,,TRUE
+TPL,Texas Pacific Land Corporation,NYSE,USD,STOCK,,TRUE
+XYL,Xylem Inc.,NYSE,USD,STOCK,,TRUE
+DRI,"Darden Restaurants, Inc.",NYSE,USD,STOCK,,TRUE
+CIB,Grupo Cibest S.A.,NYSE,USD,STOCK,,TRUE
+Q,"Qnity Electronics, Inc.",NYSE,USD,STOCK,,TRUE
+PPG,"PPG Industries, Inc.",NYSE,USD,STOCK,,TRUE
+SN,"SharkNinja, Inc.",NYSE,USD,STOCK,,TRUE
+NVT,nVent Electric plc,NYSE,USD,STOCK,,TRUE
+GPN,Global Payments Inc.,NYSE,USD,STOCK,,TRUE
+EXPD,"Expeditors International of Washington, Inc.",NYSE,USD,STOCK,,TRUE
+TPR,"Tapestry, Inc.",NYSE,USD,STOCK,,TRUE
+BRO,"Brown & Brown, Inc.",NYSE,USD,STOCK,,TRUE
+HUBB,Hubbell Incorporated,NYSE,USD,STOCK,,TRUE
+FICO,Fair Isaac Corporation,NYSE,USD,STOCK,,TRUE
+WST,"West Pharmaceutical Services, Inc.",NYSE,USD,STOCK,,TRUE
+VLTO,Veralto Corporation,NYSE,USD,STOCK,,TRUE
+SW,Smurfit Westrock Plc,NYSE,USD,STOCK,,TRUE
+KOF,"Coca-Cola FEMSA, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+AMRZ,Amrize AG,NYSE,USD,STOCK,,TRUE
+KEY,KeyCorp,NYSE,USD,STOCK,,TRUE
+NRG,"NRG Energy, Inc.",NYSE,USD,STOCK,,TRUE
+IHG,InterContinental Hotels Group PLC,NYSE,USD,STOCK,,TRUE
+CHD,"Church & Dwight Co., Inc.",NYSE,USD,STOCK,,TRUE
+CRS,Carpenter Technology Corporation,NYSE,USD,STOCK,,TRUE
+PHM,"PulteGroup, Inc.",NYSE,USD,STOCK,,TRUE
+OMC,Omnicom Group Inc.,NYSE,USD,STOCK,,TRUE
+SQM,Sociedad Química y Minera de Chile S.A.,NYSE,USD,STOCK,,TRUE
+BG,Bunge Global SA,NYSE,USD,STOCK,,TRUE
+MKL,Markel Group Inc.,NYSE,USD,STOCK,,TRUE
+USFD,US Foods Holding Corp.,NYSE,USD,STOCK,,TRUE
+AER,AerCap Holdings N.V.,NYSE,USD,STOCK,,TRUE
+L,Loews Corporation,NYSE,USD,STOCK,,TRUE
+IOT,Samsara Inc.,NYSE,USD,STOCK,,TRUE
+YPF,YPF Sociedad Anónima,NYSE,USD,STOCK,,TRUE
+CDE,"Coeur Mining, Inc.",NYSE,USD,STOCK,,TRUE
+STE,STERIS plc,NYSE,USD,STOCK,,TRUE
+EFX,Equifax Inc.,NYSE,USD,STOCK,,TRUE
+STZ,"Constellation Brands, Inc.",NYSE,USD,STOCK,,TRUE
+IFF,International Flavors & Fragrances Inc.,NYSE,USD,STOCK,,TRUE
+DOW,Dow Inc.,NYSE,USD,STOCK,,TRUE
+BSBR,Banco Santander (Brasil) S.A.,NYSE,USD,STOCK,,TRUE
+BCE,BCE Inc.,NYSE,USD,STOCK,,TRUE
+EIX,Edison International,NYSE,USD,STOCK,,TRUE
+FIS,"Fidelity National Information Services, Inc.",NYSE,USD,STOCK,,TRUE
+XPO,"XPO, Inc.",NYSE,USD,STOCK,,TRUE
+PAAS,Pan American Silver Corp.,NYSE,USD,STOCK,,TRUE
+BCH,Banco de Chile,NYSE,USD,STOCK,,TRUE
+CMS,CMS Energy Corporation,NYSE,USD,STOCK,,TRUE
+THC,Tenet Healthcare Corporation,NYSE,USD,STOCK,,TRUE
+AMCR,Amcor plc,NYSE,USD,STOCK,,TRUE
+BEP,Brookfield Renewable Partners L.P.,NYSE,USD,STOCK,,TRUE
+CW,Curtiss-Wright Corporation,NYSE,USD,STOCK,,TRUE
+LYB,LyondellBasell Industries N.V.,NYSE,USD,STOCK,,TRUE
+CF,"CF Industries Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+GIS,"General Mills, Inc.",NYSE,USD,STOCK,,TRUE
+SNX,TD SYNNEX Corporation,NYSE,USD,STOCK,,TRUE
+PKG,Packaging Corporation of America,NYSE,USD,STOCK,,TRUE
+BEKE,KE Holdings Inc.,NYSE,USD,STOCK,,TRUE
+WES,"Western Midstream Partners, LP",NYSE,USD,STOCK,,TRUE
+BR,"Broadridge Financial Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+LEN,Lennar Corporation,NYSE,USD,STOCK,,TRUE
+RS,"Reliance, Inc.",NYSE,USD,STOCK,,TRUE
+RL,Ralph Lauren Corporation,NYSE,USD,STOCK,,TRUE
+LEN.B,Lennar Corporation,NYSE,USD,STOCK,,TRUE
+NI,NiSource Inc.,NYSE,USD,STOCK,,TRUE
+RCI,Rogers Communications Inc.,NYSE,USD,STOCK,,TRUE
+PR,Permian Resources Corporation,NYSE,USD,STOCK,,TRUE
+SNA,Snap-on Incorporated,NYSE,USD,STOCK,,TRUE
+TOST,"Toast, Inc.",NYSE,USD,STOCK,,TRUE
+RBRK,"Rubrik, Inc.",NYSE,USD,STOCK,,TRUE
+IP,International Paper Company,NYSE,USD,STOCK,,TRUE
+FDXF,"FedEx Freight Holding Company, Inc.",NYSE,USD,STOCK,,TRUE
+PKX,POSCO Holdings Inc.,NYSE,USD,STOCK,,TRUE
+DINO,HF Sinclair Corporation,NYSE,USD,STOCK,,TRUE
+VIV,Telefônica Brasil S.A.,NYSE,USD,STOCK,,TRUE
+ZBH,"Zimmer Biomet Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+LUV,Southwest Airlines Co.,NYSE,USD,STOCK,,TRUE
+GPC,Genuine Parts Company,NYSE,USD,STOCK,,TRUE
+MTZ,"MasTec, Inc.",NYSE,USD,STOCK,,TRUE
+U,Unity Software Inc.,NYSE,USD,STOCK,,TRUE
+WF,Woori Financial Group Inc.,NYSE,USD,STOCK,,TRUE
+WIT,Wipro Limited,NYSE,USD,STOCK,,TRUE
+ESS,"Essex Property Trust, Inc.",NYSE,USD,STOCK,,TRUE
+BBY,"Best Buy Co., Inc.",NYSE,USD,STOCK,,TRUE
+OWL,Blue Owl Capital Inc.,NYSE,USD,STOCK,,TRUE
+OVV,Ovintiv Inc.,NYSE,USD,STOCK,,TRUE
+ITT,ITT Inc.,NYSE,USD,STOCK,,TRUE
+TSN,"Tyson Foods, Inc.",NYSE,USD,STOCK,,TRUE
+SBS,Companhia de Saneamento Básico do Estado de São Paulo - SABESP,NYSE,USD,STOCK,,TRUE
+FLUT,Flutter Entertainment plc,NYSE,USD,STOCK,,TRUE
+DD,"DuPont de Nemours, Inc.",NYSE,USD,STOCK,,TRUE
+MGA,Magna International Inc.,NYSE,USD,STOCK,,TRUE
+FTV,Fortive Corporation,NYSE,USD,STOCK,,TRUE
+NLY,"Annaly Capital Management, Inc.",NYSE,USD,STOCK,,TRUE
+J,Jacobs Solutions Inc.,NYSE,USD,STOCK,,TRUE
+APG,APi Group Corporation,NYSE,USD,STOCK,,TRUE
+ROL,"Rollins, Inc.",NYSE,USD,STOCK,,TRUE
+BIP,Brookfield Infrastructure Partners L.P.,NYSE,USD,STOCK,,TRUE
+BEN,Franklin Templeton Inc.,NYSE,USD,STOCK,,TRUE
+INVH,Invitation Homes Inc.,NYSE,USD,STOCK,,TRUE
+NVR,"NVR, Inc.",NYSE,USD,STOCK,,TRUE
+GWRE,"Guidewire Software, Inc.",NYSE,USD,STOCK,,TRUE
+BSAC,Banco Santander-Chile,NYSE,USD,STOCK,,TRUE
+CNH,CNH Industrial N.V.,NYSE,USD,STOCK,,TRUE
+CLH,"Clean Harbors, Inc.",NYSE,USD,STOCK,,TRUE
+LDOS,"Leidos Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+JLL,Jones Lang LaSalle Incorporated,NYSE,USD,STOCK,,TRUE
+JHX,James Hardie Industries plc,NYSE,USD,STOCK,,TRUE
+RGA,"Reinsurance Group of America, Incorporated",NYSE,USD,STOCK,,TRUE
+WY,Weyerhaeuser Company,NYSE,USD,STOCK,,TRUE
+AS,"Amer Sports, Inc.",NYSE,USD,STOCK,,TRUE
+BALL,Ball Corporation,NYSE,USD,STOCK,,TRUE
+WCC,"WESCO International, Inc.",NYSE,USD,STOCK,,TRUE
+IEX,IDEX Corporation,NYSE,USD,STOCK,,TRUE
+TRU,TransUnion,NYSE,USD,STOCK,,TRUE
+KIM,Kimco Realty Corporation,NYSE,USD,STOCK,,TRUE
+BURL,"Burlington Stores, Inc.",NYSE,USD,STOCK,,TRUE
+WPC,W. P. Carey Inc.,NYSE,USD,STOCK,,TRUE
+ALB,Albemarle Corporation,NYSE,USD,STOCK,,TRUE
+ZTO,ZTO Express (Cayman) Inc.,NYSE,USD,STOCK,,TRUE
+STLA,Stellantis N.V.,NYSE,USD,STOCK,,TRUE
+BMNR,"Bitmine Immersion Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+SOLV,Solventum Corporation,NYSE,USD,STOCK,,TRUE
+PFGC,Performance Food Group Company,NYSE,USD,STOCK,,TRUE
+H,Hyatt Hotels Corporation,NYSE,USD,STOCK,,TRUE
+RBC,RBC Bearings Incorporated,NYSE,USD,STOCK,,TRUE
+TYL,"Tyler Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+IONQ,"IonQ, Inc.",NYSE,USD,STOCK,,TRUE
+CX,"CEMEX, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+GFL,GFL Environmental Inc.,NYSE,USD,STOCK,,TRUE
+EMA,Emera Incorporated,NYSE,USD,STOCK,,TRUE
+CRBG,"Corebridge Financial, Inc.",NYSE,USD,STOCK,,TRUE
+DT,"Dynatrace, Inc.",NYSE,USD,STOCK,,TRUE
+KEP,Korea Electric Power Corporation,NYSE,USD,STOCK,,TRUE
+MAA,"Mid-America Apartment Communities, Inc.",NYSE,USD,STOCK,,TRUE
+PNFP,"Pinnacle Financial Partners, Inc.",NYSE,USD,STOCK,,TRUE
+TU,TELUS Corporation,NYSE,USD,STOCK,,TRUE
+RBA,"RB Global, Inc.",NYSE,USD,STOCK,,TRUE
+ULS,UL Solutions Inc.,NYSE,USD,STOCK,,TRUE
+AGI,Alamos Gold Inc.,NYSE,USD,STOCK,,TRUE
+UNM,Unum Group,NYSE,USD,STOCK,,TRUE
+YUMC,"Yum China Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ARMK,Aramark,NYSE,USD,STOCK,,TRUE
+GIB,CGI Inc.,NYSE,USD,STOCK,,TRUE
+SUI,"Sun Communities, Inc.",NYSE,USD,STOCK,,TRUE
+OHI,"Omega Healthcare Investors, Inc.",NYSE,USD,STOCK,,TRUE
+LTM,LATAM Airlines Group S.A.,NYSE,USD,STOCK,,TRUE
+EG,"Everest Group, Ltd.",NYSE,USD,STOCK,,TRUE
+DOC,"Healthpeak Properties, Inc.",NYSE,USD,STOCK,,TRUE
+BWXT,"BWX Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+PS,Pershing Square Inc.,NYSE,USD,STOCK,,TRUE
+SGI,Somnigroup International Inc.,NYSE,USD,STOCK,,TRUE
+SWK,"Stanley Black & Decker, Inc.",NYSE,USD,STOCK,,TRUE
+RVTY,"Revvity, Inc.",NYSE,USD,STOCK,,TRUE
+TLK,Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk,NYSE,USD,STOCK,,TRUE
+EQH,"Equitable Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+MKC.V,"McCormick & Company, Incorporated",NYSE,USD,STOCK,,TRUE
+PAG,"Penske Automotive Group, Inc.",NYSE,USD,STOCK,,TRUE
+BNT,Brookfield Wealth Solutions Ltd.,NYSE,USD,STOCK,,TRUE
+IVZ,Invesco Ltd.,NYSE,USD,STOCK,,TRUE
+AIZ,"Assurant, Inc.",NYSE,USD,STOCK,,TRUE
+HL,Hecla Mining Company,NYSE,USD,STOCK,,TRUE
+MKC,"McCormick & Company, Incorporated",NYSE,USD,STOCK,,TRUE
+FIG,"Figma, Inc.",NYSE,USD,STOCK,,TRUE
+FN,Fabrinet,NYSE,USD,STOCK,,TRUE
+RNR,RenaissanceRe Holdings Ltd.,NYSE,USD,STOCK,,TRUE
+QXO,"QXO, Inc.",NYSE,USD,STOCK,,TRUE
+JBS,JBS N.V.,NYSE,USD,STOCK,,TRUE
+MAS,Masco Corporation,NYSE,USD,STOCK,,TRUE
+CACI,CACI International Inc,NYSE,USD,STOCK,,TRUE
+SKM,"SK Telecom Co., Ltd.",NYSE,USD,STOCK,,TRUE
+MLI,"Mueller Industries, Inc.",NYSE,USD,STOCK,,TRUE
+CRL,"Charles River Laboratories International, Inc.",NYSE,USD,STOCK,,TRUE
+SJM,The J. M. Smucker Company,NYSE,USD,STOCK,,TRUE
+TME,Tencent Music Entertainment Group,NYSE,USD,STOCK,,TRUE
+CSL,Carlisle Companies Incorporated,NYSE,USD,STOCK,,TRUE
+TXT,Textron Inc.,NYSE,USD,STOCK,,TRUE
+GL,Globe Life Inc.,NYSE,USD,STOCK,,TRUE
+AEG,Aegon Ltd.,NYSE,USD,STOCK,,TRUE
+AA,Alcoa Corporation,NYSE,USD,STOCK,,TRUE
+BWA,BorgWarner Inc.,NYSE,USD,STOCK,,TRUE
+AMH,American Homes 4 Rent,NYSE,USD,STOCK,,TRUE
+LII,Lennox International Inc.,NYSE,USD,STOCK,,TRUE
+W,Wayfair Inc.,NYSE,USD,STOCK,,TRUE
+CNA,CNA Financial Corporation,NYSE,USD,STOCK,,TRUE
+DTM,"DT Midstream, Inc.",NYSE,USD,STOCK,,TRUE
+ALLE,Allegion plc,NYSE,USD,STOCK,,TRUE
+RPM,RPM International Inc.,NYSE,USD,STOCK,,TRUE
+BAX,Baxter International Inc.,NYSE,USD,STOCK,,TRUE
+AVY,Avery Dennison Corporation,NYSE,USD,STOCK,,TRUE
+ALLY,Ally Financial Inc.,NYSE,USD,STOCK,,TRUE
+GDDY,GoDaddy Inc.,NYSE,USD,STOCK,,TRUE
+UHAL,U-Haul Holding Company,NYSE,USD,STOCK,,TRUE
+TOL,"Toll Brothers, Inc.",NYSE,USD,STOCK,,TRUE
+DOCN,"DigitalOcean Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+HUBS,"HubSpot, Inc.",NYSE,USD,STOCK,,TRUE
+AHR,"American Healthcare REIT, Inc.",NYSE,USD,STOCK,,TRUE
+EMBJ,Embraer S.A.,NYSE,USD,STOCK,,TRUE
+MAIR,Madison Air Solutions Corporation,NYSE,USD,STOCK,,TRUE
+HMY,Harmony Gold Mining Company Limited,NYSE,USD,STOCK,,TRUE
+FNF,"Fidelity National Financial, Inc.",NYSE,USD,STOCK,,TRUE
+GGG,Graco Inc.,NYSE,USD,STOCK,,TRUE
+PEN,"Penumbra, Inc.",NYSE,USD,STOCK,,TRUE
+BF.B,Brown-Forman Corporation,NYSE,USD,STOCK,,TRUE
+BF.A,Brown-Forman Corporation,NYSE,USD,STOCK,,TRUE
+ELS,"Equity LifeStyle Properties, Inc.",NYSE,USD,STOCK,,TRUE
+UDR,"UDR, Inc.",NYSE,USD,STOCK,,TRUE
+IT,"Gartner, Inc.",NYSE,USD,STOCK,,TRUE
+CCK,"Crown Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+DKS,"DICK'S Sporting Goods, Inc.",NYSE,USD,STOCK,,TRUE
+JEF,Jefferies Financial Group Inc.,NYSE,USD,STOCK,,TRUE
+PAC,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+ONTO,Onto Innovation Inc.,NYSE,USD,STOCK,,TRUE
+SF,Stifel Financial Corp.,NYSE,USD,STOCK,,TRUE
+AR,Antero Resources Corporation,NYSE,USD,STOCK,,TRUE
+WSO,"Watsco, Inc.",NYSE,USD,STOCK,,TRUE
+HBM,Hudbay Minerals Inc.,NYSE,USD,STOCK,,TRUE
+BXP,"BXP, Inc.",NYSE,USD,STOCK,,TRUE
+ELAN,Elanco Animal Health Incorporated,NYSE,USD,STOCK,,TRUE
+FMS,Fresenius Medical Care AG,NYSE,USD,STOCK,,TRUE
+RTO,Rentokil Initial plc,NYSE,USD,STOCK,,TRUE
+SNN,Smith & Nephew plc,NYSE,USD,STOCK,,TRUE
+EVR,Evercore Inc.,NYSE,USD,STOCK,,TRUE
+EHC,Encompass Health Corporation,NYSE,USD,STOCK,,TRUE
+MICC,The Magnum Ice Cream Company N.V.,NYSE,USD,STOCK,,TRUE
+AFG,"American Financial Group, Inc.",NYSE,USD,STOCK,,TRUE
+HRL,Hormel Foods Corporation,NYSE,USD,STOCK,,TRUE
+WSO.B,"Watsco, Inc.",NYSE,USD,STOCK,,TRUE
+WTRG,"Essential Utilities, Inc.",NYSE,USD,STOCK,,TRUE
+PNW,Pinnacle West Capital Corporation,NYSE,USD,STOCK,,TRUE
+WTS,"Watts Water Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+AIT,"Applied Industrial Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+FHN,First Horizon Corporation,NYSE,USD,STOCK,,TRUE
+BJ,"BJ's Wholesale Club Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PINS,"Pinterest, Inc.",NYSE,USD,STOCK,,TRUE
+MOG.A,Moog Inc.,NYSE,USD,STOCK,,TRUE
+CR,Crane Company,NYSE,USD,STOCK,,TRUE
+MOG.B,Moog Inc.,NYSE,USD,STOCK,,TRUE
+DVA,DaVita Inc.,NYSE,USD,STOCK,,TRUE
+IAG,IAMGOLD Corporation,NYSE,USD,STOCK,,TRUE
+UHAL.B,U-Haul Holding Company,NYSE,USD,STOCK,,TRUE
+DECK,Deckers Outdoor Corporation,NYSE,USD,STOCK,,TRUE
+HII,"Huntington Ingalls Industries, Inc.",NYSE,USD,STOCK,,TRUE
+CLX,The Clorox Company,NYSE,USD,STOCK,,TRUE
+TX,Ternium S.A.,NYSE,USD,STOCK,,TRUE
+SUZ,Suzano S.A.,NYSE,USD,STOCK,,TRUE
+SCI,Service Corporation International,NYSE,USD,STOCK,,TRUE
+KNX,Knight-Swift Transportation Holdings Inc.,NYSE,USD,STOCK,,TRUE
+EGO,Eldorado Gold Corporation,NYSE,USD,STOCK,,TRUE
+FDS,FactSet Research Systems Inc.,NYSE,USD,STOCK,,TRUE
+CPT,Camden Property Trust,NYSE,USD,STOCK,,TRUE
+NYT,The New York Times Company,NYSE,USD,STOCK,,TRUE
+BEPC,Brookfield Renewable Corporation,NYSE,USD,STOCK,,TRUE
+RRX,Regal Rexnord Corporation,NYSE,USD,STOCK,,TRUE
+RYAN,"Ryan Specialty Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+GNRC,Generac Holdings Inc.,NYSE,USD,STOCK,,TRUE
+AM,Antero Midstream Corporation,NYSE,USD,STOCK,,TRUE
+XPEV,XPeng Inc.,NYSE,USD,STOCK,,TRUE
+ALSN,"Allison Transmission Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ARW,"Arrow Electronics, Inc.",NYSE,USD,STOCK,,TRUE
+PAYC,"Paycom Software, Inc.",NYSE,USD,STOCK,,TRUE
+EGP,"EastGroup Properties, Inc.",NYSE,USD,STOCK,,TRUE
+OC,Owens Corning,NYSE,USD,STOCK,,TRUE
+TFII,TFI International Inc.,NYSE,USD,STOCK,,TRUE
+GKOS,Glaukos Corporation,NYSE,USD,STOCK,,TRUE
+GMED,"Globus Medical, Inc.",NYSE,USD,STOCK,,TRUE
+MOH,"Molina Healthcare, Inc.",NYSE,USD,STOCK,,TRUE
+AES,The AES Corporation,NYSE,USD,STOCK,,TRUE
+DCI,"Donaldson Company, Inc.",NYSE,USD,STOCK,,TRUE
+AG,First Majestic Silver Corp.,NYSE,USD,STOCK,,TRUE
+MGM,MGM Resorts International,NYSE,USD,STOCK,,TRUE
+SSB,SouthState Bank Corporation,NYSE,USD,STOCK,,TRUE
+BIO,"Bio-Rad Laboratories, Inc.",NYSE,USD,STOCK,,TRUE
+DAR,Darling Ingredients Inc.,NYSE,USD,STOCK,,TRUE
+BIO.B,"Bio-Rad Laboratories, Inc.",NYSE,USD,STOCK,,TRUE
+SUN,Sunoco LP,NYSE,USD,STOCK,,TRUE
+FRT,Federal Realty Investment Trust,NYSE,USD,STOCK,,TRUE
+ORI,Old Republic International Corporation,NYSE,USD,STOCK,,TRUE
+DDS,"Dillard's, Inc.",NYSE,USD,STOCK,,TRUE
+WMS,"Advanced Drainage Systems, Inc.",NYSE,USD,STOCK,,TRUE
+CFR,"Cullen/Frost Bankers, Inc.",NYSE,USD,STOCK,,TRUE
+RDY,Dr. Reddy's Laboratories Limited,NYSE,USD,STOCK,,TRUE
+AVTR,"Avantor, Inc.",NYSE,USD,STOCK,,TRUE
+FRO,Frontline plc,NYSE,USD,STOCK,,TRUE
+UHS,"Universal Health Services, Inc.",NYSE,USD,STOCK,,TRUE
+ESTC,Elastic N.V.,NYSE,USD,STOCK,,TRUE
+RRC,Range Resources Corporation,NYSE,USD,STOCK,,TRUE
+VIRT,"Virtu Financial, Inc.",NYSE,USD,STOCK,,TRUE
+CHWY,"Chewy, Inc.",NYSE,USD,STOCK,,TRUE
+FLS,Flowserve Corporation,NYSE,USD,STOCK,,TRUE
+SPXC,"SPX Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+MOD,Modine Manufacturing Company,NYSE,USD,STOCK,,TRUE
+AYI,Acuity Inc.,NYSE,USD,STOCK,,TRUE
+OSCR,"Oscar Health, Inc.",NYSE,USD,STOCK,,TRUE
+SNAP,Snap Inc.,NYSE,USD,STOCK,,TRUE
+PSO,Pearson plc,NYSE,USD,STOCK,,TRUE
+OGE,OGE Energy Corp.,NYSE,USD,STOCK,,TRUE
+NIO,NIO Inc.,NYSE,USD,STOCK,,TRUE
+EAT,"Brinker International, Inc.",NYSE,USD,STOCK,,TRUE
+APTV,Aptiv PLC,NYSE,USD,STOCK,,TRUE
+OSK,Oshkosh Corporation,NYSE,USD,STOCK,,TRUE
+LTH,"Life Time Group Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PNR,Pentair plc,NYSE,USD,STOCK,,TRUE
+WLK,Westlake Corporation,NYSE,USD,STOCK,,TRUE
+PATH,"UiPath, Inc.",NYSE,USD,STOCK,,TRUE
+JAN,"Janus Living, Inc.",NYSE,USD,STOCK,,TRUE
+MUSA,Murphy USA Inc.,NYSE,USD,STOCK,,TRUE
+KT,KT Corporation,NYSE,USD,STOCK,,TRUE
+GIL,Gildan Activewear Inc.,NYSE,USD,STOCK,,TRUE
+MP,MP Materials Corp.,NYSE,USD,STOCK,,TRUE
+HLI,"Houlihan Lokey, Inc.",NYSE,USD,STOCK,,TRUE
+R,"Ryder System, Inc.",NYSE,USD,STOCK,,TRUE
+VOYA,"Voya Financial, Inc.",NYSE,USD,STOCK,,TRUE
+JXN,Jackson Financial Inc.,NYSE,USD,STOCK,,TRUE
+ONON,On Holding AG,NYSE,USD,STOCK,,TRUE
+EDU,New Oriental Education & Technology Group Inc.,NYSE,USD,STOCK,,TRUE
+AMG,"Affiliated Managers Group, Inc.",NYSE,USD,STOCK,,TRUE
+CTRE,"CareTrust REIT, Inc.",NYSE,USD,STOCK,,TRUE
+PCOR,"Procore Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+FPS,"Forgent Power Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+GGB,Gerdau S.A.,NYSE,USD,STOCK,,TRUE
+MSGS,Madison Square Garden Sports Corp.,NYSE,USD,STOCK,,TRUE
+ARE,"Alexandria Real Estate Equities, Inc.",NYSE,USD,STOCK,,TRUE
+SBSW,Sibanye Stillwater Limited,NYSE,USD,STOCK,,TRUE
+VMI,"Valmont Industries, Inc.",NYSE,USD,STOCK,,TRUE
+PRI,"Primerica, Inc.",NYSE,USD,STOCK,,TRUE
+ALV,"Autoliv, Inc.",NYSE,USD,STOCK,,TRUE
+ELPC,Companhia Paranaense de Energia - COPEL,NYSE,USD,STOCK,,TRUE
+ADC,Agree Realty Corporation,NYSE,USD,STOCK,,TRUE
+QGEN,Qiagen N.V.,NYSE,USD,STOCK,,TRUE
+BRX,Brixmor Property Group Inc.,NYSE,USD,STOCK,,TRUE
+CUBE,CubeSmart,NYSE,USD,STOCK,,TRUE
+DY,"Dycom Industries, Inc.",NYSE,USD,STOCK,,TRUE
+SM,SM Energy Company,NYSE,USD,STOCK,,TRUE
+YMM,Full Truck Alliance Co. Ltd.,NYSE,USD,STOCK,,TRUE
+PBF,PBF Energy Inc.,NYSE,USD,STOCK,,TRUE
+BAH,Booz Allen Hamilton Holding Corporation,NYSE,USD,STOCK,,TRUE
+KNTK,Kinetik Holdings Inc.,NYSE,USD,STOCK,,TRUE
+BVN,Compañía de Minas Buenaventura S.A.A.,NYSE,USD,STOCK,,TRUE
+KMX,"CarMax, Inc.",NYSE,USD,STOCK,,TRUE
+TIMB,TIM S.A.,NYSE,USD,STOCK,,TRUE
+TTC,The Toro Company,NYSE,USD,STOCK,,TRUE
+BROS,Dutch Bros Inc.,NYSE,USD,STOCK,,TRUE
+KNSL,"Kinsale Capital Group, Inc.",NYSE,USD,STOCK,,TRUE
+PB,"Prosperity Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+LNC,Lincoln National Corporation,NYSE,USD,STOCK,,TRUE
+WAL,Western Alliance Bancorporation,NYSE,USD,STOCK,,TRUE
+NNN,"NNN REIT, Inc.",NYSE,USD,STOCK,,TRUE
+VIST,"Vista Energy, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+AGCO,AGCO Corporation,NYSE,USD,STOCK,,TRUE
+GME,GameStop Corp.,NYSE,USD,STOCK,,TRUE
+ACM,AECOM,NYSE,USD,STOCK,,TRUE
+CNM,"Core & Main, Inc.",NYSE,USD,STOCK,,TRUE
+REXR,"Rexford Industrial Realty, Inc.",NYSE,USD,STOCK,,TRUE
+ESI,Element Solutions Inc,NYSE,USD,STOCK,,TRUE
+COMP,"Compass, Inc.",NYSE,USD,STOCK,,TRUE
+FR,"First Industrial Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+TKR,The Timken Company,NYSE,USD,STOCK,,TRUE
+RHP,"Ryman Hospitality Properties, Inc.",NYSE,USD,STOCK,,TRUE
+HESM,Hess Midstream LP,NYSE,USD,STOCK,,TRUE
+LAD,"Lithia Motors, Inc.",NYSE,USD,STOCK,,TRUE
+NEU,NewMarket Corporation,NYSE,USD,STOCK,,TRUE
+AOS,A. O. Smith Corporation,NYSE,USD,STOCK,,TRUE
+STN,Stantec Inc.,NYSE,USD,STOCK,,TRUE
+UGI,UGI Corporation,NYSE,USD,STOCK,,TRUE
+ZETA,Zeta Global Holdings Corp.,NYSE,USD,STOCK,,TRUE
+ATR,"AptarGroup, Inc.",NYSE,USD,STOCK,,TRUE
+EMN,Eastman Chemical Company,NYSE,USD,STOCK,,TRUE
+MOS,The Mosaic Company,NYSE,USD,STOCK,,TRUE
+THG,"The Hanover Insurance Group, Inc.",NYSE,USD,STOCK,,TRUE
+NFG,National Fuel Gas Company,NYSE,USD,STOCK,,TRUE
+SARO,"StandardAero, Inc.",NYSE,USD,STOCK,,TRUE
+MHK,"Mohawk Industries, Inc.",NYSE,USD,STOCK,,TRUE
+SSL,Sasol Limited,NYSE,USD,STOCK,,TRUE
+LEVI,Levi Strauss & Co.,NYSE,USD,STOCK,,TRUE
+ZWS,Zurn Elkay Water Solutions Corporation,NYSE,USD,STOCK,,TRUE
+IDA,"IDACORP, Inc.",NYSE,USD,STOCK,,TRUE
+GAP,"The Gap, Inc.",NYSE,USD,STOCK,,TRUE
+PRMB,Primo Brands Corporation,NYSE,USD,STOCK,,TRUE
+SOBO,South Bow Corporation,NYSE,USD,STOCK,,TRUE
+FAF,First American Financial Corporation,NYSE,USD,STOCK,,TRUE
+AXTA,Axalta Coating Systems Ltd.,NYSE,USD,STOCK,,TRUE
+FLR,Fluor Corporation,NYSE,USD,STOCK,,TRUE
+UGP,Ultrapar Participações S.A.,NYSE,USD,STOCK,,TRUE
+ASR,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",NYSE,USD,STOCK,,TRUE
+NOV,NOV Inc.,NYSE,USD,STOCK,,TRUE
+CMC,Commercial Metals Company,NYSE,USD,STOCK,,TRUE
+TAP.A,Molson Coors Beverage Company,NYSE,USD,STOCK,,TRUE
+TAP,Molson Coors Beverage Company,NYSE,USD,STOCK,,TRUE
+KEX,Kirby Corporation,NYSE,USD,STOCK,,TRUE
+ETSY,"Etsy, Inc.",NYSE,USD,STOCK,,TRUE
+ICL,ICL Group Ltd,NYSE,USD,STOCK,,TRUE
+PJT,PJT Partners Inc.,NYSE,USD,STOCK,,TRUE
+CAG,"Conagra Brands, Inc.",NYSE,USD,STOCK,,TRUE
+NE,Noble Corporation plc,NYSE,USD,STOCK,,TRUE
+AXS,AXIS Capital Holdings Limited,NYSE,USD,STOCK,,TRUE
+VNO,Vornado Realty Trust,NYSE,USD,STOCK,,TRUE
+OMF,"OneMain Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+OKLO,Oklo Inc.,NYSE,USD,STOCK,,TRUE
+MTDR,Matador Resources Company,NYSE,USD,STOCK,,TRUE
+STAG,"STAG Industrial, Inc.",NYSE,USD,STOCK,,TRUE
+SSD,"Simpson Manufacturing Co., Inc.",NYSE,USD,STOCK,,TRUE
+MSA,MSA Safety Incorporated,NYSE,USD,STOCK,,TRUE
+VIPS,Vipshop Holdings Limited,NYSE,USD,STOCK,,TRUE
+AWI,"Armstrong World Industries, Inc.",NYSE,USD,STOCK,,TRUE
+CAVA,"CAVA Group, Inc.",NYSE,USD,STOCK,,TRUE
+HNGE,"Hinge Health, Inc.",NYSE,USD,STOCK,,TRUE
+CIG,Companhia Energética de Minas Gerais - CEMIG,NYSE,USD,STOCK,,TRUE
+CIG.C,Companhia Energética de Minas Gerais - CEMIG,NYSE,USD,STOCK,,TRUE
+SGHC,Super Group (SGHC) Limited,NYSE,USD,STOCK,,TRUE
+TRNO,Terreno Realty Corporation,NYSE,USD,STOCK,,TRUE
+ACA,"Arcosa, Inc.",NYSE,USD,STOCK,,TRUE
+TEX,Terex Corporation,NYSE,USD,STOCK,,TRUE
+FSS,Federal Signal Corporation,NYSE,USD,STOCK,,TRUE
+NCLH,Norwegian Cruise Line Holdings Ltd.,NYSE,USD,STOCK,,TRUE
+ESE,ESCO Technologies Inc.,NYSE,USD,STOCK,,TRUE
+TFPM,Triple Flag Precious Metals Corp.,NYSE,USD,STOCK,,TRUE
+CLF,Cleveland-Cliffs Inc.,NYSE,USD,STOCK,,TRUE
+LUMN,"Lumen Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+HXL,Hexcel Corporation,NYSE,USD,STOCK,,TRUE
+LW,"Lamb Weston Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+BLDR,"Builders FirstSource, Inc.",NYSE,USD,STOCK,,TRUE
+RAL,Ralliant Corporation,NYSE,USD,STOCK,,TRUE
+AN,"AutoNation, Inc.",NYSE,USD,STOCK,,TRUE
+S,"SentinelOne, Inc.",NYSE,USD,STOCK,,TRUE
+OR,OR Royalties Inc.,NYSE,USD,STOCK,,TRUE
+NXE,NexGen Energy Ltd.,NYSE,USD,STOCK,,TRUE
+MAC,The Macerich Company,NYSE,USD,STOCK,,TRUE
+CHE,Chemed Corporation,NYSE,USD,STOCK,,TRUE
+RIG,Transocean Ltd.,NYSE,USD,STOCK,,TRUE
+JOBY,"Joby Aviation, Inc.",NYSE,USD,STOCK,,TRUE
+TAL,TAL Education Group,NYSE,USD,STOCK,,TRUE
+LB,LandBridge Company LLC,NYSE,USD,STOCK,,TRUE
+PACS,"PACS Group, Inc.",NYSE,USD,STOCK,,TRUE
+HR,Healthcare Realty Trust Incorporated,NYSE,USD,STOCK,,TRUE
+MATX,"Matson, Inc.",NYSE,USD,STOCK,,TRUE
+INGM,Ingram Micro Holding Corporation,NYSE,USD,STOCK,,TRUE
+WEX,WEX Inc.,NYSE,USD,STOCK,,TRUE
+MSM,"MSC Industrial Direct Co., Inc.",NYSE,USD,STOCK,,TRUE
+PL,Planet Labs PBC,NYSE,USD,STOCK,,TRUE
+FNB,F.N.B. Corporation,NYSE,USD,STOCK,,TRUE
+EPRT,"Essential Properties Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+HIMS,"Hims & Hers Health, Inc.",NYSE,USD,STOCK,,TRUE
+ENS,EnerSys,NYSE,USD,STOCK,,TRUE
+CWEN,"Clearway Energy, Inc.",NYSE,USD,STOCK,,TRUE
+ANDG,Andersen Group Inc.,NYSE,USD,STOCK,,TRUE
+LOAR,Loar Holdings Inc.,NYSE,USD,STOCK,,TRUE
+OGC,OceanaGold Corporation,NYSE,USD,STOCK,,TRUE
+MTG,MGIC Investment Corporation,NYSE,USD,STOCK,,TRUE
+ORA,"Ormat Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+LEA,Lear Corporation,NYSE,USD,STOCK,,TRUE
+BLCO,Bausch + Lomb Corporation,NYSE,USD,STOCK,,TRUE
+MGY,Magnolia Oil & Gas Corporation,NYSE,USD,STOCK,,TRUE
+RNG,"RingCentral, Inc.",NYSE,USD,STOCK,,TRUE
+SWX,"Southwest Gas Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+G,Genpact Limited,NYSE,USD,STOCK,,TRUE
+TXNM,"TXNM Energy, Inc.",NYSE,USD,STOCK,,TRUE
+INGR,Ingredion Incorporated,NYSE,USD,STOCK,,TRUE
+GTES,Gates Industrial Corporation Ltd.,NYSE,USD,STOCK,,TRUE
+ANF,Abercrombie & Fitch Co.,NYSE,USD,STOCK,,TRUE
+JMKE,Jersey Mike's Subs Inc.,NYSE,USD,STOCK,,TRUE
+IBP,"Installed Building Products, Inc.",NYSE,USD,STOCK,,TRUE
+ELF,"e.l.f. Beauty, Inc.",NYSE,USD,STOCK,,TRUE
+HRB,"H&R Block, Inc.",NYSE,USD,STOCK,,TRUE
+ESNT,Essent Group Ltd.,NYSE,USD,STOCK,,TRUE
+KGS,"Kodiak Gas Services, Inc.",NYSE,USD,STOCK,,TRUE
+GATX,GATX Corporation,NYSE,USD,STOCK,,TRUE
+VAL,Valaris Limited,NYSE,USD,STOCK,,TRUE
+EPAM,"EPAM Systems, Inc.",NYSE,USD,STOCK,,TRUE
+AVAL,Grupo Aval Acciones y Valores S.A.,NYSE,USD,STOCK,,TRUE
+DPC,DPC Holdings PLC,NYSE,USD,STOCK,,TRUE
+RSI,"Rush Street Interactive, Inc.",NYSE,USD,STOCK,,TRUE
+NPO,Enpro Inc.,NYSE,USD,STOCK,,TRUE
+ST,Sensata Technologies Holding plc,NYSE,USD,STOCK,,TRUE
+ACI,"Albertsons Companies, Inc.",NYSE,USD,STOCK,,TRUE
+IFS,Intercorp Financial Services Inc.,NYSE,USD,STOCK,,TRUE
+RYN,Rayonier Inc.,NYSE,USD,STOCK,,TRUE
+GBCI,"Glacier Bancorp, Inc.",NYSE,USD,STOCK,,TRUE
+YOU,"Clear Secure, Inc.",NYSE,USD,STOCK,,TRUE
+TBBB,BBB Foods Inc.,NYSE,USD,STOCK,,TRUE
+BIRK,Birkenstock Holding plc,NYSE,USD,STOCK,,TRUE
+TEO,Telecom Argentina S.A.,NYSE,USD,STOCK,,TRUE
+MBGL,"Mobility Global, Inc.",NYSE,USD,STOCK,,TRUE
+JBTM,JBT Marel Corporation,NYSE,USD,STOCK,,TRUE
+AGX,"Argan, Inc.",NYSE,USD,STOCK,,TRUE
+HOMB,"Home BancShares, Inc.",NYSE,USD,STOCK,,TRUE
+SNDR,"Schneider National, Inc.",NYSE,USD,STOCK,,TRUE
+ENIC,Enel Chile S.A.,NYSE,USD,STOCK,,TRUE
+EXP,Eagle Materials Inc.,NYSE,USD,STOCK,,TRUE
+ECG,"Everus Construction Group, Inc.",NYSE,USD,STOCK,,TRUE
+RLI,RLI Corp.,NYSE,USD,STOCK,,TRUE
+STWD,"Starwood Property Trust, Inc.",NYSE,USD,STOCK,,TRUE
+M,"Macy's, Inc.",NYSE,USD,STOCK,,TRUE
+TFX,Teleflex Incorporated,NYSE,USD,STOCK,,TRUE
+MCY,Mercury General Corporation,NYSE,USD,STOCK,,TRUE
+VSXY,Victoria's Secret & Co.,NYSE,USD,STOCK,,TRUE
+AUB,Atlantic Union Bankshares Corporation,NYSE,USD,STOCK,,TRUE
+DLB,"Dolby Laboratories, Inc.",NYSE,USD,STOCK,,TRUE
+SXT,Sensient Technologies Corporation,NYSE,USD,STOCK,,TRUE
+ENVA,"Enova International, Inc.",NYSE,USD,STOCK,,TRUE
+POR,Portland General Electric Company,NYSE,USD,STOCK,,TRUE
+ASB,Associated Banc-Corp,NYSE,USD,STOCK,,TRUE
+WHD,"Cactus, Inc.",NYSE,USD,STOCK,,TRUE
+BXSL,Blackstone Secured Lending Fund,NYSE,USD,STOCK,,TRUE
+AROC,"Archrock, Inc.",NYSE,USD,STOCK,,TRUE
+ABCB,Ameris Bancorp,NYSE,USD,STOCK,,TRUE
+KVYO,"Klaviyo, Inc.",NYSE,USD,STOCK,,TRUE
+BYD,Boyd Gaming Corporation,NYSE,USD,STOCK,,TRUE
+RITM,Rithm Capital Corp.,NYSE,USD,STOCK,,TRUE
+CNX,CNX Resources Corporation,NYSE,USD,STOCK,,TRUE
+FLG,"Flagstar Bank, National Association",NYSE,USD,STOCK,,TRUE
+NIQ,NIQ Global Intelligence plc,NYSE,USD,STOCK,,TRUE
+STVN,Stevanato Group S.p.A.,NYSE,USD,STOCK,,TRUE
+OBDC,Blue Owl Capital Corporation,NYSE,USD,STOCK,,TRUE
+MC,Moelis & Company,NYSE,USD,STOCK,,TRUE
+BKH,Black Hills Corporation,NYSE,USD,STOCK,,TRUE
+BBUC,Brookfield Business Corporation,NYSE,USD,STOCK,,TRUE
+ADT,ADT Inc.,NYSE,USD,STOCK,,TRUE
+BLSH,Bullish,NYSE,USD,STOCK,,TRUE
+KLAR,Klarna Group plc,NYSE,USD,STOCK,,TRUE
+AX,"Axos Financial, Inc.",NYSE,USD,STOCK,,TRUE
+NJR,New Jersey Resources Corporation,NYSE,USD,STOCK,,TRUE
+HCC,"Warrior Met Coal, Inc.",NYSE,USD,STOCK,,TRUE
+CMBT,Cmb.Tech NV,NYSE,USD,STOCK,,TRUE
+MAIN,Main Street Capital Corporation,NYSE,USD,STOCK,,TRUE
+PIPR,Piper Sandler Companies,NYSE,USD,STOCK,,TRUE
+KRG,Kite Realty Group Trust,NYSE,USD,STOCK,,TRUE
+GXO,"GXO Logistics, Inc.",NYSE,USD,STOCK,,TRUE
+KRMN,Karman Holdings Inc.,NYSE,USD,STOCK,,TRUE
+MUR,Murphy Oil Corporation,NYSE,USD,STOCK,,TRUE
+WH,"Wyndham Hotels & Resorts, Inc.",NYSE,USD,STOCK,,TRUE
+BMA,Banco Macro S.A.,NYSE,USD,STOCK,,TRUE
+CPA,"Copa Holdings, S.A.",NYSE,USD,STOCK,,TRUE
+WPP,WPP plc,NYSE,USD,STOCK,,TRUE
+MRP,"Millrose Properties, Inc.",NYSE,USD,STOCK,,TRUE
+WFG,West Fraser Timber Co. Ltd.,NYSE,USD,STOCK,,TRUE
+FND,"Floor & Decor Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+CNO,"CNO Financial Group, Inc.",NYSE,USD,STOCK,,TRUE
+OTF,Blue Owl Technology Finance Corp.,NYSE,USD,STOCK,,TRUE
+GVA,Granite Construction Incorporated,NYSE,USD,STOCK,,TRUE
+PRM,"Perimeter Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+HASI,"HA Sustainable Infrastructure Capital, Inc.",NYSE,USD,STOCK,,TRUE
+SON,Sonoco Products Company,NYSE,USD,STOCK,,TRUE
+OUT,OUTFRONT Media Inc.,NYSE,USD,STOCK,,TRUE
+VFC,V.F. Corporation,NYSE,USD,STOCK,,TRUE
+OII,"Oceaneering International, Inc.",NYSE,USD,STOCK,,TRUE
+OGS,"ONE Gas, Inc.",NYSE,USD,STOCK,,TRUE
+SPHR,Sphere Entertainment Co.,NYSE,USD,STOCK,,TRUE
+GOLF,Acushnet Holdings Corp.,NYSE,USD,STOCK,,TRUE
+FBIN,"Fortune Brands Innovations, Inc.",NYSE,USD,STOCK,,TRUE
+INSW,"International Seaways, Inc.",NYSE,USD,STOCK,,TRUE
+CSW,"CSW Industrials, Inc.",NYSE,USD,STOCK,,TRUE
+CE,Celanese Corporation,NYSE,USD,STOCK,,TRUE
+WTM,"White Mountains Insurance Group, Ltd.",NYSE,USD,STOCK,,TRUE
+UNF,UniFirst Corporation,NYSE,USD,STOCK,,TRUE
+MTRN,Materion Corporation,NYSE,USD,STOCK,,TRUE
+GBTG,"Global Business Travel Group, Inc.",NYSE,USD,STOCK,,TRUE
+AMTM,"Amentum Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PSN,Parsons Corporation,NYSE,USD,STOCK,,TRUE
+SR,Spire Inc.,NYSE,USD,STOCK,,TRUE
+BOX,"Box, Inc.",NYSE,USD,STOCK,,TRUE
+AIR,AAR Corp.,NYSE,USD,STOCK,,TRUE
+RDN,Radian Group Inc.,NYSE,USD,STOCK,,TRUE
+MTN,"Vail Resorts, Inc.",NYSE,USD,STOCK,,TRUE
+PAM,Pampa Energía S.A.,NYSE,USD,STOCK,,TRUE
+CNR,"Core Natural Resources, Inc.",NYSE,USD,STOCK,,TRUE
+CUZ,Cousins Properties Incorporated,NYSE,USD,STOCK,,TRUE
+GHC,Graham Holdings Company,NYSE,USD,STOCK,,TRUE
+DOCS,"Doximity, Inc.",NYSE,USD,STOCK,,TRUE
+GEF,"Greif, Inc.",NYSE,USD,STOCK,,TRUE
+LPX,Louisiana-Pacific Corporation,NYSE,USD,STOCK,,TRUE
+BETA,"BETA Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+CRC,California Resources Corporation,NYSE,USD,STOCK,,TRUE
+TDW,Tidewater Inc.,NYSE,USD,STOCK,,TRUE
+VSH,"Vishay Intertechnology, Inc.",NYSE,USD,STOCK,,TRUE
+TGS,Transportadora de Gas del Sur S.A.,NYSE,USD,STOCK,,TRUE
+SKY,"Champion Homes, Inc.",NYSE,USD,STOCK,,TRUE
+KBR,"KBR, Inc.",NYSE,USD,STOCK,,TRUE
+SFBS,"ServisFirst Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+HRI,Herc Holdings Inc.,NYSE,USD,STOCK,,TRUE
+BC,Brunswick Corporation,NYSE,USD,STOCK,,TRUE
+HGTY,"Hagerty, Inc.",NYSE,USD,STOCK,,TRUE
+HAE,Haemonetics Corporation,NYSE,USD,STOCK,,TRUE
+ESAB,ESAB Corporation,NYSE,USD,STOCK,,TRUE
+EPR,EPR Properties,NYSE,USD,STOCK,,TRUE
+BDC,Belden Inc.,NYSE,USD,STOCK,,TRUE
+TPC,Tutor Perini Corporation,NYSE,USD,STOCK,,TRUE
+CRGY,Crescent Energy Company,NYSE,USD,STOCK,,TRUE
+ALK,"Alaska Air Group, Inc.",NYSE,USD,STOCK,,TRUE
+NP,Neptune Insurance Holdings Inc.,NYSE,USD,STOCK,,TRUE
+NNI,"Nelnet, Inc.",NYSE,USD,STOCK,,TRUE
+PAY,"Paymentus Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+BIPC,Brookfield Infrastructure Corporation,NYSE,USD,STOCK,,TRUE
+MDA,MDA Space Ltd.,NYSE,USD,STOCK,,TRUE
+EE,"Excelerate Energy, Inc.",NYSE,USD,STOCK,,TRUE
+HP,"Helmerich & Payne, Inc.",NYSE,USD,STOCK,,TRUE
+CRK,"Comstock Resources, Inc.",NYSE,USD,STOCK,,TRUE
+VNT,Vontier Corporation,NYSE,USD,STOCK,,TRUE
+SKT,Tanger Inc.,NYSE,USD,STOCK,,TRUE
+BOOT,"Boot Barn Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+BB,BlackBerry Limited,NYSE,USD,STOCK,,TRUE
+ALH,Alliance Laundry Holdings Inc.,NYSE,USD,STOCK,,TRUE
+TREX,"Trex Company, Inc.",NYSE,USD,STOCK,,TRUE
+ACHR,Archer Aviation Inc.,NYSE,USD,STOCK,,TRUE
+BCO,The Brink's Company,NYSE,USD,STOCK,,TRUE
+CHH,"Choice Hotels International, Inc.",NYSE,USD,STOCK,,TRUE
+MTH,Meritage Homes Corporation,NYSE,USD,STOCK,,TRUE
+GEF.B,"Greif, Inc.",NYSE,USD,STOCK,,TRUE
+CVSA,Covista Inc.,NYSE,USD,STOCK,,TRUE
+NVST,Envista Holdings Corporation,NYSE,USD,STOCK,,TRUE
+GFF,Griffon Corporation,NYSE,USD,STOCK,,TRUE
+CON,"Concentra Group Holdings Parent, Inc.",NYSE,USD,STOCK,,TRUE
+TKC,Turkcell Iletisim Hizmetleri A.S.,NYSE,USD,STOCK,,TRUE
+FHI,"Federated Hermes, Inc.",NYSE,USD,STOCK,,TRUE
+TDS,"Telephone and Data Systems, Inc.",NYSE,USD,STOCK,,TRUE
+CGAU,Centerra Gold Inc.,NYSE,USD,STOCK,,TRUE
+SLGN,Silgan Holdings Inc.,NYSE,USD,STOCK,,TRUE
+KRC,Kilroy Realty Corporation,NYSE,USD,STOCK,,TRUE
+CVI,"CVR Energy, Inc.",NYSE,USD,STOCK,,TRUE
+BILL,"BILL Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+AQN,Algonquin Power & Utilities Corp.,NYSE,USD,STOCK,,TRUE
+FBP,First BanCorp.,NYSE,USD,STOCK,,TRUE
+HAFN,Hafnia Limited,NYSE,USD,STOCK,,TRUE
+DK,"Delek US Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+RHI,Robert Half Inc.,NYSE,USD,STOCK,,TRUE
+LAZ,"Lazard, Inc.",NYSE,USD,STOCK,,TRUE
+WK,Workiva Inc.,NYSE,USD,STOCK,,TRUE
+SITE,"SiteOne Landscape Supply, Inc.",NYSE,USD,STOCK,,TRUE
+KFY,Korn Ferry,NYSE,USD,STOCK,,TRUE
+ARX,Accelerant Holdings,NYSE,USD,STOCK,,TRUE
+BRC,Brady Corporation,NYSE,USD,STOCK,,TRUE
+ITGR,Integer Holdings Corporation,NYSE,USD,STOCK,,TRUE
+UCB,"United Community Banks, Inc.",NYSE,USD,STOCK,,TRUE
+OPLN,"OPENLANE, Inc.",NYSE,USD,STOCK,,TRUE
+LMND,"Lemonade, Inc.",NYSE,USD,STOCK,,TRUE
+SLG,SL Green Realty Corp.,NYSE,USD,STOCK,,TRUE
+AKO.A,Embotelladora Andina S.A.,NYSE,USD,STOCK,,TRUE
+AKO.B,Embotelladora Andina S.A.,NYSE,USD,STOCK,,TRUE
+MIAX,"Miami International Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+CBT,Cabot Corporation,NYSE,USD,STOCK,,TRUE
+BNL,"Broadstone Net Lease, Inc.",NYSE,USD,STOCK,,TRUE
+MIR,"Mirion Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+SMR,NuScale Power Corporation,NYSE,USD,STOCK,,TRUE
+MDU,"MDU Resources Group, Inc.",NYSE,USD,STOCK,,TRUE
+BFH,"Bread Financial Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+FCN,"FTI Consulting, Inc.",NYSE,USD,STOCK,,TRUE
+AZZ,AZZ Inc.,NYSE,USD,STOCK,,TRUE
+MANE,"Veradermics, Incorporated",NYSE,USD,STOCK,,TRUE
+CDP,COPT Defense Properties,NYSE,USD,STOCK,,TRUE
+PARR,"Par Pacific Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+GPGI,"GPGI, Inc.",NYSE,USD,STOCK,,TRUE
+GEO,"The GEO Group, Inc.",NYSE,USD,STOCK,,TRUE
+SEI,"Solaris Energy Infrastructure, Inc.",NYSE,USD,STOCK,,TRUE
+ARIS,Aris Mining Corporation,NYSE,USD,STOCK,,TRUE
+TNL,Travel + Leisure Co.,NYSE,USD,STOCK,,TRUE
+COLD,"Americold Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+VVV,Valvoline Inc.,NYSE,USD,STOCK,,TRUE
+CNS,"Cohen & Steers, Inc.",NYSE,USD,STOCK,,TRUE
+CNK,"Cinemark Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+QTWO,"Q2 Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PRIM,Primoris Services Corporation,NYSE,USD,STOCK,,TRUE
+WBI,WaterBridge Infrastructure LLC,NYSE,USD,STOCK,,TRUE
+SKE,Skeena Resources Limited,NYSE,USD,STOCK,,TRUE
+SUNC,SunocoCorp LLC,NYSE,USD,STOCK,,TRUE
+GNW,"Genworth Financial, Inc.",NYSE,USD,STOCK,,TRUE
+USAC,"USA Compression Partners, LP",NYSE,USD,STOCK,,TRUE
+PHI,PLDT Inc.,NYSE,USD,STOCK,,TRUE
+KTB,"Kontoor Brands, Inc.",NYSE,USD,STOCK,,TRUE
+AVNT,Avient Corporation,NYSE,USD,STOCK,,TRUE
+PSUS,"Pershing Square USA, Ltd.",NYSE,USD,STOCK,,TRUE
+ATMU,Atmus Filtration Technologies Inc.,NYSE,USD,STOCK,,TRUE
+BMI,"Badger Meter, Inc.",NYSE,USD,STOCK,,TRUE
+IRT,"Independence Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+CAAP,Corporación América Airports S.A.,NYSE,USD,STOCK,,TRUE
+THO,"THOR Industries, Inc.",NYSE,USD,STOCK,,TRUE
+PLNT,"Planet Fitness, Inc.",NYSE,USD,STOCK,,TRUE
+ABG,"Asbury Automotive Group, Inc.",NYSE,USD,STOCK,,TRUE
+PFSI,"PennyMac Financial Services, Inc.",NYSE,USD,STOCK,,TRUE
+RCUS,"Arcus Biosciences, Inc.",NYSE,USD,STOCK,,TRUE
+BBWI,"Bath & Body Works, Inc.",NYSE,USD,STOCK,,TRUE
+HHH,Howard Hughes Holdings Inc.,NYSE,USD,STOCK,,TRUE
+JOE,The St. Joe Company,NYSE,USD,STOCK,,TRUE
+RNST,Renasant Corporation,NYSE,USD,STOCK,,TRUE
+TAC,TransAlta Corporation,NYSE,USD,STOCK,,TRUE
+MHO,"M/I Homes, Inc.",NYSE,USD,STOCK,,TRUE
+MWA,"Mueller Water Products, Inc.",NYSE,USD,STOCK,,TRUE
+BWLP,BW LPG Limited,NYSE,USD,STOCK,,TRUE
+APLE,"Apple Hospitality REIT, Inc.",NYSE,USD,STOCK,,TRUE
+POST,"Post Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+STNG,Scorpio Tankers Inc.,NYSE,USD,STOCK,,TRUE
+MSGE,Madison Square Garden Entertainment Corp.,NYSE,USD,STOCK,,TRUE
+FSM,Fortuna Mining Corp.,NYSE,USD,STOCK,,TRUE
+ERO,Ero Copper Corp.,NYSE,USD,STOCK,,TRUE
+OGN,Organon & Co.,NYSE,USD,STOCK,,TRUE
+MANU,Manchester United plc,NYSE,USD,STOCK,,TRUE
+WT,"WisdomTree, Inc.",NYSE,USD,STOCK,,TRUE
+NIC,"Nicolet Bankshares, Inc.",NYSE,USD,STOCK,,TRUE
+LXP,LXP Industrial Trust,NYSE,USD,STOCK,,TRUE
+LRN,"Stride, Inc.",NYSE,USD,STOCK,,TRUE
+CSTM,Constellium SE,NYSE,USD,STOCK,,TRUE
+AWR,American States Water Company,NYSE,USD,STOCK,,TRUE
+HG,"Hamilton Insurance Group, Ltd.",NYSE,USD,STOCK,,TRUE
+HIW,"Highwoods Properties, Inc.",NYSE,USD,STOCK,,TRUE
+BTE,Baytex Energy Corp.,NYSE,USD,STOCK,,TRUE
+KNF,Knife River Corporation,NYSE,USD,STOCK,,TRUE
+NHI,"National Health Investors, Inc.",NYSE,USD,STOCK,,TRUE
+HNI,HNI Corporation,NYSE,USD,STOCK,,TRUE
+BFAM,Bright Horizons Family Solutions Inc.,NYSE,USD,STOCK,,TRUE
+KAI,Kadant Inc.,NYSE,USD,STOCK,,TRUE
+FOUR,"Shift4 Payments, Inc.",NYSE,USD,STOCK,,TRUE
+SMG,The Scotts Miracle-Gro Company,NYSE,USD,STOCK,,TRUE
+AB,AllianceBernstein Holding L.P.,NYSE,USD,STOCK,,TRUE
+KEN,Kenon Holdings Ltd.,NYSE,USD,STOCK,,TRUE
+VGNT,Versigent PLC,NYSE,USD,STOCK,,TRUE
+VAC,Marriott Vacations Worldwide Corporation,NYSE,USD,STOCK,,TRUE
+FSK,FS KKR Capital Corp.,NYSE,USD,STOCK,,TRUE
+DAN,Dana Incorporated,NYSE,USD,STOCK,,TRUE
+EROK,"EagleRock Land, LLC",NYSE,USD,STOCK,,TRUE
+LEU,Centrus Energy Corp.,NYSE,USD,STOCK,,TRUE
+NATL,NCR Atleos Corporation,NYSE,USD,STOCK,,TRUE
+PII,Polaris Inc.,NYSE,USD,STOCK,,TRUE
+ZGN,Ermenegildo Zegna N.V.,NYSE,USD,STOCK,,TRUE
+CXW,"CoreCivic, Inc.",NYSE,USD,STOCK,,TRUE
+BTU,Peabody Energy Corporation,NYSE,USD,STOCK,,TRUE
+CURB,Curbline Properties Corp.,NYSE,USD,STOCK,,TRUE
+AD,"Array Digital Infrastructure, Inc.",NYSE,USD,STOCK,,TRUE
+SA,Seabridge Gold Inc.,NYSE,USD,STOCK,,TRUE
+SXI,Standex International Corporation,NYSE,USD,STOCK,,TRUE
+ASH,Ashland Inc.,NYSE,USD,STOCK,,TRUE
+CBU,"Community Financial System, Inc.",NYSE,USD,STOCK,,TRUE
+GPI,"Group 1 Automotive, Inc.",NYSE,USD,STOCK,,TRUE
+AGO,Assured Guaranty Ltd.,NYSE,USD,STOCK,,TRUE
+LPL,"LG Display Co., Ltd.",NYSE,USD,STOCK,,TRUE
+ZIM,ZIM Integrated Shipping Services Ltd.,NYSE,USD,STOCK,,TRUE
+APAM,Artisan Partners Asset Management Inc.,NYSE,USD,STOCK,,TRUE
+PVH,PVH Corp.,NYSE,USD,STOCK,,TRUE
+LBRT,Liberty Energy Inc.,NYSE,USD,STOCK,,TRUE
+RXO,"RXO, Inc.",NYSE,USD,STOCK,,TRUE
+LION,Lionsgate Studios Corp.,NYSE,USD,STOCK,,TRUE
+AAUC,Allied Gold Corporation,NYSE,USD,STOCK,,TRUE
+EXK,Endeavour Silver Corp.,NYSE,USD,STOCK,,TRUE
+SII,Sprott Inc.,NYSE,USD,STOCK,,TRUE
+AAMI,Acadian Asset Management Inc.,NYSE,USD,STOCK,,TRUE
+BKU,"BankUnited, Inc.",NYSE,USD,STOCK,,TRUE
+BBAR,Banco BBVA Argentina S.A.,NYSE,USD,STOCK,,TRUE
+HTGC,"Hercules Capital, Inc.",NYSE,USD,STOCK,,TRUE
+HGV,Hilton Grand Vacations Inc.,NYSE,USD,STOCK,,TRUE
+DHT,"DHT Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+SIG,Signet Jewelers Limited,NYSE,USD,STOCK,,TRUE
+KBH,KB Home,NYSE,USD,STOCK,,TRUE
+FG,"F&G Annuities & Life, Inc.",NYSE,USD,STOCK,,TRUE
+GPOR,Gulfport Energy Corporation,NYSE,USD,STOCK,,TRUE
+VTMX,"Corporación Inmobiliaria Vesta, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+CWK,Cushman & Wakefield Limited,NYSE,USD,STOCK,,TRUE
+CPK,Chesapeake Utilities Corporation,NYSE,USD,STOCK,,TRUE
+TNET,"TriNet Group, Inc.",NYSE,USD,STOCK,,TRUE
+DKL,"Delek Logistics Partners, LP",NYSE,USD,STOCK,,TRUE
+DX,"Dynex Capital, Inc.",NYSE,USD,STOCK,,TRUE
+ATKR,Atkore Inc.,NYSE,USD,STOCK,,TRUE
+GPK,Graphic Packaging Holding Company,NYSE,USD,STOCK,,TRUE
+TNK,Teekay Tankers Ltd.,NYSE,USD,STOCK,,TRUE
+AVA,Avista Corporation,NYSE,USD,STOCK,,TRUE
+EROC,"ERock, Inc.",NYSE,USD,STOCK,,TRUE
+BSM,"Black Stone Minerals, L.P.",NYSE,USD,STOCK,,TRUE
+CWT,California Water Service Group,NYSE,USD,STOCK,,TRUE
+SDRL,Seadrill Limited,NYSE,USD,STOCK,,TRUE
+PFS,"Provident Financial Services, Inc.",NYSE,USD,STOCK,,TRUE
+CSQR,"Csquare, Inc.",NYSE,USD,STOCK,,TRUE
+MMS,"Maximus, Inc.",NYSE,USD,STOCK,,TRUE
+PK,Park Hotels & Resorts Inc.,NYSE,USD,STOCK,,TRUE
+DBRG,"DigitalBridge Group, Inc.",NYSE,USD,STOCK,,TRUE
+BOH,Bank of Hawaii Corporation,NYSE,USD,STOCK,,TRUE
+GRBK,"Green Brick Partners, Inc.",NYSE,USD,STOCK,,TRUE
+YETI,"YETI Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+AMBP,Ardagh Metal Packaging S.A.,NYSE,USD,STOCK,,TRUE
+SHAK,Shake Shack Inc.,NYSE,USD,STOCK,,TRUE
+WOR,"Worthington Enterprises, Inc.",NYSE,USD,STOCK,,TRUE
+BANC,"Banc of California, Inc.",NYSE,USD,STOCK,,TRUE
+REZI,"Resideo Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+KN,Knowles Corporation,NYSE,USD,STOCK,,TRUE
+WRBY,Warby Parker Inc.,NYSE,USD,STOCK,,TRUE
+CSAN,Cosan S.A.,NYSE,USD,STOCK,,TRUE
+TR,"Tootsie Roll Industries, Inc.",NYSE,USD,STOCK,,TRUE
+HAYW,"Hayward Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+KD,"Kyndryl Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+SPNT,SiriusPoint Ltd.,NYSE,USD,STOCK,,TRUE
+MNSO,MINISO Group Holding Limited,NYSE,USD,STOCK,,TRUE
+AKR,Acadia Realty Trust,NYSE,USD,STOCK,,TRUE
+FUL,H.B. Fuller Company,NYSE,USD,STOCK,,TRUE
+CBZ,"CBIZ, Inc.",NYSE,USD,STOCK,,TRUE
+BKV,BKV Corporation,NYSE,USD,STOCK,,TRUE
+TALO,Talos Energy Inc.,NYSE,USD,STOCK,,TRUE
+AEO,"American Eagle Outfitters, Inc.",NYSE,USD,STOCK,,TRUE
+CXT,"Crane NXT, Co.",NYSE,USD,STOCK,,TRUE
+DNOW,DNOW Inc.,NYSE,USD,STOCK,,TRUE
+IMAX,IMAX Corporation,NYSE,USD,STOCK,,TRUE
+IHS,IHS Holding Limited,NYSE,USD,STOCK,,TRUE
+HOG,"Harley-Davidson, Inc.",NYSE,USD,STOCK,,TRUE
+FBK,FB Financial Corporation,NYSE,USD,STOCK,,TRUE
+INFQ,"Infleqtion, Inc.",NYSE,USD,STOCK,,TRUE
+MAN,ManpowerGroup Inc.,NYSE,USD,STOCK,,TRUE
+UE,Urban Edge Properties,NYSE,USD,STOCK,,TRUE
+BKD,Brookdale Senior Living Inc.,NYSE,USD,STOCK,,TRUE
+DAC,Danaos Corporation,NYSE,USD,STOCK,,TRUE
+TTAM,Titan America SA,NYSE,USD,STOCK,,TRUE
+RH,RH,NYSE,USD,STOCK,,TRUE
+WTTR,"Select Water Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+KWR,Quaker Chemical Corporation,NYSE,USD,STOCK,,TRUE
+CALY,Callaway Golf Company,NYSE,USD,STOCK,,TRUE
+LCLN,"Lincoln International, Inc.",NYSE,USD,STOCK,,TRUE
+NOG,"Northern Oil and Gas, Inc.",NYSE,USD,STOCK,,TRUE
+ABM,ABM Industries Incorporated,NYSE,USD,STOCK,,TRUE
+GRND,Grindr Inc.,NYSE,USD,STOCK,,TRUE
+PAGS,PagSeguro Digital Ltd.,NYSE,USD,STOCK,,TRUE
+FCPT,"Four Corners Property Trust, Inc.",NYSE,USD,STOCK,,TRUE
+AMR,"Alpha Metallurgical Resources, Inc.",NYSE,USD,STOCK,,TRUE
+TDC,Teradata Corporation,NYSE,USD,STOCK,,TRUE
+WLY,"John Wiley & Sons, Inc.",NYSE,USD,STOCK,,TRUE
+BCC,Boise Cascade Company,NYSE,USD,STOCK,,TRUE
+CUBI,"Customers Bancorp, Inc.",NYSE,USD,STOCK,,TRUE
+NMM,Navios Maritime Partners L.P.,NYSE,USD,STOCK,,TRUE
+BBT,Beacon Financial Corporation,NYSE,USD,STOCK,,TRUE
+ECO,Okeanis Eco Tankers Corp.,NYSE,USD,STOCK,,TRUE
+UNFI,"United Natural Foods, Inc.",NYSE,USD,STOCK,,TRUE
+WLYB,"John Wiley & Sons, Inc.",NYSE,USD,STOCK,,TRUE
+EFXT,Enerflex Ltd.,NYSE,USD,STOCK,,TRUE
+SIND,Sinda Ltd.,NYSE,USD,STOCK,,TRUE
+COTY,Coty Inc.,NYSE,USD,STOCK,,TRUE
+AAP,"Advance Auto Parts, Inc.",NYSE,USD,STOCK,,TRUE
+BHE,"Benchmark Electronics, Inc.",NYSE,USD,STOCK,,TRUE
+RDW,Redwire Corporation,NYSE,USD,STOCK,,TRUE
+DRD,DRDGOLD Limited,NYSE,USD,STOCK,,TRUE
+STUB,"StubHub Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+IVT,InvenTrust Properties Corp.,NYSE,USD,STOCK,,TRUE
+MH,"McGraw Hill, Inc.",NYSE,USD,STOCK,,TRUE
+SSMR,Sunshine Silver Mining & Refining Company,NYSE,USD,STOCK,,TRUE
+BHC,Bausch Health Companies Inc.,NYSE,USD,STOCK,,TRUE
+SAH,"Sonic Automotive, Inc.",NYSE,USD,STOCK,,TRUE
+FIGS,"FIGS, Inc.",NYSE,USD,STOCK,,TRUE
+ATHM,Autohome Inc.,NYSE,USD,STOCK,,TRUE
+DCO,Ducommun Incorporated,NYSE,USD,STOCK,,TRUE
+PHIN,PHINIA Inc.,NYSE,USD,STOCK,,TRUE
+WHR,Whirlpool Corporation,NYSE,USD,STOCK,,TRUE
+GRDN,"Guardian Pharmacy Services, Inc.",NYSE,USD,STOCK,,TRUE
+PBH,Prestige Consumer Healthcare Inc.,NYSE,USD,STOCK,,TRUE
+AGM,Federal Agricultural Mortgage Corporation,NYSE,USD,STOCK,,TRUE
+LCII,LCI Industries,NYSE,USD,STOCK,,TRUE
+MPT,"Medical Properties Trust, Inc.",NYSE,USD,STOCK,,TRUE
+CDLR,Cadeler A/S,NYSE,USD,STOCK,,TRUE
+BHVN,Biohaven Ltd.,NYSE,USD,STOCK,,TRUE
+BXMT,"Blackstone Mortgage Trust, Inc.",NYSE,USD,STOCK,,TRUE
+PBI,Pitney Bowes Inc.,NYSE,USD,STOCK,,TRUE
+NTB,The Bank of N.T. Butterfield & Son Limited,NYSE,USD,STOCK,,TRUE
+NGVT,Ingevity Corporation,NYSE,USD,STOCK,,TRUE
+BGSI,Boyd Group Services Inc.,NYSE,USD,STOCK,,TRUE
+VVX,"V2X, Inc.",NYSE,USD,STOCK,,TRUE
+HCI,"HCI Group, Inc.",NYSE,USD,STOCK,,TRUE
+NUVB,Nuvation Bio Inc.,NYSE,USD,STOCK,,TRUE
+CALX,"Calix, Inc.",NYSE,USD,STOCK,,TRUE
+HLIO,"Helios Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+UWMC,UWM Holdings Corporation,NYSE,USD,STOCK,,TRUE
+CC,The Chemours Company,NYSE,USD,STOCK,,TRUE
+AGM.A,Federal Agricultural Mortgage Corporation,NYSE,USD,STOCK,,TRUE
+DEI,"Douglas Emmett, Inc.",NYSE,USD,STOCK,,TRUE
+TRLV,Trulieve Cannabis Corp.,NYSE,USD,STOCK,,TRUE
+ASAN,"Asana, Inc.",NYSE,USD,STOCK,,TRUE
+RAMP,"LiveRamp Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ARR,"ARMOUR Residential REIT, Inc.",NYSE,USD,STOCK,,TRUE
+VIA,"Via Transportation, Inc.",NYSE,USD,STOCK,,TRUE
+DBD,"Diebold Nixdorf, Incorporated",NYSE,USD,STOCK,,TRUE
+LPG,Dorian LPG Ltd.,NYSE,USD,STOCK,,TRUE
+AMC,"AMC Entertainment Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+NGL,NGL Energy Partners LP,NYSE,USD,STOCK,,TRUE
+WU,The Western Union Company,NYSE,USD,STOCK,,TRUE
+STDN,"Standard Nuclear, Inc.",NYSE,USD,STOCK,,TRUE
+CEPU,Central Puerto S.A.,NYSE,USD,STOCK,,TRUE
+LTC,"LTC Properties, Inc.",NYSE,USD,STOCK,,TRUE
+TRN,"Trinity Industries, Inc.",NYSE,USD,STOCK,,TRUE
+ROG,Rogers Corporation,NYSE,USD,STOCK,,TRUE
+OFG,OFG Bancorp,NYSE,USD,STOCK,,TRUE
+KMT,Kennametal Inc.,NYSE,USD,STOCK,,TRUE
+UAA,"Under Armour, Inc.",NYSE,USD,STOCK,,TRUE
+HTH,Hilltop Holdings Inc.,NYSE,USD,STOCK,,TRUE
+KSS,Kohl's Corporation,NYSE,USD,STOCK,,TRUE
+MTX,Minerals Technologies Inc.,NYSE,USD,STOCK,,TRUE
+CCU,Compañía Cervecerías Unidas S.A.,NYSE,USD,STOCK,,TRUE
+BKE,"The Buckle, Inc.",NYSE,USD,STOCK,,TRUE
+UA,"Under Armour, Inc.",NYSE,USD,STOCK,,TRUE
+AERO,"Grupo Aeroméxico, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+XXI,"Twenty One Capital, Inc.",NYSE,USD,STOCK,,TRUE
+RLX,RLX Technology Inc.,NYSE,USD,STOCK,,TRUE
+BOBS,"Bob's Discount Furniture, Inc.",NYSE,USD,STOCK,,TRUE
+AADX,"Applied Aerospace & Defense, Inc.",NYSE,USD,STOCK,,TRUE
+INVX,"Innovex International, Inc.",NYSE,USD,STOCK,,TRUE
+FCF,First Commonwealth Financial Corporation,NYSE,USD,STOCK,,TRUE
+STC,Stewart Information Services Corporation,NYSE,USD,STOCK,,TRUE
+MD,"Pediatrix Medical Group, Inc.",NYSE,USD,STOCK,,TRUE
+PLGO,Pelagos Insurance Capital Limited,NYSE,USD,STOCK,,TRUE
+GNL,"Global Net Lease, Inc.",NYSE,USD,STOCK,,TRUE
+HMN,Horace Mann Educators Corporation,NYSE,USD,STOCK,,TRUE
+MNR,Mach Natural Resources LP,NYSE,USD,STOCK,,TRUE
+BLX,Bladex Inc.,NYSE,USD,STOCK,,TRUE
+NTST,NETSTREIT Corp.,NYSE,USD,STOCK,,TRUE
+CTRI,"Centuri Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+NWN,Northwest Natural Holding Company,NYSE,USD,STOCK,,TRUE
+BRSL,Brightstar Lottery PLC,NYSE,USD,STOCK,,TRUE
+DV,"DoubleVerify Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ALG,Alamo Group Inc.,NYSE,USD,STOCK,,TRUE
+SHO,"Sunstone Hotel Investors, Inc.",NYSE,USD,STOCK,,TRUE
+UTZ,"Utz Brands, Inc.",NYSE,USD,STOCK,,TRUE
+GENI,Genius Sports Limited,NYSE,USD,STOCK,,TRUE
+BXDC,Blackstone Digital Infrastructure Trust Inc.,NYSE,USD,STOCK,,TRUE
+CTOS,"Custom Truck One Source, Inc.",NYSE,USD,STOCK,,TRUE
+PEB,Pebblebrook Hotel Trust,NYSE,USD,STOCK,,TRUE
+TIC,"TIC Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+SPB,"Spectrum Brands Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+XPRO,Expro Ltd,NYSE,USD,STOCK,,TRUE
+GTY,Getty Realty Corp.,NYSE,USD,STOCK,,TRUE
+VET,Vermilion Energy Inc.,NYSE,USD,STOCK,,TRUE
+GEL,"Genesis Energy, L.P.",NYSE,USD,STOCK,,TRUE
+VOYG,"Voyager Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+NSP,"Insperity, Inc.",NYSE,USD,STOCK,,TRUE
+PRGO,Perrigo Company plc,NYSE,USD,STOCK,,TRUE
+GRC,The Gorman-Rupp Company,NYSE,USD,STOCK,,TRUE
+FLOC,Flowco Holdings Inc.,NYSE,USD,STOCK,,TRUE
+BFLY,"Butterfly Network, Inc.",NYSE,USD,STOCK,,TRUE
+OLN,Olin Corporation,NYSE,USD,STOCK,,TRUE
+HE,"Hawaiian Electric Industries, Inc.",NYSE,USD,STOCK,,TRUE
+PRLB,"Proto Labs, Inc.",NYSE,USD,STOCK,,TRUE
+EPAC,Enerpac Tool Group Corp.,NYSE,USD,STOCK,,TRUE
+DAO,"Youdao, Inc.",NYSE,USD,STOCK,,TRUE
+DXC,DXC Technology Company,NYSE,USD,STOCK,,TRUE
+CMRE,Costamare Inc.,NYSE,USD,STOCK,,TRUE
+NBHC,National Bank Holdings Corporation,NYSE,USD,STOCK,,TRUE
+PRKS,United Parks & Resorts Inc.,NYSE,USD,STOCK,,TRUE
+NEXA,Nexa Resources S.A.,NYSE,USD,STOCK,,TRUE
+ATS,ATS Corporation,NYSE,USD,STOCK,,TRUE
+WS,"Worthington Steel, Inc.",NYSE,USD,STOCK,,TRUE
+LOB,"Live Oak Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+AVEX,AEVEX Corp.,NYSE,USD,STOCK,,TRUE
+SMA,"SmartStop Self Storage REIT, Inc.",NYSE,USD,STOCK,,TRUE
+CCS,"Century Communities, Inc.",NYSE,USD,STOCK,,TRUE
+EVTC,"EVERTEC, Inc.",NYSE,USD,STOCK,,TRUE
+INSP,"Inspire Medical Systems, Inc.",NYSE,USD,STOCK,,TRUE
+DCOM,"Dime Commercial Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+XHR,"Xenia Hotels & Resorts, Inc.",NYSE,USD,STOCK,,TRUE
+GLP,Global Partners LP,NYSE,USD,STOCK,,TRUE
+ATEN,"A10 Networks, Inc.",NYSE,USD,STOCK,,TRUE
+WKC,World Kinect Corporation,NYSE,USD,STOCK,,TRUE
+SNDA,"Sonida Senior Living, Inc.",NYSE,USD,STOCK,,TRUE
+AIN,Albany International Corp.,NYSE,USD,STOCK,,TRUE
+WMK,"Weis Markets, Inc.",NYSE,USD,STOCK,,TRUE
+GLOB,Globant S.A.,NYSE,USD,STOCK,,TRUE
+TGLS,Tecnoglass Holdings Inc.,NYSE,USD,STOCK,,TRUE
+EFC,Ellington Financial Inc.,NYSE,USD,STOCK,,TRUE
+ARCO,Arcos Dorados Holdings Inc.,NYSE,USD,STOCK,,TRUE
+SFL,SFL Corporation Ltd.,NYSE,USD,STOCK,,TRUE
+BY,"Byline Bancorp, Inc.",NYSE,USD,STOCK,,TRUE
+FOIL,Londian Wason New Energy Tech Inc.,NYSE,USD,STOCK,,TRUE
+TRIN,Trinity Capital Inc.,NYSE,USD,STOCK,,TRUE
+SAM,"The Boston Beer Company, Inc.",NYSE,USD,STOCK,,TRUE
+TSLX,"Sixth Street Specialty Lending, Inc.",NYSE,USD,STOCK,,TRUE
+BST,BlackRock Science and Technology Trust,NYSE,USD,STOCK,,TRUE
+AAT,"American Assets Trust, Inc.",NYSE,USD,STOCK,,TRUE
+IDT,IDT Corporation,NYSE,USD,STOCK,,TRUE
+TBN,Tamboran Resources Corporation,NYSE,USD,STOCK,,TRUE
+KRP,"Kimbell Royalty Partners, LP",NYSE,USD,STOCK,,TRUE
+HAWK,"HawkEye 360, Inc.",NYSE,USD,STOCK,,TRUE
+KMPR,Kemper Corporation,NYSE,USD,STOCK,,TRUE
+KOS,Kosmos Energy Ltd.,NYSE,USD,STOCK,,TRUE
+CBL,"CBL & Associates Properties, Inc.",NYSE,USD,STOCK,,TRUE
+AI,"C3.ai, Inc.",NYSE,USD,STOCK,,TRUE
+FLNG,FLEX LNG Ltd.,NYSE,USD,STOCK,,TRUE
+MBC,"MasterBrand, Inc.",NYSE,USD,STOCK,,TRUE
+OBK,"Origin Bancorp, Inc.",NYSE,USD,STOCK,,TRUE
+AGRO,Adecoagro S.A.,NYSE,USD,STOCK,,TRUE
+AESI,Atlas Energy Solutions Inc.,NYSE,USD,STOCK,,TRUE
+TFIN,"Triumph Financial, Inc.",NYSE,USD,STOCK,,TRUE
+HUN,Huntsman Corporation,NYSE,USD,STOCK,,TRUE
+GSL,"Global Ship Lease, Inc.",NYSE,USD,STOCK,,TRUE
+RLJ,RLJ Lodging Trust,NYSE,USD,STOCK,,TRUE
+VSTS,Vestis Corporation,NYSE,USD,STOCK,,TRUE
+FMC,FMC Corporation,NYSE,USD,STOCK,,TRUE
+CTS,CTS Corporation,NYSE,USD,STOCK,,TRUE
+COUR,"Coursera, Inc.",NYSE,USD,STOCK,,TRUE
+PBT,Permian Basin Royalty Trust,NYSE,USD,STOCK,,TRUE
+DCH,Dauch Corporation,NYSE,USD,STOCK,,TRUE
+NOMD,Nomad Foods Limited,NYSE,USD,STOCK,,TRUE
+WWW,"Wolverine World Wide, Inc.",NYSE,USD,STOCK,,TRUE
+SVV,"Savers Value Village, Inc.",NYSE,USD,STOCK,,TRUE
+IIPR,"Innovative Industrial Properties, Inc.",NYSE,USD,STOCK,,TRUE
+FUN,Six Flags Entertainment Corporation,NYSE,USD,STOCK,,TRUE
+SID,Companhia Siderúrgica Nacional,NYSE,USD,STOCK,,TRUE
+ADIG,ADI Global Distribution Inc.,NYSE,USD,STOCK,,TRUE
+PRG,"PROG Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+SBH,"Sally Beauty Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ARDT,"Ardent Health, Inc.",NYSE,USD,STOCK,,TRUE
+TPB,"Turning Point Brands, Inc.",NYSE,USD,STOCK,,TRUE
+ADNT,Adient plc,NYSE,USD,STOCK,,TRUE
+RVLV,"Revolve Group, Inc.",NYSE,USD,STOCK,,TRUE
+NRP,Natural Resource Partners L.P.,NYSE,USD,STOCK,,TRUE
+XZO,"Exzeo Group, Inc.",NYSE,USD,STOCK,,TRUE
+CXM,"Sprinklr, Inc.",NYSE,USD,STOCK,,TRUE
+LYNX,Lyntris Inc.,NYSE,USD,STOCK,,TRUE
+NAT,Nordic American Tankers Limited,NYSE,USD,STOCK,,TRUE
+CPRI,Capri Holdings Limited,NYSE,USD,STOCK,,TRUE
+GIC,Global Industrial Company,NYSE,USD,STOCK,,TRUE
+DMC,Del Monte Corporation,NYSE,USD,STOCK,,TRUE
+CNMD,CONMED Corporation,NYSE,USD,STOCK,,TRUE
+AGL,"agilon health, inc.",NYSE,USD,STOCK,,TRUE
+WOLF,"Wolfspeed, Inc.",NYSE,USD,STOCK,,TRUE
+ARLO,"Arlo Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+WD,"Walker & Dunlop, Inc.",NYSE,USD,STOCK,,TRUE
+ENR,"Energizer Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+NMAX,Newsmax Inc.,NYSE,USD,STOCK,,TRUE
+BBAI,"BigBear.ai Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ANRO,"Alto Neuroscience, Inc.",NYSE,USD,STOCK,,TRUE
+SCL,Stepan Company,NYSE,USD,STOCK,,TRUE
+BORR,Borr Drilling Limited,NYSE,USD,STOCK,,TRUE
+FOR,Forestar Group Inc.,NYSE,USD,STOCK,,TRUE
+RES,"RPC, Inc.",NYSE,USD,STOCK,,TRUE
+CYD,China Yuchai International Limited,NYSE,USD,STOCK,,TRUE
+TV,"Grupo Televisa, S.A.B.",NYSE,USD,STOCK,,TRUE
+SLVM,Sylvamo Corporation,NYSE,USD,STOCK,,TRUE
+UAN,"CVR Partners, LP",NYSE,USD,STOCK,,TRUE
+AMPX,"Amprius Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+CLVT,Clarivate Plc,NYSE,USD,STOCK,,TRUE
+PUMP,ProPetro Holding Corp.,NYSE,USD,STOCK,,TRUE
+NVGS,Navigator Holdings Ltd.,NYSE,USD,STOCK,,TRUE
+NBR,Nabors Industries Ltd.,NYSE,USD,STOCK,,TRUE
+UMH,"UMH Properties, Inc.",NYSE,USD,STOCK,,TRUE
+REX,REX American Resources Corporation,NYSE,USD,STOCK,,TRUE
+FLO,"Flowers Foods, Inc.",NYSE,USD,STOCK,,TRUE
+AMBQ,"Ambiq Micro, Inc.",NYSE,USD,STOCK,,TRUE
+ALX,"Alexander's, Inc.",NYSE,USD,STOCK,,TRUE
+RYZ,Ryerson Holding Corporation,NYSE,USD,STOCK,,TRUE
+LSPD,Lightspeed Commerce Inc.,NYSE,USD,STOCK,,TRUE
+AZUL,Azul S.A.,NYSE,USD,STOCK,,TRUE
+IRS,IRSA Inversiones y Representaciones Sociedad Anónima,NYSE,USD,STOCK,,TRUE
+OPY,Oppenheimer Holdings Inc.,NYSE,USD,STOCK,,TRUE
+TE,T1 Energy Inc.,NYSE,USD,STOCK,,TRUE
+GBX,"The Greenbrier Companies, Inc.",NYSE,USD,STOCK,,TRUE
+EFOR,"Everforth, Inc.",NYSE,USD,STOCK,,TRUE
+ASIC,Ategrity Specialty Insurance Company Holdings,NYSE,USD,STOCK,,TRUE
+DOLE,Dole plc,NYSE,USD,STOCK,,TRUE
+EPC,Edgewell Personal Care Company,NYSE,USD,STOCK,,TRUE
+PRSU,"Pursuit Attractions and Hospitality, Inc.",NYSE,USD,STOCK,,TRUE
+ORC,"Orchid Island Capital, Inc.",NYSE,USD,STOCK,,TRUE
+ODC,Oil-Dri Corporation of America,NYSE,USD,STOCK,,TRUE
+TEN,Tsakos Energy Navigation Limited,NYSE,USD,STOCK,,TRUE
+VTOL,Bristow Group Inc.,NYSE,USD,STOCK,,TRUE
+LZB,La-Z-Boy Incorporated,NYSE,USD,STOCK,,TRUE
+AMN,"AMN Healthcare Services, Inc.",NYSE,USD,STOCK,,TRUE
+HLF,Herbalife Ltd.,NYSE,USD,STOCK,,TRUE
+MSDL,Morgan Stanley Direct Lending Fund,NYSE,USD,STOCK,,TRUE
+DEA,"Easterly Government Properties, Inc.",NYSE,USD,STOCK,,TRUE
+BH.A,Biglari Holdings Inc.,NYSE,USD,STOCK,,TRUE
+FUBO,FuboTV Inc.,NYSE,USD,STOCK,,TRUE
+AORT,"Artivion, Inc.",NYSE,USD,STOCK,,TRUE
+CDRE,"Cadre Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+MUX,McEwen Inc.,NYSE,USD,STOCK,,TRUE
+BH,Biglari Holdings Inc.,NYSE,USD,STOCK,,TRUE
+ESRT,"Empire State Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+LADR,Ladder Capital Corp,NYSE,USD,STOCK,,TRUE
+UVE,"Universal Insurance Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+DFH,"Dream Finders Homes, Inc.",NYSE,USD,STOCK,,TRUE
+LNN,Lindsay Corporation,NYSE,USD,STOCK,,TRUE
+BRBR,"BellRing Brands, Inc.",NYSE,USD,STOCK,,TRUE
+SECZ,Securitize Corp.,NYSE,USD,STOCK,,TRUE
+CRI,"Carter's, Inc.",NYSE,USD,STOCK,,TRUE
+VYX,NCR Voyix Corporation,NYSE,USD,STOCK,,TRUE
+PDM,"Piedmont Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+YELP,Yelp Inc.,NYSE,USD,STOCK,,TRUE
+CCO,"Clear Channel Outdoor Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+MMI,"Marcus & Millichap, Inc.",NYSE,USD,STOCK,,TRUE
+DSL,DoubleLine Income Solutions Fund,NYSE,USD,STOCK,,TRUE
+ASA,ASA Gold and Precious Metals Limited,NYSE,USD,STOCK,,TRUE
+UTI,"Universal Technical Institute, Inc.",NYSE,USD,STOCK,,TRUE
+DFIN,"Donnelley Financial Solutions, Inc.",NYSE,USD,STOCK,,TRUE
+AMRC,"Ameresco, Inc.",NYSE,USD,STOCK,,TRUE
+PDS,Precision Drilling Corporation,NYSE,USD,STOCK,,TRUE
+TNC,Tennant Company,NYSE,USD,STOCK,,TRUE
+LOMA,Loma Negra Compañía Industrial Argentina Sociedad Anónima,NYSE,USD,STOCK,,TRUE
+GNK,Genco Shipping & Trading Limited,NYSE,USD,STOCK,,TRUE
+GOLD,"Gold.com, Inc.",NYSE,USD,STOCK,,TRUE
+TDOC,"Teladoc Health, Inc.",NYSE,USD,STOCK,,TRUE
+TK,Teekay Corporation Ltd.,NYSE,USD,STOCK,,TRUE
+SPH,"Suburban Propane Partners, L.P.",NYSE,USD,STOCK,,TRUE
+BFS,"Saul Centers, Inc.",NYSE,USD,STOCK,,TRUE
+USPH,"U.S. Physical Therapy, Inc.",NYSE,USD,STOCK,,TRUE
+YSS,"York Space Systems, Inc.",NYSE,USD,STOCK,,TRUE
+MYE,"Myers Industries, Inc.",NYSE,USD,STOCK,,TRUE
+TUYA,Tuya Inc.,NYSE,USD,STOCK,,TRUE
+HZO,"MarineMax, Inc.",NYSE,USD,STOCK,,TRUE
+AMTB,Amerant Bancorp Inc.,NYSE,USD,STOCK,,TRUE
+ACVA,ACV Auctions Inc.,NYSE,USD,STOCK,,TRUE
+MCB,Metropolitan Bank Holding Corp.,NYSE,USD,STOCK,,TRUE
+UVV,Universal Corporation,NYSE,USD,STOCK,,TRUE
+EDN,Empresa Distribuidora y Comercializadora Norte Sociedad Anónima,NYSE,USD,STOCK,,TRUE
+XIFR,"XPLR Infrastructure, LP",NYSE,USD,STOCK,,TRUE
+ENOV,Enovis Corporation,NYSE,USD,STOCK,,TRUE
+LAR,Lithium Argentina AG,NYSE,USD,STOCK,,TRUE
+DEC,Diversified Energy Company,NYSE,USD,STOCK,,TRUE
+BOW,Bowhead Specialty Holdings Inc.,NYSE,USD,STOCK,,TRUE
+NPKI,NPK International Inc.,NYSE,USD,STOCK,,TRUE
+DLX,Deluxe Corporation,NYSE,USD,STOCK,,TRUE
+GSBD,"Goldman Sachs BDC, Inc.",NYSE,USD,STOCK,,TRUE
+ECVT,Ecovyst Inc.,NYSE,USD,STOCK,,TRUE
+LAC,Lithium Americas Corp.,NYSE,USD,STOCK,,TRUE
+SBR,Sabine Royalty Trust,NYSE,USD,STOCK,,TRUE
+TYG,Tortoise Energy Infrastructure Corporation,NYSE,USD,STOCK,,TRUE
+PD,"PagerDuty, Inc.",NYSE,USD,STOCK,,TRUE
+AGBK,AGI Inc,NYSE,USD,STOCK,,TRUE
+PXED,"Phoenix Education Partners, Inc.",NYSE,USD,STOCK,,TRUE
+SAFE,Safehold Inc.,NYSE,USD,STOCK,,TRUE
+RHLD,"Resolute Holdings Management, Inc.",NYSE,USD,STOCK,,TRUE
+OI,"O-I Glass, Inc.",NYSE,USD,STOCK,,TRUE
+BW,"Babcock & Wilcox Enterprises, Inc.",NYSE,USD,STOCK,,TRUE
+ABR,"Arbor Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+CPAC,Cementos Pacasmayo S.A.A.,NYSE,USD,STOCK,,TRUE
+LU,Lufax Holding Ltd,NYSE,USD,STOCK,,TRUE
+CMP,"Compass Minerals International, Inc.",NYSE,USD,STOCK,,TRUE
+EQBK,"Equity Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+BV,"BrightView Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+LUXE,LuxExperience B.V.,NYSE,USD,STOCK,,TRUE
+VRTS,"Virtus Investment Partners, Inc.",NYSE,USD,STOCK,,TRUE
+BTX,BlackRock Innovation and Growth Term Trust,NYSE,USD,STOCK,,TRUE
+NPK,"National Presto Industries, Inc.",NYSE,USD,STOCK,,TRUE
+GMRS,GMR Solutions Inc.,NYSE,USD,STOCK,,TRUE
+TTI,"TETRA Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+HRTG,"Heritage Insurance Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+MNTN,"MNTN, Inc.",NYSE,USD,STOCK,,TRUE
+INR,"Infinity Natural Resources, Inc.",NYSE,USD,STOCK,,TRUE
+GHM,Graham Corporation,NYSE,USD,STOCK,,TRUE
+UTL,Unitil Corporation,NYSE,USD,STOCK,,TRUE
+CPF,Central Pacific Financial Corp.,NYSE,USD,STOCK,,TRUE
+KRO,"Kronos Worldwide, Inc.",NYSE,USD,STOCK,,TRUE
+CIM,Chimera Investment Corporation,NYSE,USD,STOCK,,TRUE
+SBSI,"Southside Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+KBDC,"Kayne Anderson BDC, Inc.",NYSE,USD,STOCK,,TRUE
+ACEL,"Accel Entertainment, Inc.",NYSE,USD,STOCK,,TRUE
+PLOW,"Douglas Dynamics, Inc.",NYSE,USD,STOCK,,TRUE
+ABX,"Abacus Global Management, Inc.",NYSE,USD,STOCK,,TRUE
+BUR,Burford Capital Limited,NYSE,USD,STOCK,,TRUE
+BBDC,"Barings BDC, Inc.",NYSE,USD,STOCK,,TRUE
+TDAY,"USA TODAY Co., Inc.",NYSE,USD,STOCK,,TRUE
+RPC,"Ridgepost Capital, Inc",NYSE,USD,STOCK,,TRUE
+RERE,ATRenew Inc.,NYSE,USD,STOCK,,TRUE
+CSR,Centerspace,NYSE,USD,STOCK,,TRUE
+SB,"Safe Bulkers, Inc.",NYSE,USD,STOCK,,TRUE
+OGG,Osisko Gold Group Inc.,NYSE,USD,STOCK,,TRUE
+FET,"Forum Energy Technologies, Inc.",NYSE,USD,STOCK,,TRUE
+HIPO,Hippo Holdings Inc.,NYSE,USD,STOCK,,TRUE
+SOC,Sable Offshore Corp.,NYSE,USD,STOCK,,TRUE
+PSTL,"Postal Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+EIG,"Employers Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+MFA,"MFA Financial, Inc.",NYSE,USD,STOCK,,TRUE
+KFRC,Kforce Inc.,NYSE,USD,STOCK,,TRUE
+KODK,Eastman Kodak Company,NYSE,USD,STOCK,,TRUE
+NXDR,"Nextdoor Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+BTGO,"Bitgo Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+KOP,Koppers Holdings Inc.,NYSE,USD,STOCK,,TRUE
+SMBK,"SmartFinancial, Inc.",NYSE,USD,STOCK,,TRUE
+JMIA,Jumia Technologies AG,NYSE,USD,STOCK,,TRUE
+CAPL,CrossAmerica Partners LP,NYSE,USD,STOCK,,TRUE
+ARI,"Apollo Commercial Real Estate Finance, Inc.",NYSE,USD,STOCK,,TRUE
+RSKD,Riskified Ltd.,NYSE,USD,STOCK,,TRUE
+SMP,"Standard Motor Products, Inc.",NYSE,USD,STOCK,,TRUE
+CVLG,"Covenant Logistics Group, Inc.",NYSE,USD,STOCK,,TRUE
+IBTA,"Ibotta, Inc.",NYSE,USD,STOCK,,TRUE
+SKYH,Sky Harbour Group Corporation,NYSE,USD,STOCK,,TRUE
+NX,Quanex Building Products Corporation,NYSE,USD,STOCK,,TRUE
+CODI,Compass Diversified,NYSE,USD,STOCK,,TRUE
+MCS,The Marcus Corporation,NYSE,USD,STOCK,,TRUE
+BZH,"Beazer Homes USA, Inc.",NYSE,USD,STOCK,,TRUE
+SXC,"SunCoke Energy, Inc.",NYSE,USD,STOCK,,TRUE
+LUCK,Lucky Strike Entertainment Corporation,NYSE,USD,STOCK,,TRUE
+FTK,"Flotek Industries, Inc.",NYSE,USD,STOCK,,TRUE
+JBGS,JBG SMITH Properties,NYSE,USD,STOCK,,TRUE
+DQ,Daqo New Energy Corp.,NYSE,USD,STOCK,,TRUE
+ANGX,"Angel Studios, Inc.",NYSE,USD,STOCK,,TRUE
+WGO,"Winnebago Industries, Inc.",NYSE,USD,STOCK,,TRUE
+YALA,Yalla Group Limited,NYSE,USD,STOCK,,TRUE
+PMT,PennyMac Mortgage Investment Trust,NYSE,USD,STOCK,,TRUE
+REF,Reformation Inc.,NYSE,USD,STOCK,,TRUE
+VPG,"Vishay Precision Group, Inc.",NYSE,USD,STOCK,,TRUE
+BKSY,BlackSky Technology Inc.,NYSE,USD,STOCK,,TRUE
+TXO,"TXO Partners, L.P.",NYSE,USD,STOCK,,TRUE
+SUPV,Grupo Supervielle S.A.,NYSE,USD,STOCK,,TRUE
+HSHP,Himalaya Shipping Ltd.,NYSE,USD,STOCK,,TRUE
+GLAS,Glass House Brands Inc.,NYSE,USD,STOCK,,TRUE
+LXU,"LSB Industries, Inc.",NYSE,USD,STOCK,,TRUE
+FINV,FinVolution Group,NYSE,USD,STOCK,,TRUE
+CTO,"CTO Realty Growth, Inc.",NYSE,USD,STOCK,,TRUE
+SG,"Sweetgreen, Inc.",NYSE,USD,STOCK,,TRUE
+MTUS,Metallus Inc.,NYSE,USD,STOCK,,TRUE
+GOOS,Canada Goose Holdings Inc.,NYSE,USD,STOCK,,TRUE
+SMWB,Similarweb Ltd.,NYSE,USD,STOCK,,TRUE
+TROX,Tronox Holdings plc,NYSE,USD,STOCK,,TRUE
+PAR,PAR Technology Corporation,NYSE,USD,STOCK,,TRUE
+GFR,Greenfire Resources Ltd.,NYSE,USD,STOCK,,TRUE
+HTB,"HomeTrust Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+GPRK,GeoPark Limited,NYSE,USD,STOCK,,TRUE
+EVC,Entravision Communications Corporation,NYSE,USD,STOCK,,TRUE
+WHK,WhiteHawk Minerals Corp.,NYSE,USD,STOCK,,TRUE
+EVEX,"Eve Holding, Inc.",NYSE,USD,STOCK,,TRUE
+WLKP,Westlake Chemical Partners LP,NYSE,USD,STOCK,,TRUE
+UAMY,United States Antimony Corporation,NYSE,USD,STOCK,,TRUE
+BCSF,"Bain Capital Specialty Finance, Inc.",NYSE,USD,STOCK,,TRUE
+IVR,Invesco Mortgage Capital Inc.,NYSE,USD,STOCK,,TRUE
+NABL,"N-able, Inc.",NYSE,USD,STOCK,,TRUE
+GDOT,Green Dot Corporation,NYSE,USD,STOCK,,TRUE
+VLRS,"Controladora Vuela Compañía de Aviación, S.A.B. de C.V.",NYSE,USD,STOCK,,TRUE
+FPH,"Five Point Holdings, LLC",NYSE,USD,STOCK,,TRUE
+MOV,"Movado Group, Inc.",NYSE,USD,STOCK,,TRUE
+MAX,"MediaAlpha, Inc.",NYSE,USD,STOCK,,TRUE
+TCBX,"Third Coast Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+OFRM,"Once Upon A Farm, PBC",NYSE,USD,STOCK,,TRUE
+VTS,"Vitesse Energy, Inc.",NYSE,USD,STOCK,,TRUE
+PFLT,PennantPark Floating Rate Capital Ltd.,NYSE,USD,STOCK,,TRUE
+VEL,"Velocity Financial, Inc.",NYSE,USD,STOCK,,TRUE
+ASC,Ardmore Shipping Corporation,NYSE,USD,STOCK,,TRUE
+MTW,"The Manitowoc Company, Inc.",NYSE,USD,STOCK,,TRUE
+HPP,"Hudson Pacific Properties, Inc.",NYSE,USD,STOCK,,TRUE
+BAK,Braskem S.A.,NYSE,USD,STOCK,,TRUE
+FBRT,"Franklin BSP Realty Trust, Inc.",NYSE,USD,STOCK,,TRUE
+HOV,"Hovnanian Enterprises, Inc.",NYSE,USD,STOCK,,TRUE
+CWH,"Camping World Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+NRGV,"Energy Vault Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+CNNE,"Cannae Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+MATV,"Mativ Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PHR,"Phreesia, Inc.",NYSE,USD,STOCK,,TRUE
+JBI,"Janus International Group, Inc.",NYSE,USD,STOCK,,TRUE
+INN,"Summit Hotel Properties, Inc.",NYSE,USD,STOCK,,TRUE
+PKE,Park Aerospace Corp.,NYSE,USD,STOCK,,TRUE
+GRNT,"Granite Ridge Resources, Inc.",NYSE,USD,STOCK,,TRUE
+CTEV,Claritev Corporation,NYSE,USD,STOCK,,TRUE
+NVRI,Enviri Corporation,NYSE,USD,STOCK,,TRUE
+YEXT,"Yext, Inc.",NYSE,USD,STOCK,,TRUE
+AHRT,AH REALTY TRUST INC,NYSE,USD,STOCK,,TRUE
+JKS,"JinkoSolar Holding Co., Ltd.",NYSE,USD,STOCK,,TRUE
+OOMA,"Ooma, Inc.",NYSE,USD,STOCK,,TRUE
+CARS,Cars.com Inc.,NYSE,USD,STOCK,,TRUE
+EGY,"VAALCO Energy, Inc.",NYSE,USD,STOCK,,TRUE
+NGVC,"Natural Grocers by Vitamin Cottage, Inc.",NYSE,USD,STOCK,,TRUE
+OPFI,OppFi Inc.,NYSE,USD,STOCK,,TRUE
+ONT,"Onterris, Inc.",NYSE,USD,STOCK,,TRUE
+MLR,"Miller Industries, Inc.",NYSE,USD,STOCK,,TRUE
+CLDT,Chatham Lodging Trust,NYSE,USD,STOCK,,TRUE
+NCDL,Nuveen Churchill Direct Lending Corp.,NYSE,USD,STOCK,,TRUE
+CRD.A,Crawford & Company,NYSE,USD,STOCK,,TRUE
+NXRT,"NexPoint Residential Trust, Inc.",NYSE,USD,STOCK,,TRUE
+MG,"Mistras Group, Inc.",NYSE,USD,STOCK,,TRUE
+BXC,BlueLinx Holdings Inc.,NYSE,USD,STOCK,,TRUE
+BWMX,"Betterware de México, S.A.P.I. de C.V.",NYSE,USD,STOCK,,TRUE
+HY,"Hyster-Yale, Inc.",NYSE,USD,STOCK,,TRUE
+BCSS,Bain Capital GSS Investment Corp.,NYSE,USD,STOCK,,TRUE
+CRD.B,Crawford & Company,NYSE,USD,STOCK,,TRUE
+TRTX,"TPG RE Finance Trust, Inc.",NYSE,USD,STOCK,,TRUE
+VTEX,VTEX,NYSE,USD,STOCK,,TRUE
+EVAC,EQV Ventures Acquisition Corp. II,NYSE,USD,STOCK,,TRUE
+IIIN,Insteel Industries Inc.,NYSE,USD,STOCK,,TRUE
+NPB,"Northpointe Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+RGR,"Sturm, Ruger & Company, Inc.",NYSE,USD,STOCK,,TRUE
+BRSP,"BrightSpire Capital, Inc.",NYSE,USD,STOCK,,TRUE
+WEAV,"Weave Communications, Inc.",NYSE,USD,STOCK,,TRUE
+RYAM,Rayonier Advanced Materials Inc.,NYSE,USD,STOCK,,TRUE
+WTI,"W&T Offshore, Inc.",NYSE,USD,STOCK,,TRUE
+WNC,Wabash National Corporation,NYSE,USD,STOCK,,TRUE
+CLB,Core Laboratories Inc.,NYSE,USD,STOCK,,TRUE
+UHT,Universal Health Realty Income Trust,NYSE,USD,STOCK,,TRUE
+MSIF,"MSC Income Fund, Inc.",NYSE,USD,STOCK,,TRUE
+NOAH,Noah Holdings Limited,NYSE,USD,STOCK,,TRUE
+AEXA,American Exceptionalism Acquisition Corp. A,NYSE,USD,STOCK,,TRUE
+SDHC,Smith Douglas Homes Corp.,NYSE,USD,STOCK,,TRUE
+FVR,"FrontView REIT, Inc.",NYSE,USD,STOCK,,TRUE
+RWT,"Redwood Trust, Inc.",NYSE,USD,STOCK,,TRUE
+ETD,Ethan Allen Interiors Inc.,NYSE,USD,STOCK,,TRUE
+MEI,"Methode Electronics, Inc.",NYSE,USD,STOCK,,TRUE
+DDD,3D Systems Corporation,NYSE,USD,STOCK,,TRUE
+OXM,"Oxford Industries, Inc.",NYSE,USD,STOCK,,TRUE
+BDN,Brandywine Realty Trust,NYSE,USD,STOCK,,TRUE
+CMDB,Costamare Bulkers Holdings Limited,NYSE,USD,STOCK,,TRUE
+CSV,"Carriage Services, Inc.",NYSE,USD,STOCK,,TRUE
+EBF,"Ennis, Inc.",NYSE,USD,STOCK,,TRUE
+IPI,"Intrepid Potash, Inc.",NYSE,USD,STOCK,,TRUE
+OIS,"Oil States International, Inc.",NYSE,USD,STOCK,,TRUE
+QUAD,"Quad/Graphics, Inc.",NYSE,USD,STOCK,,TRUE
+HKD,AMTD Digital Inc.,NYSE,USD,STOCK,,TRUE
+SD,"SandRidge Energy, Inc.",NYSE,USD,STOCK,,TRUE
+OLP,"One Liberty Properties, Inc.",NYSE,USD,STOCK,,TRUE
+ECC,Eagle Point Credit Company,NYSE,USD,STOCK,,TRUE
+GOTU,Gaotu Techedu Inc.,NYSE,USD,STOCK,,TRUE
+AII,"American Integrity Insurance Group, Inc.",NYSE,USD,STOCK,,TRUE
+VHI,"Valhi, Inc.",NYSE,USD,STOCK,,TRUE
+NWAX,New America Acquisition I Corp.,NYSE,USD,STOCK,,TRUE
+XRN,Chiron Real Estate Inc.,NYSE,USD,STOCK,,TRUE
+BALY,Bally's Corporation,NYSE,USD,STOCK,,TRUE
+AAC,Ares Acquisition Corporation III,NYSE,USD,STOCK,,TRUE
+MEC,"Mayville Engineering Company, Inc.",NYSE,USD,STOCK,,TRUE
+GTN.A,"Gray Media, Inc.",NYSE,USD,STOCK,,TRUE
+GTN,"Gray Media, Inc.",NYSE,USD,STOCK,,TRUE
+KRSP,Rice Acquisition Corporation 3,NYSE,USD,STOCK,,TRUE
+TWI,"Titan International, Inc.",NYSE,USD,STOCK,,TRUE
+DDL,Dingdong (Cayman) Limited,NYSE,USD,STOCK,,TRUE
+EVH,"Evolent Health, Inc.",NYSE,USD,STOCK,,TRUE
+HUYA,HUYA Inc.,NYSE,USD,STOCK,,TRUE
+SMC,Summit Midstream Corporation,NYSE,USD,STOCK,,TRUE
+NMG,Nouveau Monde Graphite Inc.,NYSE,USD,STOCK,,TRUE
+ZKH,ZKH Group Limited,NYSE,USD,STOCK,,TRUE
+CPS,Cooper-Standard Holdings Inc.,NYSE,USD,STOCK,,TRUE
+NGS,"Natural Gas Services Group, Inc.",NYSE,USD,STOCK,,TRUE
+ASIX,AdvanSix Inc.,NYSE,USD,STOCK,,TRUE
+FPI,Farmland Partners Inc.,NYSE,USD,STOCK,,TRUE
+SPIR,"Spire Global, Inc.",NYSE,USD,STOCK,,TRUE
+LXFR,Luxfer Holdings PLC,NYSE,USD,STOCK,,TRUE
+DNA,"Ginkgo Bioworks Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+CBAN,"Colony Bankcorp, Inc.",NYSE,USD,STOCK,,TRUE
+CINT,CI&T Inc.,NYSE,USD,STOCK,,TRUE
+SPCE,"Virgin Galactic Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+KREF,KKR Real Estate Finance Trust Inc.,NYSE,USD,STOCK,,TRUE
+MAGN,Magnera Corporation,NYSE,USD,STOCK,,TRUE
+TRC,Tejon Ranch Co.,NYSE,USD,STOCK,,TRUE
+EVMN,"Evommune, Inc.",NYSE,USD,STOCK,,TRUE
+HVT.A,"Haverty Furniture Companies, Inc.",NYSE,USD,STOCK,,TRUE
+HVT,"Haverty Furniture Companies, Inc.",NYSE,USD,STOCK,,TRUE
+SI,"Shoulder Innovations, Inc.",NYSE,USD,STOCK,,TRUE
+SGU,"Star Group, L.P.",NYSE,USD,STOCK,,TRUE
+BNED,"Barnes & Noble Education, Inc.",NYSE,USD,STOCK,,TRUE
+BOC,Boston Omaha Corporation,NYSE,USD,STOCK,,TRUE
+HBB,Hamilton Beach Brands Holding Company,NYSE,USD,STOCK,,TRUE
+OPTU,"Optimum Communications, Inc.",NYSE,USD,STOCK,,TRUE
+AVBC,"Avidia Bancorp, Inc.",NYSE,USD,STOCK,,TRUE
+CAL,"Caleres, Inc.",NYSE,USD,STOCK,,TRUE
+CLBR,Colombier Acquisition Corp. III,NYSE,USD,STOCK,,TRUE
+DIN,"Dine Brands Global, Inc.",NYSE,USD,STOCK,,TRUE
+GNE,Genie Energy Ltd.,NYSE,USD,STOCK,,TRUE
+NREF,"NexPoint Real Estate Finance, Inc.",NYSE,USD,STOCK,,TRUE
+NPWR,NET Power Inc.,NYSE,USD,STOCK,,TRUE
+HTT,High Templar Tech Limited,NYSE,USD,STOCK,,TRUE
+ASPN,"Aspen Aerogels, Inc.",NYSE,USD,STOCK,,TRUE
+CHCT,Community Healthcare Trust Incorporated,NYSE,USD,STOCK,,TRUE
+ACCO,ACCO Brands Corporation,NYSE,USD,STOCK,,TRUE
+AUNA,Auna S.A.,NYSE,USD,STOCK,,TRUE
+RNGR,"Ranger Energy Services, Inc.",NYSE,USD,STOCK,,TRUE
+FCBM,"First Carolina Financial Services, Inc.",NYSE,USD,STOCK,,TRUE
+CYH,"Community Health Systems, Inc.",NYSE,USD,STOCK,,TRUE
+ALIT,"Alight, Inc.",NYSE,USD,STOCK,,TRUE
+AIV,Apartment Investment and Management Company,NYSE,USD,STOCK,,TRUE
+KNOP,KNOT Offshore Partners LP,NYSE,USD,STOCK,,TRUE
+GCO,Genesco Inc.,NYSE,USD,STOCK,,TRUE
+LZM,Lifezone Metals Limited,NYSE,USD,STOCK,,TRUE
+BKKT,"Bakkt, Inc.",NYSE,USD,STOCK,,TRUE
+LND,BrasilAgro - Companhia Brasileira de Propriedades Agrícolas,NYSE,USD,STOCK,,TRUE
+MZYX,MOZAYYX Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+PACK,Ranpak Holdings Corp.,NYSE,USD,STOCK,,TRUE
+ORN,"Orion Group Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+PINE,"Alpine Income Property Trust, Inc.",NYSE,USD,STOCK,,TRUE
+HLLY,Holley Inc.,NYSE,USD,STOCK,,TRUE
+FCRS,FutureCrest Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+CION,CION Investment Corporation,NYSE,USD,STOCK,,TRUE
+WDH,Waterdrop Inc.,NYSE,USD,STOCK,,TRUE
+BLND,"Blend Labs, Inc.",NYSE,USD,STOCK,,TRUE
+NOA,North American Construction Group Ltd.,NYSE,USD,STOCK,,TRUE
+BBW,"Build-A-Bear Workshop, Inc.",NYSE,USD,STOCK,,TRUE
+SOUL,Soulpower Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+PSFE,Paysafe Limited,NYSE,USD,STOCK,,TRUE
+SBXE,SilverBox Corp V,NYSE,USD,STOCK,,TRUE
+CVEO,Civeo Corporation,NYSE,USD,STOCK,,TRUE
+ZIP,"ZipRecruiter, Inc.",NYSE,USD,STOCK,,TRUE
+MSC,Studio City International Holdings Limited,NYSE,USD,STOCK,,TRUE
+TCI,"Transcontinental Realty Investors, Inc.",NYSE,USD,STOCK,,TRUE
+KCAC,Kensington Capital Acquisition Corp. VI,NYSE,USD,STOCK,,TRUE
+FTW,Presidio Production Company,NYSE,USD,STOCK,,TRUE
+OEC,Orion S.A.,NYSE,USD,STOCK,,TRUE
+DSX,Diana Shipping Inc.,NYSE,USD,STOCK,,TRUE
+PSBD,Palmer Square Capital BDC Inc.,NYSE,USD,STOCK,,TRUE
+NL,"NLI Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+FVRR,Fiverr International Ltd.,NYSE,USD,STOCK,,TRUE
+SEG,Seaport Entertainment Group Inc.,NYSE,USD,STOCK,,TRUE
+CLW,Clearwater Paper Corporation,NYSE,USD,STOCK,,TRUE
+COSO,"CoastalSouth Bancshares, Inc.",NYSE,USD,STOCK,,TRUE
+MLP,"Maui Land & Pineapple Company, Inc.",NYSE,USD,STOCK,,TRUE
+MSB,Mesabi Trust,NYSE,USD,STOCK,,TRUE
+JACS,Jackson Acquisition Company II,NYSE,USD,STOCK,,TRUE
+LDI,"loanDepot, Inc.",NYSE,USD,STOCK,,TRUE
+SAC,Safeguard Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+NC,"NACCO Industries, Inc.",NYSE,USD,STOCK,,TRUE
+KLC,"KinderCare Learning Companies, Inc.",NYSE,USD,STOCK,,TRUE
+RAC,Rithm Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+MTAL,Metals Acquisition Corp. II,NYSE,USD,STOCK,,TRUE
+EBS,Emergent BioSolutions Inc.,NYSE,USD,STOCK,,TRUE
+VII,Viking Acquisition Corp. II,NYSE,USD,STOCK,,TRUE
+CBNA,"Chain Bridge Bancorp, Inc.",NYSE,USD,STOCK,,TRUE
+RM,Regional Management Corp.,NYSE,USD,STOCK,,TRUE
+JENA,Jena Acquisition Corporation II,NYSE,USD,STOCK,,TRUE
+QLEP,Quantum Leap Acquisition Corp,NYSE,USD,STOCK,,TRUE
+TBI,"TrueBlue, Inc.",NYSE,USD,STOCK,,TRUE
+MTNE,CH4 Natural Solutions Corporation,NYSE,USD,STOCK,,TRUE
+ONIT,Onity Group Inc.,NYSE,USD,STOCK,,TRUE
+RC,Ready Capital Corporation,NYSE,USD,STOCK,,TRUE
+SAR,Saratoga Investment Corp.,NYSE,USD,STOCK,,TRUE
+KPET,KPET Ultra Paceline Corporation,NYSE,USD,STOCK,,TRUE
+KWY,Kingsway Corporation,NYSE,USD,STOCK,,TRUE
+XPER,Xperi Inc.,NYSE,USD,STOCK,,TRUE
+JILL,"J.Jill, Inc.",NYSE,USD,STOCK,,TRUE
+FTRA,FutureCorp Space Acquisition 1,NYSE,USD,STOCK,,TRUE
+BRT,BRT Apartments Corp.,NYSE,USD,STOCK,,TRUE
+SAMO,Samos Energy Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+LAW,"CS Disco, Inc.",NYSE,USD,STOCK,,TRUE
+PAII,Pyrophyte Acquisition Corp. II,NYSE,USD,STOCK,,TRUE
+ARL,"American Realty Investors, Inc.",NYSE,USD,STOCK,,TRUE
+BGS,"B&G Foods, Inc.",NYSE,USD,STOCK,,TRUE
+VACI,Viking Acquisition Corp. I,NYSE,USD,STOCK,,TRUE
+USNA,"USANA Health Sciences, Inc.",NYSE,USD,STOCK,,TRUE
+DBI,Designer Brands Inc.,NYSE,USD,STOCK,,TRUE
+SMHI,SEACOR Marine Holdings Inc.,NYSE,USD,STOCK,,TRUE
+TG,Tredegar Corporation,NYSE,USD,STOCK,,TRUE
+SMRT,"SmartRent, Inc.",NYSE,USD,STOCK,,TRUE
+PNAQ,Pinnacle Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+CHPT,"ChargePoint Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ACRE,Ares Commercial Real Estate Corporation,NYSE,USD,STOCK,,TRUE
+SCM,Stellus Capital Investment Corporation,NYSE,USD,STOCK,,TRUE
+MBI,MBIA Inc.,NYSE,USD,STOCK,,TRUE
+XPOF,"Xponential Fitness, Inc.",NYSE,USD,STOCK,,TRUE
+PNNT,PennantPark Investment Corporation,NYSE,USD,STOCK,,TRUE
+LVWR,"LiveWire Group, Inc.",NYSE,USD,STOCK,,TRUE
+COPL,Copley Acquisition Corp,NYSE,USD,STOCK,,TRUE
+BIII,Black Spade Acquisition III Co,NYSE,USD,STOCK,,TRUE
+FF,FutureFuel Corp.,NYSE,USD,STOCK,,TRUE
+NUS,"Nu Skin Enterprises, Inc.",NYSE,USD,STOCK,,TRUE
+IRAB,Iris Acquisition Corp II,NYSE,USD,STOCK,,TRUE
+CURV,Torrid Holdings Inc.,NYSE,USD,STOCK,,TRUE
+YSG,Yatsen Holding Limited,NYSE,USD,STOCK,,TRUE
+AMWL,American Well Corporation,NYSE,USD,STOCK,,TRUE
+CMTG,"Claros Mortgage Trust, Inc.",NYSE,USD,STOCK,,TRUE
+DGAC,Disciplined Growth Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+DGAC.RT,Disciplined Growth Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+TPVG,TriplePoint Venture Growth BDC Corp.,NYSE,USD,STOCK,,TRUE
+MITT,"TPG Mortgage Investment Trust, Inc.",NYSE,USD,STOCK,,TRUE
+SSTK,"Shutterstock, Inc.",NYSE,USD,STOCK,,TRUE
+XYF,X Financial,NYSE,USD,STOCK,,TRUE
+OSG,"Octave Specialty Group, Inc.",NYSE,USD,STOCK,,TRUE
+FC,Franklin Covey Co.,NYSE,USD,STOCK,,TRUE
+BRCC,BRC Inc.,NYSE,USD,STOCK,,TRUE
+SPMC,"Sound Point Meridian Capital, Inc.",NYSE,USD,STOCK,,TRUE
+SRI,"Stoneridge, Inc.",NYSE,USD,STOCK,,TRUE
+AMPY,Amplify Energy Corp.,NYSE,USD,STOCK,,TRUE
+ENHA,Enhanced Group Inc.,NYSE,USD,STOCK,,TRUE
+CIA,"Citizens, Inc.",NYSE,USD,STOCK,,TRUE
+BEBE,TGE Value Creative Solutions Corp,NYSE,USD,STOCK,,TRUE
+ZH,Zhihu Inc.,NYSE,USD,STOCK,,TRUE
+AIIA,AI Infrastructure Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+PERF,Perfect Corp.,NYSE,USD,STOCK,,TRUE
+JELD,"JELD-WEN Holding, Inc.",NYSE,USD,STOCK,,TRUE
+DHX,"DHI Group, Inc.",NYSE,USD,STOCK,,TRUE
+AOMR,"Angel Oak Mortgage REIT, Inc.",NYSE,USD,STOCK,,TRUE
+UIS,Unisys Corporation,NYSE,USD,STOCK,,TRUE
+ALTG,Alta Equipment Group Inc.,NYSE,USD,STOCK,,TRUE
+SES,SES AI Corporation,NYSE,USD,STOCK,,TRUE
+VLN,Valens Semiconductor Ltd.,NYSE,USD,STOCK,,TRUE
+BWIV,Blue Water Acquisition Corp. IV,NYSE,USD,STOCK,,TRUE
+AP,Ampco-Pittsburgh Corporation,NYSE,USD,STOCK,,TRUE
+ADCT,ADC Therapeutics SA,NYSE,USD,STOCK,,TRUE
+EAF,GrafTech International Ltd.,NYSE,USD,STOCK,,TRUE
+EARN,Ellington Credit Company,NYSE,USD,STOCK,,TRUE
+DAVA,Endava plc,NYSE,USD,STOCK,,TRUE
+DOUG,Douglas Elliman Inc.,NYSE,USD,STOCK,,TRUE
+NLOP,Net Lease Office Properties,NYSE,USD,STOCK,,TRUE
+FIRY,Firy Inc.,NYSE,USD,STOCK,,TRUE
+WHG,"Westwood Holdings Group, Inc.",NYSE,USD,STOCK,,TRUE
+UP,Wheels Up Experience Inc.,NYSE,USD,STOCK,,TRUE
+SAGU,Shreya Acquisition Group,NYSE,USD,STOCK,,TRUE
+QRED,Quasaredge Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+GLED,GalaxyEdge Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+FOA,Finance of America Companies Inc.,NYSE,USD,STOCK,,TRUE
+GCTS,"GCT Semiconductor Holding, Inc.",NYSE,USD,STOCK,,TRUE
+WPAC,White Pearl Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+GHI,Greystone Housing Impact Investors LP,NYSE,USD,STOCK,,TRUE
+ONL,Orion Properties Inc.,NYSE,USD,STOCK,,TRUE
+YCY,AA Mission Acquisition Corp. II,NYSE,USD,STOCK,,TRUE
+SITC,SITE Centers Corp.,NYSE,USD,STOCK,,TRUE
+ELME,Elme Communities,NYSE,USD,STOCK,,TRUE
+HOS,"Hornbeck Offshore Services, Inc.",NYSE,USD,STOCK,,TRUE
+TRAD,Apex Tech Acquisition Inc.,NYSE,USD,STOCK,,TRUE
+CABO,"Cable One, Inc.",NYSE,USD,STOCK,,TRUE
+OWLT,"Owlet, Inc.",NYSE,USD,STOCK,,TRUE
+TRAK,"ReposiTrak, Inc.",NYSE,USD,STOCK,,TRUE
+PLUN,Plutonian Acquisition Corp II,NYSE,USD,STOCK,,TRUE
+OTAI,Starlink AI Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+XFLH,XFLH Capital Corporation,NYSE,USD,STOCK,,TRUE
+CLPR,Clipper Realty Inc.,NYSE,USD,STOCK,,TRUE
+DLNG,Dynagas LNG Partners LP,NYSE,USD,STOCK,,TRUE
+BHR,Braemar Hotels & Resorts Inc.,NYSE,USD,STOCK,,TRUE
+COOK,"Traeger, Inc.",NYSE,USD,STOCK,,TRUE
+OCAC,Ocean Capital Acquisition Corporation,NYSE,USD,STOCK,,TRUE
+SJT,San Juan Basin Royalty Trust,NYSE,USD,STOCK,,TRUE
+UFI,"Unifi, Inc.",NYSE,USD,STOCK,,TRUE
+TLYS,"Tilly's, Inc.",NYSE,USD,STOCK,,TRUE
+MED,"Medifast, Inc.",NYSE,USD,STOCK,,TRUE
+RFL,"Rafael Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+TISI,"Team, Inc.",NYSE,USD,STOCK,,TRUE
+NRDY,Nerdy Inc.,NYSE,USD,STOCK,,TRUE
+AXR,AMREP Corporation,NYSE,USD,STOCK,,TRUE
+SRG,Seritage Growth Properties,NYSE,USD,STOCK,,TRUE
+AKA,a.k.a. Brands Holding Corp.,NYSE,USD,STOCK,,TRUE
+LANV,Lanvin Group Holdings Limited,NYSE,USD,STOCK,,TRUE
+MX,Magnachip Semiconductor Corporation,NYSE,USD,STOCK,,TRUE
+CHGG,"Chegg, Inc.",NYSE,USD,STOCK,,TRUE
+CHMI,Cherry Hill Mortgage Investment Corporation,NYSE,USD,STOCK,,TRUE
+GHG,GreenTree Hospitality Group Ltd.,NYSE,USD,STOCK,,TRUE
+ZVIA,Zevia PBC,NYSE,USD,STOCK,,TRUE
+VECA,Vernal Capital Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+VECA.RT,Vernal Capital Acquisition Corp.,NYSE,USD,STOCK,,TRUE
+TSQ,"Townsquare Media, Inc.",NYSE,USD,STOCK,,TRUE
+EVTL,Vertical Aerospace Ltd.,NYSE,USD,STOCK,,TRUE
+VATE,INNOVATE Corp.,NYSE,USD,STOCK,,TRUE
+CMCM,Cheetah Mobile Inc.,NYSE,USD,STOCK,,TRUE
+ACR,ACRES Commercial Realty Corp.,NYSE,USD,STOCK,,TRUE
+RPT,Rithm Property Trust Inc.,NYSE,USD,STOCK,,TRUE
+GETY,"Getty Images Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+ACH,"Accendra Health, Inc.",NYSE,USD,STOCK,,TRUE
+SLQT,"SelectQuote, Inc.",NYSE,USD,STOCK,,TRUE
+BARK,"BARK, Inc.",NYSE,USD,STOCK,,TRUE
+YRD,Yiren Digital Ltd.,NYSE,USD,STOCK,,TRUE
+SRL,Scully Royalty Ltd.,NYSE,USD,STOCK,,TRUE
+NRT,North European Oil Royalty Trust,NYSE,USD,STOCK,,TRUE
+SRFM,Surf Air Mobility Inc.,NYSE,USD,STOCK,,TRUE
+CANG,Cango Inc.,NYSE,USD,STOCK,,TRUE
+ZEPP,Zepp Health Corporation,NYSE,USD,STOCK,,TRUE
+AMTD,AMTD IDEA Group,NYSE,USD,STOCK,,TRUE
+SBXD,SilverBox Corp IV,NYSE,USD,STOCK,,TRUE
+WBX,Wallbox N.V.,NYSE,USD,STOCK,,TRUE
+AVD,American Vanguard Corporation,NYSE,USD,STOCK,,TRUE
+PEW,GrabAGun Digital Holdings Inc.,NYSE,USD,STOCK,,TRUE
+CRT,Cross Timbers Royalty Trust,NYSE,USD,STOCK,,TRUE
+LITB,"LightInTheBox Holding Co., Ltd.",NYSE,USD,STOCK,,TRUE
+IH,iHuman Inc.,NYSE,USD,STOCK,,TRUE
+PVL,Permianville Royalty Trust,NYSE,USD,STOCK,,TRUE
+ANVS,"Annovis Bio, Inc.",NYSE,USD,STOCK,,TRUE
+SKIL,Skillsoft Corp.,NYSE,USD,STOCK,,TRUE
+VOC,VOC Energy Trust,NYSE,USD,STOCK,,TRUE
+BGSF,"BGSF, Inc.",NYSE,USD,STOCK,,TRUE
+STEM,"Stem, Inc.",NYSE,USD,STOCK,,TRUE
+GPMT,Granite Point Mortgage Trust Inc.,NYSE,USD,STOCK,,TRUE
+CATO,The Cato Corporation,NYSE,USD,STOCK,,TRUE
+GROV,"Grove Collaborative Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+TGE,The Generation Essentials Group,NYSE,USD,STOCK,,TRUE
+SQNS,Sequans Communications S.A.,NYSE,USD,STOCK,,TRUE
+SST,"System1, Inc.",NYSE,USD,STOCK,,TRUE
+LFT,"Lument Finance Trust, Inc.",NYSE,USD,STOCK,,TRUE
+CNF,CNFinance Holdings Limited,NYSE,USD,STOCK,,TRUE
+STG,Sunlands Technology Group,NYSE,USD,STOCK,,TRUE
+SPRU,Spruce Power Holding Corporation,NYSE,USD,STOCK,,TRUE
+LOCL,Local Bounti Corporation,NYSE,USD,STOCK,,TRUE
+PRT,PermRock Royalty Trust,NYSE,USD,STOCK,,TRUE
+FEDU,Four Seasons Education (Cayman) Inc.,NYSE,USD,STOCK,,TRUE
+AHT,"Ashford Hospitality Trust, Inc.",NYSE,USD,STOCK,,TRUE
+NYC,American Strategic Investment Co.,NYSE,USD,STOCK,,TRUE
+CCM,Concord Medical Services Holdings Limited,NYSE,USD,STOCK,,TRUE
+PSQH,"PSQ Holdings, Inc.",NYSE,USD,STOCK,,TRUE
+FENG,Phoenix New Media Limited,NYSE,USD,STOCK,,TRUE
+MOGU,MOGU Inc.,NYSE,USD,STOCK,,TRUE
+EQS,"Equus Total Return, Inc.",NYSE,USD,STOCK,,TRUE
+GWH,"ESS Tech, Inc.",NYSE,USD,STOCK,,TRUE
+SOS,SOS Limited,NYSE,USD,STOCK,,TRUE
+MTR,Mesa Royalty Trust,NYSE,USD,STOCK,,TRUE

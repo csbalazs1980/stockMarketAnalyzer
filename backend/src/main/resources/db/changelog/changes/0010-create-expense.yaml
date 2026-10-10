@@ -1,0 +1,182 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0010-create-expense
+      author: stock-market-analyzer
+      comment: >-
+        Regular expenses and the tags they carry. An expense item is a cost that comes back: an
+        amount of some unit, every N periods, optionally between two dates. Scoped per Keycloak
+        subject like wealth_entry and dividend -- what you pay is your data, not the
+        installation's. Nothing normalised is stored: what a fortnightly cost works out to per
+        month needs an average month, which is a presentation choice, so it is computed where it
+        is displayed. Categories are the exception to the per-user rule: a row whose owner_sub is
+        null is global and offered to everybody, and only an administrator may write one.
+      changes:
+        - createTable:
+            tableName: expense_category
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: pk_expense_category
+                    nullable: false
+              # Nullable on purpose: null means global. The unique index below is what stops two
+              # rows from sharing a name, and it has to treat those nulls as equal to do it.
+              - column:
+                  name: owner_sub
+                  type: VARCHAR(64)
+              - column:
+                  name: category
+                  type: VARCHAR(64)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        # Two things a plain unique constraint cannot express, which is why this is raw SQL:
+        #   lower(category) -- "Food" and "food" are one tag, and the service compares them that
+        #     way, so the backstop has to as well or a race stores both;
+        #   NULLS NOT DISTINCT -- by default Postgres treats every NULL as different, so without
+        #     it the global rows (owner_sub IS NULL) would not be constrained against each other
+        #     at all, which is precisely the set that must not contain duplicates.
+        # Both are Postgres 15+; the project is on 18.
+        - sql:
+            comment: Case-insensitive uniqueness per owner, with global rows (owner_sub IS NULL) included.
+            sql: >-
+              CREATE UNIQUE INDEX ux_expense_category_owner_name
+                  ON expense_category (owner_sub, lower(category)) NULLS NOT DISTINCT
+        - createTable:
+            tableName: expense_item
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: pk_expense_item
+                    nullable: false
+              - column:
+                  name: owner_sub
+                  type: VARCHAR(64)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: amount
+                  type: NUMERIC(24, 6)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: unit
+                  type: VARCHAR(16)
+                  constraints:
+                    nullable: false
+              # interval + period, the RRULE shape: 2 + WEEKLY is fortnightly, 6 + MONTHLY is
+              # twice a year. A QUARTERLY period would make "3 MONTHLY" a second spelling of one
+              # thing, and then every sum has to know the two are equal.
+              - column:
+                  name: recurrence_interval
+                  type: INTEGER
+                  defaultValueNumeric: 1
+                  constraints:
+                    nullable: false
+              - column:
+                  name: recurrence_period
+                  type: VARCHAR(16)
+                  constraints:
+                    nullable: false
+              # Both nullable, and the nulls are open ends of an interval rather than missing
+              # data: no start means it has always been charged, no expiry means it still is.
+              - column:
+                  name: start_date
+                  type: DATE
+              - column:
+                  name: expiry_date
+                  type: DATE
+              - column:
+                  name: created_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        - createIndex:
+            tableName: expense_item
+            indexName: ix_expense_item_owner_name
+            columns:
+              - column:
+                  name: owner_sub
+              - column:
+                  name: name
+        - createTable:
+            tableName: expense_item_category
+            columns:
+              - column:
+                  name: expense_item_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: expense_category_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+        - addPrimaryKey:
+            tableName: expense_item_category
+            columnNames: expense_item_id, expense_category_id
+            constraintName: pk_expense_item_category
+        # CASCADE from the item: deleting an expense takes its own tag links with it, which is
+        # what "the categories are left alone" means -- the links are the item's, the tags are not.
+        - addForeignKeyConstraint:
+            baseTableName: expense_item_category
+            baseColumnNames: expense_item_id
+            referencedTableName: expense_item
+            referencedColumnNames: id
+            constraintName: fk_expense_item_category_item
+            onDelete: CASCADE
+        # RESTRICT the other way: a tag still in use cannot vanish from under the items carrying
+        # it. The service answers that as a 409 and only untags on force=true; this is the
+        # backstop for a direct database delete.
+        - addForeignKeyConstraint:
+            baseTableName: expense_item_category
+            baseColumnNames: expense_category_id
+            referencedTableName: expense_category
+            referencedColumnNames: id
+            constraintName: fk_expense_item_category_category
+            onDelete: RESTRICT
+        # The join table's primary key already indexes (item, category); this is the reverse
+        # direction, which "which items carry this tag?" and the in-use check both read.
+        - createIndex:
+            tableName: expense_item_category
+            indexName: ix_expense_item_category_category
+            columns:
+              - column:
+                  name: expense_category_id
+      rollback:
+        - dropTable:
+            tableName: expense_item_category
+        - dropTable:
+            tableName: expense_item
+        - dropTable:
+            tableName: expense_category

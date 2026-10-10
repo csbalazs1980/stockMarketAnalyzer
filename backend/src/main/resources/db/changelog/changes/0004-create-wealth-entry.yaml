@@ -1,0 +1,85 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0004-create-wealth-entry
+      author: stock-market-analyzer
+      comment: >-
+        One line of a personal wealth snapshot: a quantity of some unit (USD, HUF, OZ, kg, ...)
+        recorded on a date. Rows link to a parent so aggregates (e.g. "all savings accounts")
+        can be built from their children. Scoped per Keycloak subject.
+      changes:
+        - createTable:
+            tableName: wealth_entry
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: pk_wealth_entry
+                    nullable: false
+              - column:
+                  name: owner_sub
+                  type: VARCHAR(64)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: unit
+                  type: VARCHAR(16)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: quantity
+                  type: NUMERIC(24, 6)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: entry_date
+                  type: DATE
+                  constraints:
+                    nullable: false
+              - column:
+                  name: parent_id
+                  type: BIGINT
+              - column:
+                  name: created_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: TIMESTAMP WITH TIME ZONE
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: wealth_entry
+            baseColumnNames: parent_id
+            referencedTableName: wealth_entry
+            referencedColumnNames: id
+            constraintName: fk_wealth_entry_parent
+            onDelete: CASCADE
+        - createIndex:
+            tableName: wealth_entry
+            indexName: ix_wealth_entry_owner_date
+            columns:
+              - column:
+                  name: owner_sub
+              - column:
+                  name: entry_date
+                  descending: true
+        - createIndex:
+            tableName: wealth_entry
+            indexName: ix_wealth_entry_parent
+            columns:
+              - column:
+                  name: parent_id
+      rollback:
+        - dropTable:
+            tableName: wealth_entry

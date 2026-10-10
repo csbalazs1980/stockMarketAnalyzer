@@ -1,0 +1,35 @@
+# Developer profile: run with  ./gradlew bootRun --args='--spring.profiles.active=local'
+#
+# As well as seeding data and turning up the logging, this profile REPLACES THE SECURITY
+# CHAIN: LocalSecurityConfig serves every request as a fixed developer identity, so no token
+# and no running Keycloak are needed. SecurityConfig is @Profile("!local"), so anything that
+# does not explicitly ask for 'local' -- including a deployment with no profile at all --
+# still gets the real, locked-down chain.
+spring:
+  liquibase:
+    contexts: default,dev-data
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    com.stockmarketanalyzer.backend: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+app:
+  local-security:
+    # Keep this stable: wealth entries are owned by the Keycloak 'sub', so changing it hides
+    # everything recorded under the old value. Not a real Keycloak subject, and never needs to be.
+    subject: 00000000-0000-0000-0000-00000000d3v0
+    username: local-dev
+    roles:
+      - ADMIN
+      - USER

@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0007-wealth-entry-quantity-nullable
+      author: stock-market-analyzer
+      comment: >-
+        Aggregate rows hold nothing themselves -- "Stock market" is just the sum of the
+        accounts under it -- so quantity becomes optional. A null quantity means "this row
+        is a pure roll-up", which is a different statement from a quantity of zero, and the
+        valuation code treats it as such.
+      changes:
+        - dropNotNullConstraint:
+            tableName: wealth_entry
+            columnName: quantity
+            columnDataType: NUMERIC(24, 6)
+      rollback:
+        - addNotNullConstraint:
+            tableName: wealth_entry
+            columnName: quantity
+            columnDataType: NUMERIC(24, 6)
+            defaultNullValue: 0

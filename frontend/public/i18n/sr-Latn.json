@@ -1,0 +1,479 @@
+{
+  "app": {
+    "title": "Stock Market Analyzer"
+  },
+  "nav": {
+    "home": "Početna",
+    "wealth": "Praćenje imovine",
+    "entries": "Stavke",
+    "dividends": "Dividende",
+    "rates": "Kursevi",
+    "received": "Primljene",
+    "monthly": "Po mesecima",
+    "expenses": "Troškovi",
+    "expenseItems": "Stavke",
+    "expenseCategories": "Kategorije",
+    "administration": "Administracija",
+    "users": "Korisnici",
+    "instruments": "Instrumenti",
+    "inflation": "Inflacija"
+  },
+  "auth": {
+    "signIn": "Prijava",
+    "signOut": "Odjava",
+    "loginSubtitle": "Prijavite se da biste videli podatke o imovini i dividendama.",
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "invalidCredentials": "Korisničko ime i lozinka se ne poklapaju.",
+    "signInFailed": "Prijava trenutno nije dostupna. Pokušajte ponovo za trenutak.",
+    "sessionExpired": "Vaša sesija je istekla. Prijavite se ponovo."
+  },
+  "settings": {
+    "language": "Jezik",
+    "toggleTheme": "Uključi ili isključi tamni režim"
+  },
+  "common": {
+    "apply": "Primeni",
+    "cancel": "Otkaži",
+    "close": "Zatvori",
+    "delete": "Obriši",
+    "edit": "Izmeni",
+    "loading": "Učitavanje...",
+    "refresh": "Osveži",
+    "reset": "Poništi",
+    "save": "Sačuvaj"
+  },
+  "table": {
+    "pageReport": "{first}–{last} od {totalRecords}",
+    "rowCount": "Redova: {{count}}",
+    "groupSummary": "Kategorija: {{groups}}, stavki: {{items}}",
+    "childCount": "Neposredno podređenih stavki: {{count}}"
+  },
+  "errors": {
+    "network": "Server nije dostupan",
+    "requestFailed": "Zahtev nije uspeo ({{status}})",
+    "unknown": "Nešto nije u redu."
+  },
+  "import": {
+    "button": "Uvoz / izvoz CSV",
+    "chooseFile": "Izaberi datoteku",
+    "noFile": "Datoteka nije izabrana",
+    "upload": "Otpremi",
+    "downloadSample": "Preuzmi primer",
+    "downloadData": "Preuzmi moje podatke",
+    "downloadDataHint": "Svi vaši redovi, u istom formatu - sačuvajte ih kao rezervnu kopiju, izmenite u tabelarnom programu i ponovo otpremite, ili ih prenesite na drugi nalog.",
+    "notCsv": "To nije CSV datoteka. Izaberite datoteku čije se ime završava na .csv.",
+    "result": "Obrađeno redova: {{processed}}/{{total}}.",
+    "duplicates": "Redova koji su već sačuvani (preskočeni): {{count}}.",
+    "failed": "Redova koji nisu mogli da se pročitaju (preskočeni): {{count}}.",
+    "rates": {
+      "title": "Uvoz / izvoz kurseva",
+      "hint": "Popunite primer i otpremite ga da biste odjednom sačuvali celu datoteku kurseva. Kao separator rade i zarez i tačka-zarez. Red za par i datum koji ste već uneli zamenjuje taj kurs."
+    },
+    "dividends": {
+      "title": "Uvoz / izvoz dividendi",
+      "hint": "Popunite primer i otpremite ga da biste odjednom evidentirali celu datoteku isplata. Kao separator rade i zarez i tačka-zarez. Kompaniju navedite po berzanskoj oznaci (tikeru); redovi koje ste već uneli se preskaču, pa je bezbedno otpremiti datoteku koja se delimično preklapa."
+    },
+    "expenseItems": {
+      "title": "Uvoz / izvoz troškova",
+      "hint": "Popunite primer i otpremite ga da biste odjednom evidentirali celu datoteku stalnih troškova. Kolone name, amount, unit i period su obavezne; interval je podrazumevano 1, oba datuma mogu biti prazna, a categories je lista odvojena znakom '|' u jednoj ćeliji. Kategorija koja je tu navedena biće napravljena ako je još nemate. Redovi čiji naziv već imate se preskaču."
+    },
+    "expenseCategories": {
+      "title": "Uvoz / izvoz kategorija",
+      "hint": "Jedan naziv po redu, ispod zaglavlja 'category'. Nazivi koje već imate - ili koji postoje kao globalne kategorije - se preskaču, pa je bezbedno otpremiti listu koja se delimično preklapa."
+    },
+    "instruments": {
+      "title": "Uvoz / izvoz instrumenata",
+      "hint": "Popunite primer i otpremite ga da biste odjednom dodali ili ažurirali celu listu instrumenata. Redovi se uparuju po berzanskoj oznaci: postojeća oznaka se ažurira iz svog reda, a nova se kreira. Kolone symbol, name, currency i assetType su obavezne; exchange, sector i active se mogu izostaviti, a prazno active zadržava trenutni status instrumenta. Kao separator rade i zarez i tačka-zarez.",
+      "downloadData": "Preuzmi sve instrumente",
+      "downloadDataHint": "Cela lista instrumenata u istom formatu - izmenite je u tabelarnom programu i ponovo otpremite da biste primenili izmene. Nepromenjeni redovi se prijavljuju kao već sačuvani."
+    },
+    "inflation": {
+      "title": "Uvoz / izvoz inflacije",
+      "hint": "Popunite primer i otpremite ga da biste odjednom sačuvali celu datoteku podataka. Kolone unit, year i rate su obavezne; rate je u procentima i može se završavati znakom %. Red za valutu i godinu koji je već sačuvan zamenjuje taj podatak. Kao separator rade i zarez i tačka-zarez.",
+      "downloadData": "Preuzmi sve podatke",
+      "downloadDataHint": "Svi sačuvani podaci u istom formatu - izmenite ih u tabelarnom programu i ponovo otpremite da biste primenili izmene. Nepromenjeni redovi se prijavljuju kao već sačuvani."
+    }
+  },
+  "home": {
+    "title": "Stock Market Analyzer",
+    "subtitle": "Tržišni podaci i lična evidencija neto imovine na jednom mestu.",
+    "wealthBlurb": "Evidentirajte šta posedujete, u kojoj jedinici i kog datuma - i pogledajte vrednost izračunatu po vašim sopstvenim kursevima.",
+    "openWealth": "Otvori praćenje imovine",
+    "signedOutTitle": "Odjavljeni ste",
+    "signedOutBlurb": "Podaci o imovini vidljivi su samo vašem nalogu. Prijavite se da biste ih videli i menjali."
+  },
+  "wealth": {
+    "noRate": "Nijedan kurs ne povezuje ove jedinice na ovaj datum.",
+    "fields": {
+      "name": "Naziv",
+      "unit": "Jedinica",
+      "quantity": "Količina",
+      "entryDate": "Datum",
+      "value": "Vrednost",
+      "parent": "Pripada stavci"
+    },
+    "filters": {
+      "from": "Od",
+      "to": "Do",
+      "unit": "Jedinica",
+      "search": "Pretraga po nazivu",
+      "valueIn": "Vrednost u"
+    },
+    "form": {
+      "noParent": "Bez nadređene stavke (najviši nivo)",
+      "quantityHint": "Ostavite prazno za zbirni red koji samo sabira stavke ispod sebe."
+    },
+    "entries": {
+      "title": "Stavke imovine",
+      "new": "Nova stavka",
+      "newTitle": "Nova stavka",
+      "editTitle": "Izmena stavke",
+      "addChild": "Dodaj podređenu stavku",
+      "clone": "Kloniraj stavku",
+      "cloneTitle": "Kloniranje stavke",
+      "cloneAccept": "Napravi kopiju",
+      "cloneHint": "Svaki kopirani red dobija gornji datum. Ostavite količinu praznu da bi taj red postao zbirni, a jedinicu praznu da bi nasledio onu iznad.",
+      "cloned": "Kopija je napravljena (redova: {{count}})",
+      "empty": "Još ništa nije evidentirano.",
+      "saved": "Stavka je sačuvana",
+      "deleted": "Stavka je obrisana",
+      "deleteTitle": "Brisanje stavke",
+      "deleteMessage": "Obrisati „{{name}}“?",
+      "cascadeTitle": "Stavka ima podređene stavke",
+      "cascadeMessage": "„{{name}}“ ima stavke koje se sabiraju u nju. Obrisati celo podstablo?",
+      "cascadeAccept": "Obriši podstablo"
+    },
+    "partialValue": "Nešto ispod ovog reda nema kurs, pa je ukupan iznos donja granica.",
+    "mixedUnits": "Ovaj red meša jedinice, pa se količine ne mogu sabrati. Vrednost se i dalje sabira."
+  },
+  "rates": {
+    "title": "Kursevi",
+    "hint": "Vaši sopstveni faktori konverzije i globalni kursevi koje dele svi. Stavke se vrednuju po najnovijem kursu na njihov datum ili pre njega - a gde ste sami uneli kurs za par, vaš kurs uvek ima prednost nad globalnim.",
+    "fetch": "Preuzmi najnovije",
+    "fetchHint": "Čita podešene parove iz izvora centralne banke i čuva svaki kao globalni kurs za sve, pod datumom objavljivanja — vikendom, pod prethodnim radnim danom.",
+    "fetched": "Sačuvano kurseva: {{count}} za {{date}} ({{provider}})",
+    "fetchedNone": "Izvor nije vratio nijedan kurs.",
+    "new": "Novi kurs",
+    "newTitle": "Čuvanje kursa",
+    "empty": "Još nema sačuvanih kurseva.",
+    "saved": "Kurs je sačuvan",
+    "deleted": "Kurs je obrisan",
+    "deleteTitle": "Brisanje kursa",
+    "deleteMessage": "Obrisati kurs {{source}} → {{destination}} od {{date}}?",
+    "fields": {
+      "sourceUnit": "Iz",
+      "destinationUnit": "U",
+      "rate": "Kurs",
+      "rateDate": "Datum kursa",
+      "kind": "Vrsta",
+      "global": "Globalni kurs"
+    },
+    "scope": "Prikaz",
+    "scopeAll": "Svi",
+    "personal": "Lični",
+    "global": "Globalni",
+    "globalHint": "Globalni kurs koristi svaki korisnik koji za taj par nije uneo sopstveni. Lični kurs uvek ima prednost.",
+    "kindFixedHint": "Kurs se ne može prebaciti između ličnog i globalnog. Drugu vrstu sačuvajte kao novi kurs.",
+    "importGlobal": "Sačuvaj ih kao globalne kurseve",
+    "override": "Zameni sopstvenim kursom"
+  },
+  "dividends": {
+    "title": "Primljene dividende",
+    "hint": "Šta vam je zaista isplaćeno i kada. Svaki red se vrednuje po vašim kursevima, uz kurs važeći na dan isplate.",
+    "new": "Nova dividenda",
+    "newTitle": "Evidentiranje dividende",
+    "editTitle": "Izmena dividende",
+    "empty": "Još nema evidentiranih dividendi.",
+    "saved": "Dividenda je sačuvana",
+    "deleted": "Dividenda je obrisana",
+    "deleteTitle": "Brisanje dividende",
+    "deleteMessage": "Obrisati dividendu {{symbol}} isplaćenu {{date}}?",
+    "total": "Dividendi koje odgovaraju filteru: {{count}}",
+    "partialTotal": "Neki odgovarajući redovi nemaju kurs, pa je ukupan iznos donja granica.",
+    "fields": {
+      "instrument": "Instrument",
+      "amount": "Iznos",
+      "unit": "Valuta",
+      "paymentDate": "Datum isplate"
+    },
+    "filters": {
+      "anyInstrument": "Svi instrumenti"
+    },
+    "form": {
+      "pickInstrument": "Izaberite instrument",
+      "noInstruments": "Još nema podešenih instrumenata - administrator mora prvo da ih doda.",
+      "unitHint": "Ono što je stvarno stiglo na račun, a to ne mora biti valuta u kojoj se instrumentom trguje."
+    },
+    "monthly": {
+      "title": "Dividende po mesecima",
+      "hint": "Sve isplate u opsegu, raspoređene po kalendarskim mesecima. Pređite mišem preko iznosa da vidite drugu valutu i isplate iza njega.",
+      "empty": "U ovom opsegu nije bilo isplata.",
+      "anyCurrency": "Sve valute",
+      "show": "Prikaz",
+      "showOriginal": "Kako je primljeno",
+      "showConverted": "Preračunato",
+      "layout": "Raspored",
+      "byCompany": "Po kompaniji",
+      "compact": "Sažeto",
+      "rowTotal": "Ukupno",
+      "monthTotal": "Ukupno za mesec",
+      "summary": "Isplata: {{payments}}, meseci: {{months}}.",
+      "andMore": "i još {{count}}",
+      "chart": "Grafikon",
+      "chartTitle": "Prihod od dividendi po mesecima",
+      "chartSeries": "Primljeno",
+      "chartNote": "Meseci se sabiraju u {{unit}}, po kursu važećem na dan svake isplate - jedini način da se valute saberu.",
+      "chartNoteFiltered": "Filtrirano na {{unit}}, pa su stubići iznosi kako su primljeni, bez kursa.",
+      "inflationAdjusted": "Korigovano za inflaciju",
+      "inflationNote": "Svaki iznos je pomnožen kumulativnom inflacijom od godine isplate do poslednje godine sa podacima ({{years}}). Iznosi koriste inflaciju valute u kojoj su primljeni; preračunate vrednosti se najpre preračunavaju po kursu na dan isplate, a zatim koriguju inflacijom za {{valueUnit}}.",
+      "inflationMissing": "Nema podataka o inflaciji za {{units}}, pa se vrednosti ({{count}}) prikazuju bez korekcije.",
+      "inflationTooltip": "Korigovano za inflaciju",
+      "chartNoteInflation": "Korigovano za inflaciju do: {{years}}."
+    },
+    "inflationNote": "Iznosi su pomnoženi kumulativnom inflacijom sopstvene valute od godine isplate do poslednje godine sa podacima; vrednosti se najpre preračunavaju po kursu na dan isplate, a zatim koriguju inflacijom za {{valueUnit}}. Sortiranje i ukupan iznos koriste korigovane vrednosti. Zadržite pokazivač na vrednosti za original.",
+    "notInflationAdjusted": "Za godinu ove isplate nema podataka o inflaciji za jednu od valuta, pa je jedna vrednost prikazana bez korekcije.",
+    "notInflationAdjustedTotal": "Isplate koje nisu mogle biti potpuno korigovane zbog nedostatka podataka o inflaciji: {{count}}.",
+    "asEntered": "Bez korekcije: {{amount}} {{unit}}"
+  },
+  "expenses": {
+    "fields": {
+      "name": "Naziv",
+      "amount": "Iznos",
+      "unit": "Valuta",
+      "recurrence": "Ponavljanje",
+      "every": "Svakih",
+      "period": "Period",
+      "activePeriod": "Aktivno",
+      "startDate": "Početak",
+      "expiryDate": "Istek",
+      "categories": "Kategorije"
+    },
+    "filters": {
+      "search": "Pretraga po nazivu",
+      "anyUnit": "Sve valute",
+      "anyCategory": "Sve kategorije",
+      "activeOnly": "Samo ono što trenutno plaćam"
+    },
+    "recurrence": {
+      "daily": "Dnevno",
+      "weekly": "Nedeljno",
+      "biweekly": "Na dve nedelje",
+      "monthly": "Mesečno",
+      "quarterly": "Kvartalno",
+      "halfYearly": "Dvaput godišnje",
+      "yearly": "Godišnje",
+      "custom": "Prilagođeno...",
+      "everyN": "Svakih {{interval}} {{period}}"
+    },
+    "periodUnit": {
+      "DAILY": "dana",
+      "WEEKLY": "nedelja",
+      "MONTHLY": "meseci",
+      "YEARLY": "godina"
+    },
+    "per": {
+      "DAILY": "danu",
+      "WEEKLY": "nedelji",
+      "MONTHLY": "mesecu",
+      "YEARLY": "godini"
+    },
+    "range": {
+      "between": "{{from}} - {{to}}",
+      "from": "Od {{from}}",
+      "until": "Do {{to}}",
+      "open": "Bez datuma isteka"
+    },
+    "totals": {
+      "showPer": "Ukupno po",
+      "perLabel": "Ukupno po {{period}}",
+      "perColumn": "Po {{period}}",
+      "showIn": "Prikaži ukupno u",
+      "asEntered": "Kako je uneto",
+      "rateHint": "Preračunato po najnovijem sačuvanom kursu za svaki par.",
+      "partial": "Neki redovi nemaju kurs, pa je ukupan iznos donja granica.",
+      "note": "Uračunato {{counted}} od {{total}} redova - samo ono što se trenutno naplaćuje."
+    },
+    "noRate": "Nijedan sačuvani kurs ne povezuje ove jedinice.",
+    "view": {
+      "label": "Prikaz",
+      "list": "Obična lista",
+      "grouped": "Po kategoriji",
+      "groupedNote": "Kategorije su oznake, pa se trošak sa dve oznake prikazuje - i računa - pod obe. Ukupan iznos iznad tabele računa svaki trošak jednom.",
+      "groupCount": "({{count}})",
+      "uncategorised": "Bez kategorije"
+    },
+    "form": {
+      "recurrenceHint": "Izaberite Prilagođeno... za sve što ova lista ne pokriva, na primer na svakih 7 nedelja.",
+      "startHint": "Opciono. Ostavite prazno ako je ovo jednostavno ono što plaćate.",
+      "expiryHint": "Opciono. Kredit se završava; pretplata obično ne.",
+      "pickCategories": "Bez kategorija",
+      "noCategories": "Još nema kategorija - dodajte ih na ekranu Kategorije.",
+      "datesWrongWay": "Datum isteka je pre datuma početka."
+    },
+    "items": {
+      "title": "Redovni troškovi",
+      "hint": "Šta se ponavlja, koliko iznosi i koliko često. Ukupni iznosi se ovde računaju po valuti, iz iznosa i ponavljanja - ništa se ne preračunava između valuta.",
+      "new": "Novi trošak",
+      "newTitle": "Novi trošak",
+      "editTitle": "Izmena troška",
+      "empty": "Još ništa nije evidentirano.",
+      "saved": "Trošak je sačuvan",
+      "deleted": "Trošak je obrisan",
+      "deleteTitle": "Brisanje troška",
+      "deleteMessage": "Obrisati „{{name}}“?",
+      "inactive": "trenutno se ne naplaćuje",
+      "untagged": "Bez kategorije"
+    },
+    "chart": {
+      "button": "Grafikon",
+      "title": "Troškovi po udelu",
+      "other": "Ostalo",
+      "otherNote": "Manjih troškova: {count}",
+      "shareOfTotal": "{percent}% ukupnog iznosa",
+      "note": "Troškova: {{counted}}, po {{period}}, u {{unit}}. Isečci manji od 1% sabrani su u „Ostalo“.",
+      "unpriced": "Izostavljeno: {{count}} - nema kursa.",
+      "empty": "Nema šta da se prikaže: svaki trošak ovde vredi nula.",
+      "pickCurrency": "Izaberite valutu iznad. Kružni grafikon prikazuje delove jedne celine, a iznosi u različitim valutama ne mogu činiti jednu."
+    },
+    "categories": {
+      "title": "Kategorije troškova",
+      "hint": "Oznake za vaše troškove. Globalne dele svi korisnici i samo administrator može da ih menja.",
+      "new": "Nova kategorija",
+      "newTitle": "Nova kategorija",
+      "editTitle": "Preimenovanje kategorije",
+      "search": "Pretraga po nazivu",
+      "scope": "Prikaz",
+      "scopeAll": "Sve",
+      "personal": "Lične",
+      "global": "Globalne",
+      "globalHint": "Globalna kategorija se nudi svim korisnicima ove instalacije.",
+      "kindFixedHint": "Lična i globalna se ne mogu zameniti: jedno bi vašu oznaku dalo svima, a drugo bi im oduzelo zajedničku.",
+      "importGlobal": "Sačuvaj ih kao globalne kategorije",
+      "empty": "Nijedna kategorija ne odgovara pretrazi.",
+      "saved": "Kategorija je sačuvana",
+      "deleted": "Kategorija je obrisana",
+      "deleteTitle": "Brisanje kategorije",
+      "deleteMessage": "Obrisati „{{name}}“?",
+      "conflict": "Ta kategorija već postoji",
+      "inUseTitle": "Kategorija se koristi",
+      "untagAccept": "Obriši i ukloni oznaku",
+      "fields": {
+        "name": "Naziv",
+        "kind": "Vrsta",
+        "global": "Globalna kategorija"
+      }
+    }
+  },
+  "admin": {
+    "users": {
+      "title": "Korisnici",
+      "hint": "Nalozi koji mogu da se prijave u Stock Market Analyzer. Ovde se kreiraju, resetuju im se lozinke i dodeljuju ovlašćenja — nema posebne konzole za identitete.",
+      "new": "Novi korisnik",
+      "newTitle": "Kreiranje korisnika",
+      "search": "Pretraga po imenu, korisničkom imenu ili e-pošti",
+      "empty": "Nijedan korisnik ne odgovara pretrazi.",
+      "you": "(vi)",
+      "noRoles": "Bez ovlašćenja",
+      "created": "Korisnik {{username}} je kreiran",
+      "conflict": "To korisničko ime ili adresa e-pošte su već zauzeti",
+      "enabled": "Aktivan",
+      "disabled": "Onemogućen",
+      "enable": "Omogući",
+      "disable": "Onemogući",
+      "disableTitle": "Onemogućavanje korisnika",
+      "disableMessage": "Onemogućiti „{{username}}“? Neće moći da se prijavi, a sve što je evidentirano na nalogu ostaje sačuvano.",
+      "enabledToast": "{{username}} ponovo može da se prijavi",
+      "disabledToast": "{{username}} je onemogućen",
+      "resetPassword": "Resetuj lozinku",
+      "resetTitle": "Resetovanje lozinke za {{username}}",
+      "resetHint": "Stara lozinka nije potrebna. Novu prenesite sami — ništa se ne šalje e-poštom.",
+      "passwordReset": "Lozinka za {{username}} je zamenjena",
+      "roles": "Ovlašćenja",
+      "rolesTitle": "Ovlašćenja korisnika {{username}}",
+      "rolesSaved": "Ovlašćenja korisnika {{username}} su ažurirana",
+      "notYourself": "Ovo ne možete uraditi sopstvenom nalogu",
+      "notYourAdmin": "Ne možete sebi oduzeti ulogu ADMIN. Zamolite drugog administratora da to uradi.",
+      "passwordHint": "Najmanje {{min}} znakova. Pravila lozinki sistema za prijavu i dalje važe.",
+      "temporaryHint": "Privremena lozinka mora da se promeni pri sledećoj prijavi, pa ona koju ovde unesete prestaje da važi čim se jednom iskoristi.",
+      "fields": {
+        "username": "Korisničko ime",
+        "name": "Ime",
+        "email": "E-pošta",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "password": "Lozinka",
+        "temporaryPassword": "Privremena lozinka",
+        "roles": "Ovlašćenja",
+        "status": "Status",
+        "createdAt": "Kreiran"
+      }
+    },
+    "instruments": {
+      "title": "Instrumenti",
+      "hint": "Referentna lista instrumenata kojima se trguje, koju nudi svaki izbornik u aplikaciji. Neaktivan instrument nestaje iz izbornika, ali zadržava svoju istoriju.",
+      "new": "Novi instrument",
+      "newTitle": "Novi instrument",
+      "editTitle": "Izmena {{symbol}}",
+      "search": "Pretraga po oznaci ili nazivu",
+      "anyType": "Svi tipovi",
+      "anyStatus": "Svi",
+      "empty": "Nijedan instrument ne odgovara filterima.",
+      "active": "Aktivan",
+      "inactive": "Neaktivan",
+      "activate": "Aktiviraj",
+      "deactivate": "Deaktiviraj",
+      "activated": "{{symbol}} je aktiviran",
+      "deactivated": "{{symbol}} je deaktiviran",
+      "saved": "{{symbol}} je sačuvan",
+      "deleted": "{{symbol}} je obrisan",
+      "conflict": "Ta oznaka je već zauzeta",
+      "renameHint": "Promena oznake zadržava dividende i istoriju cena vezane za instrument.",
+      "activeHint": "Izbornici, kao onaj na stranici dividendi, nude samo aktivne instrumente.",
+      "deleteTitle": "Brisanje instrumenta",
+      "deleteMessage": "Obrisati {{symbol}} zajedno sa istorijom cena? Ovo se ne može poništiti.",
+      "inUse": "Instrument se koristi",
+      "inUseMessage": "Za {{symbol}} su evidentirane dividende, pa se ne može obrisati. Da li da ga umesto toga deaktivirate? Nestaće iz izbornika, a evidentirana istorija ostaje.",
+      "fields": {
+        "symbol": "Oznaka",
+        "name": "Naziv",
+        "exchange": "Berza",
+        "currency": "Valuta",
+        "assetType": "Tip",
+        "sector": "Sektor",
+        "status": "Status",
+        "active": "Aktivan"
+      }
+    },
+    "inflation": {
+      "title": "Inflacija",
+      "hint": "Godišnja inflacija po valuti, u procentima: 4.6 znači 4,6%, a negativna vrednost je deflacija. Podaci su prosečne godišnje stope HICP; dugme Preuzmi ih čita iz Eurostata (HUF: Mađarska, EUR: evrozona, USD: Sjedinjene Američke Države, koje Eurostat objavljuje oko godinu dana kasnije). Podaci su zajednički za sve korisnike.",
+      "new": "Novi podatak",
+      "newTitle": "Novi podatak o inflaciji",
+      "editTitle": "Izmena {{unit}} {{year}}",
+      "anyUnit": "Sve valute",
+      "fromYear": "Od godine",
+      "toYear": "Do godine",
+      "empty": "Nijedan podatak o inflaciji ne odgovara filterima.",
+      "saved": "{{unit}} {{year}} je sačuvano",
+      "deleted": "{{unit}} {{year}} je obrisano",
+      "conflict": "Za tu valutu i godinu podatak već postoji",
+      "newHint": "Ako za tu valutu i godinu podatak već postoji, biće zamenjen.",
+      "editHint": "Valuta i godina se takođe mogu ispraviti, ako ih ne zauzima neki drugi red.",
+      "deleteTitle": "Brisanje podatka o inflaciji",
+      "deleteMessage": "Obrisati podatak o inflaciji za {{unit}} {{year}}? Ovo se ne može poništiti.",
+      "fields": {
+        "unit": "Valuta",
+        "year": "Godina",
+        "rate": "Inflacija (%)"
+      },
+      "fetch": "Preuzmi iz Eurostata",
+      "fetchHint": "Čita HUF, EUR i USD iz Eurostata i za svaku valutu čuva samo godine posle poslednje već sačuvane - sve objavljene godine za valutu koja još nema podatke. Sačuvani podaci se nikada ne prepisuju.",
+      "fetched": "Sačuvano novih podataka: {{count}} ({{source}})",
+      "fetchedNone": "Sve je ažurno ({{source}})",
+      "fetchedUnit": "{{unit}}: dodato {{years}}",
+      "fetchedUnitUpToDate": "{{unit}}: nema ničeg novijeg od {{year}}",
+      "fetchedUnitNoData": "{{unit}}: izvor ne objavljuje podatke"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0011-exchange-rate-global
+      author: stock-market-analyzer
+      comment: >-
+        Global exchange rates. A row whose owner_sub is NULL is a shared rate every user is valued
+        from; a row with an owner is that user's personal rate and always wins over a global one
+        for the same pair. Existing rows stay personal -- moving any of them to global is a manual
+        data change (UPDATE exchange_rate SET owner_sub = NULL ...).
+      changes:
+        - dropNotNullConstraint:
+            tableName: exchange_rate
+            columnName: owner_sub
+            columnDataType: VARCHAR(64)
+        - dropUniqueConstraint:
+            tableName: exchange_rate
+            constraintName: uq_exchange_rate_owner_pair_date
+        # Raw SQL because a Liquibase unique constraint cannot say NULLS NOT DISTINCT. Without it
+        # Postgres treats every NULL as different, so the global rows -- exactly the set that must
+        # stay one-quote-per-pair-and-date for the upsert to work -- would not be constrained at
+        # all. Same reason as ux_expense_category_owner_name in 0010. Postgres 15+.
+        - sql:
+            comment: One quote per owner (global included), pair and date.
+            sql: >-
+              CREATE UNIQUE INDEX ux_exchange_rate_owner_pair_date
+                  ON exchange_rate (owner_sub, source_unit, destination_unit, rate_date) NULLS NOT DISTINCT
+      rollback:
+        - sql:
+            sql: DROP INDEX IF EXISTS ux_exchange_rate_owner_pair_date
+        - addUniqueConstraint:
+            tableName: exchange_rate
+            columnNames: owner_sub, source_unit, destination_unit, rate_date
+            constraintName: uq_exchange_rate_owner_pair_date
+        - addNotNullConstraint:
+            tableName: exchange_rate
+            columnName: owner_sub
+            columnDataType: VARCHAR(64)

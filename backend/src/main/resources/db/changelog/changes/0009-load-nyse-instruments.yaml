@@ -1,0 +1,65 @@
+# Seeds the instrument table with the NYSE universe (1931 rows).
+#
+# The CSV is part of this changeset's checksum: editing db.init/nyse-stocks.csv after this
+# has run makes Liquibase fail validation on the next start. To grow the universe, add a new
+# changeset with its own CSV rather than touching this one.
+databaseChangeLog:
+  - changeSet:
+      id: 0009-load-nyse-instruments
+      author: stock-market-analyzer
+      comment: >-
+        Bulk load of the NYSE instrument universe from db.init/nyse-stocks.csv.
+        id comes from the instrument identity/sequence, created_at and updated_at
+        from the CURRENT_TIMESTAMP defaults declared in 0001-create-instrument.
+      preConditions:
+        - onFail: MARK_RAN
+        - onFailMessage: >-
+            instrument already holds NYSE rows - marking 0009-load-nyse-instruments as ran
+            without loading db.init/nyse-stocks.csv.
+        - sqlCheck:
+            expectedResult: 0
+            sql: SELECT COUNT(*) FROM instrument WHERE exchange = 'NYSE'
+      changes:
+        - loadData:
+            tableName: instrument
+            file: db.init/nyse-stocks.csv
+            relativeToChangelogFile: false
+            encoding: UTF-8
+            separator: ','
+            quotchar: '"'
+            usePreparedStatements: true
+            commentLineStartsWith: ''
+            columns:
+              - column:
+                  header: symbol
+                  name: symbol
+                  type: STRING
+              - column:
+                  header: name
+                  name: name
+                  type: STRING
+              - column:
+                  header: exchange
+                  name: exchange
+                  type: STRING
+              - column:
+                  header: currency
+                  name: currency
+                  type: STRING
+              - column:
+                  header: asset_type
+                  name: asset_type
+                  type: STRING
+              # Not supplied by the export; SKIP leaves sector NULL rather than ''.
+              - column:
+                  header: sector
+                  name: sector
+                  type: SKIP
+              - column:
+                  header: active
+                  name: active
+                  type: BOOLEAN
+      rollback:
+        - delete:
+            tableName: instrument
+            where: exchange = 'NYSE'

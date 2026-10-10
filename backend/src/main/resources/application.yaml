@@ -1,0 +1,232 @@
+spring:
+  application:
+    name: stock-market-analyzer-backend
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/stockmarket}
+    username: ${DB_USERNAME:stockmarket}
+    password: ${DB_PASSWORD:stockmarket}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      pool-name: sma-pool
+      maximum-pool-size: ${DB_POOL_MAX:10}
+      minimum-idle: 2
+      connection-timeout: 20000
+
+  data:
+    web:
+      pageable:
+        # The largest page a list endpoint will serve. Matches the biggest rows-per-page choice in
+        # the SPA (frontend/src/app/core/table/page-size.ts); Spring's own default is 2000, and a
+        # request above the cap is silently clamped, not refused.
+        max-page-size: 1000
+
+  jpa:
+    # Liquibase owns the schema; Hibernate only validates that the mapping matches.
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+          batch_size: 100
+        order_inserts: true
+        order_updates: true
+        format_sql: false
+
+  liquibase:
+    # Pending changesets are applied on every start, before Hibernate validates the mapping.
+    enabled: true
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+    contexts: ${LIQUIBASE_CONTEXTS:default}
+    # Log which changesets ran and which were skipped (and why) on each launch -- otherwise
+    # "the schema is up to date" is taken on faith. VERBOSE lists them one by one.
+    show-summary: ${LIQUIBASE_SHOW_SUMMARY:verbose}
+    show-summary-output: log
+    # Liquibase reports anonymous usage analytics unless told not to: an outbound HTTPS call
+    # on every startup, which is dead weight here and stalls boot on an offline machine.
+    analytics-enabled: false
+
+  servlet:
+    multipart:
+      # CSV imports are the only uploads here. A few thousand rows of rates or dividends is
+      # well under a megabyte; the ceiling is what stops a mis-clicked video from being
+      # buffered before the importer gets to say it is not a CSV file.
+      max-file-size: ${MAX_UPLOAD_SIZE:4MB}
+      max-request-size: ${MAX_UPLOAD_SIZE:4MB}
+
+  jackson:
+    default-property-inclusion: non_null
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # Keycloak realm issuer. The app fetches the JWKS from here on first use, so
+          # Keycloak must be reachable at startup-ish time -- not before it, but before the
+          # first authenticated request.
+          issuer-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8180/realms/stockmarket}
+          # Reject tokens minted for some other client of the same realm.
+          audiences: ${KEYCLOAK_AUDIENCE:stockmarket-api}
+
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: ${SERVER_PORT:8080}
+  shutdown: graceful
+  error:
+    include-message: always
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    # Flip to false in production if the contract should not be public.
+    enabled: ${OPENAPI_ENABLED:true}
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: ${SWAGGER_UI_ENABLED:true}
+    # Group endpoints by @Tag and sort them predictably instead of by declaration order.
+    tags-sorter: alpha
+    operations-sorter: method
+    display-request-duration: true
+    doc-expansion: none
+    # Keep the group dropdown honest -- only the v1 group is published.
+    disable-swagger-default-url: true
+    # --- Authorize button (Keycloak authorization code + PKCE) ---
+    oauth2-redirect-url: ${SWAGGER_REDIRECT_URL:http://localhost:8080/swagger-ui/oauth2-redirect.html}
+    use-pkce-with-authorization-code-grant: true
+    oauth:
+      client-id: ${SWAGGER_CLIENT_ID:stockmarket-swagger}
+      use-basic-authentication-with-access-code-grant: false
+      scopes:
+        - openid
+        - profile
+        - email
+  show-actuator: false
+  default-produces-media-type: application/json
+  writer-with-order-by-keys: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,liquibase
+  endpoint:
+    health:
+      show-details: when-authorized
+      probes:
+        enabled: true
+
+app:
+  auth:
+    # The SPA never sees these. It posts credentials to /api/v1/auth/login and the backend does
+    # the OAuth2 dance here, which is what keeps Keycloak invisible to the browser.
+    #
+    # Both URIs interpolate the SAME variable the resource server validates tokens against, so
+    # the endpoint that mints a token and the check that accepts it cannot drift apart.
+    token-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8180/realms/stockmarket}/protocol/openid-connect/token
+    logout-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8180/realms/stockmarket}/protocol/openid-connect/logout
+    # stockmarket-api is confidential, has direct access grants enabled, and carries the audience
+    # mapper for itself -- all three are required, and the last one is the easy one to forget.
+    client-id: ${KEYCLOAK_CLIENT_ID:stockmarket-api}
+    client-secret: ${KEYCLOAK_CLIENT_SECRET:dev-only-secret-change-me}
+    connect-timeout: 5s
+    read-timeout: 10s
+    cookie:
+      access-name: ${AUTH_ACCESS_COOKIE:sma_at}
+      refresh-name: ${AUTH_REFRESH_COOKIE:sma_rt}
+      path: /
+      # The refresh token is only ever spent at the auth endpoints, so it is not attached to
+      # every other API call.
+      refresh-path: /api/v1/auth
+      # MUST be true anywhere that is not plain-HTTP localhost. Left false so `npm start`
+      # against http://localhost:8080 works out of the box.
+      secure: ${AUTH_COOKIE_SECURE:false}
+      # Lax covers both the dev split (4200/8080 are one site) and a same-origin deployment.
+      # A frontend on a genuinely different site needs None, which browsers only honour with
+      # secure: true.
+      same-site: ${AUTH_COOKIE_SAME_SITE:Lax}
+
+  admin:
+    # User administration talks to Keycloak's Admin REST API as the SERVICE ACCOUNT of the
+    # app.auth.client-id client above -- a client-credentials grant, not the administrator's own
+    # token. Being an ADMIN in this application is what authorises the request; reaching Keycloak
+    # at all belongs to the server, so no human needs realm-management roles of their own.
+    #
+    # That service account must hold these realm-management client roles:
+    #     manage-users  view-users  query-users  view-realm
+    # They are in docker/keycloak/realm-stockmarket.json, which is only read when the Keycloak
+    # database is EMPTY. On a stack that is already running, add them in the admin console under
+    # Clients > stockmarket-api > Service accounts roles, or drop the keycloak database and let
+    # the realm import run again.
+    #
+    # realm-uri is deliberately unset: the Admin API root is derived from the issuer-uri above by
+    # inserting /admin, so the server whose tokens are accepted and the server whose users are
+    # administered cannot drift apart. Set it only for a deployment that genuinely splits them.
+    realm-uri: ${KEYCLOAK_ADMIN_URI:}
+    token-refresh-margin: 30s
+    connect-timeout: 5s
+    read-timeout: 10s
+
+  cors:
+    allowed-origin-patterns:
+      - https://*.trycloudflare.com
+      - http://localhost:*
+      - http://127.0.0.1:*
+  rate-feed:
+    # Frankfurter needs no API key and has no quota. The provider is pinned on purpose: an
+    # unpinned request lets the aggregator choose the source, so the same pair on the same day
+    # can come back as a different number -- and as of 2026-09-08 its ECB feed was about four
+    # weeks stale while MNB, the Hungarian central bank's official rate, was current.
+    enabled: ${RATE_FEED_ENABLED:true}
+    base-url: ${RATE_FEED_BASE_URL:https://api.frankfurter.dev/v2}
+    provider: ${RATE_FEED_PROVIDER:MNB}
+    # EUR:HUF is not redundant. Valuation resolves a factor by identity, a direct quote, or the
+    # reciprocal of the opposite quote -- it does not chain, so EUR wealth cannot be valued in
+    # HUF via USD.
+    pairs:
+      - USD:HUF
+      - EUR:HUF
+      - EUR:USD
+    connect-timeout: 5s
+    read-timeout: 10s
+
+  inflation-feed:
+    # Eurostat's annual HICP: no API key, and one method for all three currencies. The fetch
+    # button stores only the years after the latest one held per currency (all years when none),
+    # and never overwrites a stored year.
+    enabled: ${INFLATION_FEED_ENABLED:true}
+    base-url: ${INFLATION_FEED_BASE_URL:https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data}
+    # prc_hicp_ainr replaced the discontinued prc_hicp_aind in 2026 (ECOICOP ver. 2).
+    dataset: ${INFLATION_FEED_DATASET:prc_hicp_ainr}
+    # Selects one series per country: the annual average rate of change of the all-items index.
+    filters:
+      unit: RCH_A_AVG
+      coicop18: TOTAL
+    # Application currency -> Eurostat geo code. EA is the euro area in its changing composition
+    # (each year counts the countries that used the euro that year). US is Eurostat's
+    # HICP-comparable figure, not the headline CPI-U, and is published about a year later.
+    units:
+      HUF: HU
+      EUR: EA
+      USD: US
+    connect-timeout: 5s
+    read-timeout: 20s
+
+  openapi:
+    title: Stock Market Analyzer API
+    version: v1
+    description: >-
+      REST API for stock instruments and their daily OHLCV price history.
+      Errors are returned as RFC 9457 problem details.
+    contact-name: Stock Market Analyzer
+    license-name: Apache-2.0
+    license-url: https://www.apache.org/licenses/LICENSE-2.0
+
+logging:
+  level:
+    com.stockmarketanalyzer.backend: INFO
+    liquibase: INFO

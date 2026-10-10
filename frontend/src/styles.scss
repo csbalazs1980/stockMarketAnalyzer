@@ -1,0 +1,230 @@
+/* Global styles. PrimeNG styled mode injects its own theme variables at runtime,
+   so there is no theme CSS file to import here - only primeicons (angular.json). */
+
+:root {
+  color-scheme: light;
+
+  /*
+   * Row banding for the hand-written dividend grid. PrimeNG's surface ramp runs light-to-dark in
+   * both schemes, but the *content* background sits at opposite ends of it - surface.0 in light,
+   * surface.900 in dark - so "one step off the ground" has to be named per scheme rather than
+   * borrowed from a single token.
+   */
+  --app-row-striped: var(--p-surface-100);
+
+  /*
+   * Error text, per scheme for the same reason. Aura's own --p-red-500 reads at 2.1:1 against
+   * this scheme's 25%-ink ground - red-800 is the first step down the ramp that clears 4.5:1 -
+   * while dark mode sits on zinc-900 and needs a light red instead.
+   */
+  --app-error-color: var(--p-red-800);
+}
+
+html.app-dark {
+  color-scheme: dark;
+
+  --app-row-striped: var(--p-surface-800);
+  --app-error-color: var(--p-red-400);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--p-content-background, #bfbfbf);
+  color: var(--p-text-color, #1f2937);
+}
+
+/* --- app shell ------------------------------------------------------------ */
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .app-content {
+    padding: 1.5rem;
+  }
+}
+
+/* --- small helpers -------------------------------------------------------- */
+
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.filter-bar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .filter-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .filter-bar {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.field > label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+.field > input,
+.field > .p-inputtext {
+  width: 100%;
+}
+
+/*
+ * PrimeNG renders p-inputnumber as an inline-flex host wrapping its own input, and neither is
+ * in this app's templates - emulated encapsulation cannot reach them from a component stylesheet,
+ * so the "fill the cell" rule lives here.
+ */
+.field > .p-inputnumber,
+.clone-row > .p-inputnumber {
+  width: 100%;
+}
+
+.field > .p-inputnumber > .p-inputtext,
+.clone-row > .p-inputnumber > .p-inputtext {
+  width: 100%;
+}
+
+.dialog-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .dialog-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dialog-form .span-2 {
+    grid-column: span 2;
+  }
+}
+
+.row-actions {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: flex-end;
+}
+
+.numeric {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 0.6 was enough against white; a 25%-grey ground eats the difference. */
+.muted {
+  opacity: 0.72;
+}
+
+/* Native date/number inputs styled close enough to PrimeNG inputs. */
+input.app-input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--p-inputtext-border-color, #666666);
+  border-radius: var(--p-inputtext-border-radius, 6px);
+  background: var(--p-inputtext-background, transparent);
+  color: inherit;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+input.app-input:focus {
+  outline: none;
+  border-color: var(--p-inputtext-focus-border-color, #6366f1);
+}
+
+/* Tables scroll rather than pushing the page sideways on phones. */
+.table-scroll {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/*
+ * The monthly dividend grid's tooltips carry a breakdown rather than a word, and they are
+ * appended to the body so the sticky-column stacking context cannot clip them - which also puts
+ * them out of reach of the page's own stylesheet.
+ */
+.p-tooltip.dividend-tooltip .p-tooltip-text {
+  max-width: 24rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.dividend-tooltip .tt-company {
+  margin-bottom: 0.25rem;
+}
+
+.dividend-tooltip .tt-main {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.dividend-tooltip .tt-note {
+  margin-top: 0.15rem;
+  opacity: 0.75;
+}
+
+.dividend-tooltip .tt-list {
+  margin-top: 0.4rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgb(255 255 255 / 20%);
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Row counts under tables (#summary templates) and the "(n)" beside a parent row's name. */
+.table-count {
+  font-size: 0.85rem;
+}
+
+.child-count {
+  margin-left: 0.35rem;
+  font-size: 0.8rem;
+}
